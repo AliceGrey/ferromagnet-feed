@@ -1,0 +1,68 @@
+{
+ "Event": {
+  "uuid": "67be6bfb-a0b2-5688-bb30-ea592c24dee1",
+  "info": "FerroMagnet: Evilginx offensive-tooling infrastructure",
+  "date": "2026-09-30",
+  "analysis": "1",
+  "threat_level_id": "2",
+  "distribution": "3",
+  "published": true,
+  "timestamp": "1790791627",
+  "publish_timestamp": "1790791627",
+  "extends_uuid": "",
+  "protected": null,
+  "Orgc": {
+   "name": "FerroMagnet",
+   "uuid": "560e70be-921d-5f72-b281-7e6af1620e06"
+  },
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   },
+   {
+    "name": "type:OSINT"
+   },
+   {
+    "name": "kill-chain:Command and Control"
+   }
+  ],
+  "Attribute": [
+   {
+    "uuid": "a20a159d-3572-5580-acc0-70bf71786360",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "158.220.89.11",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790791627",
+    "first_seen": "2026-09-30T16:07:08+00:00",
+    "last_seen": "2026-09-30T18:07:07+00:00",
+    "comment": "Evilginx ost; confidence 95; last verified live 2026-09-30T16:16:06Z; expires 2026-10-14T18:07:07Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "7b4349b2-559c-5d4d-a3f4-dab80b51736d",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "158.220.89.11|1337",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790791627",
+    "first_seen": "2026-09-30T16:07:08+00:00",
+    "last_seen": "2026-09-30T18:07:07+00:00",
+    "comment": "Evilginx ost; confidence 95; last verified live 2026-09-30T16:16:06Z; expires 2026-10-14T18:07:07Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   }
+  ]
+ }
+}

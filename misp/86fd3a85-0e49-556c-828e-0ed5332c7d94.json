@@ -1,0 +1,140 @@
+{
+ "Event": {
+  "uuid": "86fd3a85-0e49-556c-828e-0ed5332c7d94",
+  "info": "FerroMagnet: PoshC2 C2 infrastructure",
+  "date": "2026-09-30",
+  "analysis": "1",
+  "threat_level_id": "2",
+  "distribution": "3",
+  "published": true,
+  "timestamp": "1790788053",
+  "publish_timestamp": "1790788053",
+  "extends_uuid": "",
+  "protected": null,
+  "Orgc": {
+   "name": "FerroMagnet",
+   "uuid": "560e70be-921d-5f72-b281-7e6af1620e06"
+  },
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   },
+   {
+    "name": "type:OSINT"
+   },
+   {
+    "name": "kill-chain:Command and Control"
+   }
+  ],
+  "Attribute": [
+   {
+    "uuid": "8035416d-6c82-5d40-8350-9fb84e47887b",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "137.184.139.185",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790788053",
+    "first_seen": "2026-09-30T16:07:17+00:00",
+    "last_seen": "2026-09-30T17:07:33+00:00",
+    "comment": "PoshC2 c2; confidence 95; last verified live 2026-09-30T16:16:06Z; expires 2026-10-14T17:07:33Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "32974da0-b91e-5635-8bdb-24822d1004a8",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "159.223.145.166",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790788053",
+    "first_seen": "2026-09-30T16:07:17+00:00",
+    "last_seen": "2026-09-30T17:07:33+00:00",
+    "comment": "PoshC2 c2; confidence 95; last verified live 2026-09-30T16:16:06Z; expires 2026-10-14T17:07:33Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "5370d6ba-8837-5d82-9801-e068c9369a76",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "23.88.110.42",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790788053",
+    "first_seen": "2026-09-30T16:07:17+00:00",
+    "last_seen": "2026-09-30T17:07:33+00:00",
+    "comment": "PoshC2 c2; confidence 90; last verified live 2026-09-30T16:16:06Z; expires 2026-10-14T17:07:33Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "b9e0394e-d168-51f3-be9e-4ba338727200",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "137.184.139.185|8080",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790788053",
+    "first_seen": "2026-09-30T16:07:17+00:00",
+    "last_seen": "2026-09-30T17:07:33+00:00",
+    "comment": "PoshC2 c2; confidence 85; last verified live 2026-09-30T16:16:06Z; expires 2026-10-14T17:07:33Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "cc283328-9ef0-5c11-b2d0-bfb59979f987",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "159.223.145.166|8443",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790788053",
+    "first_seen": "2026-09-30T16:07:17+00:00",
+    "last_seen": "2026-09-30T17:07:33+00:00",
+    "comment": "PoshC2 c2; confidence 95; last verified live 2026-09-30T16:16:06Z; expires 2026-10-14T17:07:33Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "e4cf3522-33e0-5eac-aba6-8e6a55bc86f1",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "23.88.110.42|8443",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790788053",
+    "first_seen": "2026-09-30T16:07:17+00:00",
+    "last_seen": "2026-09-30T17:07:33+00:00",
+    "comment": "PoshC2 c2; confidence 90; last verified live 2026-09-30T16:16:06Z; expires 2026-10-14T17:07:33Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   }
+  ]
+ }
+}

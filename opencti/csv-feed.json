@@ -1,0 +1,430 @@
+{
+ "openCTI_version": "6.6.0",
+ "type": "csvFeeds",
+ "configuration": {
+  "name": "FerroMagnet C2 infrastructure",
+  "description": "Verified C2 and offensive-tooling infrastructure from the FerroMagnet feed.",
+  "uri": "https://raw.githubusercontent.com/AliceGrey/ferromagnet-feed/main/iocs.csv",
+  "authentication_type": "none",
+  "authentication_value": "",
+  "markings": [],
+  "scheduling_period": "PT1H",
+  "csv_mapper_type": "inline",
+  "csv_mapper": {
+   "configuration": {
+    "name": "FerroMagnet iocs.csv",
+    "has_header": true,
+    "separator": ",",
+    "skipLineChar": "#",
+    "representations": [
+     {
+      "id": "author",
+      "type": "entity",
+      "target": {
+       "entity_type": "Organization"
+      },
+      "attributes": [
+       {
+        "key": "name",
+        "default_values": [
+         "FerroMagnet"
+        ]
+       }
+      ]
+     },
+     {
+      "id": "tlp",
+      "type": "entity",
+      "target": {
+       "entity_type": "Marking-Definition"
+      },
+      "attributes": [
+       {
+        "key": "definition_type",
+        "default_values": [
+         "TLP"
+        ]
+       },
+       {
+        "key": "definition",
+        "default_values": [
+         "TLP:CLEAR"
+        ]
+       },
+       {
+        "key": "x_opencti_order",
+        "default_values": [
+         "1"
+        ]
+       },
+       {
+        "key": "x_opencti_color",
+        "default_values": [
+         "#ffffff"
+        ]
+       }
+      ]
+     },
+     {
+      "id": "kind",
+      "type": "entity",
+      "target": {
+       "entity_type": "Label"
+      },
+      "attributes": [
+       {
+        "key": "value",
+        "column": {
+         "column_name": "D"
+        }
+       },
+       {
+        "key": "color",
+        "default_values": [
+         "#b30000"
+        ]
+       }
+      ]
+     },
+     {
+      "id": "family",
+      "type": "entity",
+      "target": {
+       "entity_type": "Malware"
+      },
+      "attributes": [
+       {
+        "key": "name",
+        "column": {
+         "column_name": "C"
+        }
+       },
+       {
+        "key": "is_family",
+        "default_values": [
+         "true"
+        ]
+       },
+       {
+        "key": "createdBy",
+        "based_on": {
+         "representations": [
+          "author"
+         ]
+        }
+       },
+       {
+        "key": "objectMarking",
+        "based_on": {
+         "representations": [
+          "tlp"
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "id": "ipv4",
+      "type": "entity",
+      "target": {
+       "entity_type": "IPv4-Addr",
+       "column_based": {
+        "column_reference": "L",
+        "operator": "eq",
+        "value": "IPv4-Addr"
+       }
+      },
+      "attributes": [
+       {
+        "key": "value",
+        "column": {
+         "column_name": "J"
+        }
+       },
+       {
+        "key": "x_opencti_score",
+        "column": {
+         "column_name": "E"
+        }
+       },
+       {
+        "key": "createdBy",
+        "based_on": {
+         "representations": [
+          "author"
+         ]
+        }
+       },
+       {
+        "key": "objectMarking",
+        "based_on": {
+         "representations": [
+          "tlp"
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "id": "ipv6",
+      "type": "entity",
+      "target": {
+       "entity_type": "IPv6-Addr",
+       "column_based": {
+        "column_reference": "L",
+        "operator": "eq",
+        "value": "IPv6-Addr"
+       }
+      },
+      "attributes": [
+       {
+        "key": "value",
+        "column": {
+         "column_name": "J"
+        }
+       },
+       {
+        "key": "x_opencti_score",
+        "column": {
+         "column_name": "E"
+        }
+       },
+       {
+        "key": "createdBy",
+        "based_on": {
+         "representations": [
+          "author"
+         ]
+        }
+       },
+       {
+        "key": "objectMarking",
+        "based_on": {
+         "representations": [
+          "tlp"
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "id": "indicator",
+      "type": "entity",
+      "target": {
+       "entity_type": "Indicator"
+      },
+      "attributes": [
+       {
+        "key": "name",
+        "column": {
+         "column_name": "B"
+        }
+       },
+       {
+        "key": "pattern",
+        "column": {
+         "column_name": "M"
+        }
+       },
+       {
+        "key": "pattern_type",
+        "default_values": [
+         "stix"
+        ]
+       },
+       {
+        "key": "x_opencti_main_observable_type",
+        "column": {
+         "column_name": "L"
+        }
+       },
+       {
+        "key": "indicator_types",
+        "default_values": [
+         "malicious-activity"
+        ]
+       },
+       {
+        "key": "confidence",
+        "column": {
+         "column_name": "E"
+        }
+       },
+       {
+        "key": "x_opencti_score",
+        "column": {
+         "column_name": "E"
+        }
+       },
+       {
+        "key": "valid_from",
+        "column": {
+         "column_name": "F"
+        }
+       },
+       {
+        "key": "valid_until",
+        "column": {
+         "column_name": "I"
+        }
+       },
+       {
+        "key": "objectLabel",
+        "based_on": {
+         "representations": [
+          "kind"
+         ]
+        }
+       },
+       {
+        "key": "createdBy",
+        "based_on": {
+         "representations": [
+          "author"
+         ]
+        }
+       },
+       {
+        "key": "objectMarking",
+        "based_on": {
+         "representations": [
+          "tlp"
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "id": "indicates",
+      "type": "relationship",
+      "target": {
+       "entity_type": "indicates"
+      },
+      "from": "indicator",
+      "to": "family",
+      "attributes": [
+       {
+        "key": "from",
+        "based_on": {
+         "representations": [
+          "indicator"
+         ]
+        }
+       },
+       {
+        "key": "to",
+        "based_on": {
+         "representations": [
+          "family"
+         ]
+        }
+       },
+       {
+        "key": "createdBy",
+        "based_on": {
+         "representations": [
+          "author"
+         ]
+        }
+       },
+       {
+        "key": "objectMarking",
+        "based_on": {
+         "representations": [
+          "tlp"
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "id": "based-on-ipv4",
+      "type": "relationship",
+      "target": {
+       "entity_type": "based-on"
+      },
+      "from": "indicator",
+      "to": "ipv4",
+      "attributes": [
+       {
+        "key": "from",
+        "based_on": {
+         "representations": [
+          "indicator"
+         ]
+        }
+       },
+       {
+        "key": "to",
+        "based_on": {
+         "representations": [
+          "ipv4"
+         ]
+        }
+       },
+       {
+        "key": "createdBy",
+        "based_on": {
+         "representations": [
+          "author"
+         ]
+        }
+       },
+       {
+        "key": "objectMarking",
+        "based_on": {
+         "representations": [
+          "tlp"
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "id": "based-on-ipv6",
+      "type": "relationship",
+      "target": {
+       "entity_type": "based-on"
+      },
+      "from": "indicator",
+      "to": "ipv6",
+      "attributes": [
+       {
+        "key": "from",
+        "based_on": {
+         "representations": [
+          "indicator"
+         ]
+        }
+       },
+       {
+        "key": "to",
+        "based_on": {
+         "representations": [
+          "ipv6"
+         ]
+        }
+       },
+       {
+        "key": "createdBy",
+        "based_on": {
+         "representations": [
+          "author"
+         ]
+        }
+       },
+       {
+        "key": "objectMarking",
+        "based_on": {
+         "representations": [
+          "tlp"
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

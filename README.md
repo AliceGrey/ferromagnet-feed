@@ -1,16 +1,45 @@
 # FerroMagnet feed
 
 Indicators of C2 and offensive-security-tooling infrastructure observed by
-[FerroMagnet](https://github.com/AliceGrey/ferromagnet). Updated automatically; each
-commit is one refresh in which at least one file changed.
+[FerroMagnet](https://github.com/AliceGrey/ferromagnet). Only indicators that a live check
+confirmed are published. Updated automatically; each commit is one refresh in which at
+least one file changed. TLP:CLEAR.
 
 | File | Contents |
 |---|---|
 | `ip_port.txt` | one `ip:port` per line, grouped by family, with a trailing comment |
 | `ip.txt` | one address per line, grouped by family |
-| `iocs.csv` | every active indicator with family, kind, confidence and timestamps |
+| `iocs.csv` | every indicator: family, kind, confidence, timestamps, ip, port, STIX pattern |
 | `iocs.json` | the same, as a document with `generated_at` and `count` |
+| `misp/` | a MISP feed: `manifest.json`, one event per family, `hashes.csv` |
+| `stix/bundle.json` | STIX 2.1: indicators, addresses, a malware per family, relationships |
+| `opencti/csv-feed.json` | an OpenCTI CSV feed (with its mapper) for `iocs.csv` |
 
 Confidence is the strength of the match that produced the indicator (0-100).
-`last_verified` is set when a live check confirmed the service still matched.
-Indicators expire when the service stops being observed and are then removed.
+`last_verified` is when a live check last confirmed the service still matched.
+`expires_at` is when the indicator lapses unless it is observed again; expired indicators
+are removed from every file (MISP keeps them as deleted attributes for 30 days).
+IPv6 `ip:port` values are bracketed: `[2001:db8::1]:443`.
+
+## MISP
+
+Sync Actions > Feeds > Add feed: provider `FerroMagnet`, source format **MISP Feed**, URL
+`https://raw.githubusercontent.com/AliceGrey/ferromagnet-feed/main/misp/`, input source Network, enabled, caching enabled. Each family is one event
+(stable uuid) that is updated in place; `first_seen`/`last_seen` are set on every
+attribute, confidence is an `estimative-language:likelihood-probability` tag and in the
+comment, and indicators that lapse are sent as deleted attributes.
+
+For a plain block list instead: source format **Simple CSV Parsed Feed**, URL
+`https://raw.githubusercontent.com/AliceGrey/ferromagnet-feed/main/iocs.csv`, value column `2`; or **Freetext Parsed Feed** on `https://raw.githubusercontent.com/AliceGrey/ferromagnet-feed/main/ip_port.txt`.
+Only the values survive those formats (MISP drops per-row metadata).
+
+## OpenCTI
+
+Integrations > CSV feeds > Import (OpenCTI 6.6 or later), choose `opencti/csv-feed.json`,
+then check the preview and start the feed. It polls `https://raw.githubusercontent.com/AliceGrey/ferromagnet-feed/main/iocs.csv` hourly and creates,
+per row, an Indicator (pattern, confidence and score, valid from/until), the IPv4/IPv6
+address, the family as a Malware, and `indicates`/`based-on` relationships, authored by
+`FerroMagnet` and marked TLP:CLEAR.
+
+`stix/bundle.json` uses OpenCTI's deterministic ids, so importing it (Data > Import, or
+any STIX 2.1 pipeline) updates objects in place instead of duplicating them.

@@ -1,0 +1,284 @@
+{
+ "Event": {
+  "uuid": "03c48848-e564-5b45-b1dd-5771b91458de",
+  "info": "FerroMagnet: GhostSocks C2 infrastructure",
+  "date": "2026-09-30",
+  "analysis": "1",
+  "threat_level_id": "2",
+  "distribution": "3",
+  "published": true,
+  "timestamp": "1790752338",
+  "publish_timestamp": "1790752338",
+  "extends_uuid": "",
+  "protected": null,
+  "Orgc": {
+   "name": "FerroMagnet",
+   "uuid": "560e70be-921d-5f72-b281-7e6af1620e06"
+  },
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   },
+   {
+    "name": "type:OSINT"
+   },
+   {
+    "name": "kill-chain:Command and Control"
+   }
+  ],
+  "Attribute": [
+   {
+    "uuid": "a51881bf-05b3-5fad-ac12-f175f1377c40",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "144.31.123.157",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790752338",
+    "first_seen": "2026-09-30T02:07:13+00:00",
+    "last_seen": "2026-09-30T04:07:08+00:00",
+    "comment": "GhostSocks c2; confidence 95; last verified live 2026-09-30T07:12:18Z; expires 2026-10-14T04:07:08Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "283431ce-0ac1-56be-93f1-0d55b3964fbb",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "144.31.139.201",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790752338",
+    "first_seen": "2026-09-30T02:07:13+00:00",
+    "last_seen": "2026-09-30T04:07:08+00:00",
+    "comment": "GhostSocks c2; confidence 95; last verified live 2026-09-30T07:12:18Z; expires 2026-10-14T04:07:08Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "e7226929-5dd6-57ee-934b-4c7f6f06088a",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "144.31.139.203",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790752338",
+    "first_seen": "2026-09-30T02:07:13+00:00",
+    "last_seen": "2026-09-30T04:07:08+00:00",
+    "comment": "GhostSocks c2; confidence 95; last verified live 2026-09-30T07:12:18Z; expires 2026-10-14T04:07:08Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "7b7d241f-fd6f-5b38-8514-5abca3324fe9",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "193.23.211.29",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790752338",
+    "first_seen": "2026-09-30T02:07:13+00:00",
+    "last_seen": "2026-09-30T04:07:08+00:00",
+    "comment": "GhostSocks c2; confidence 95; last verified live 2026-09-30T07:12:18Z; expires 2026-10-14T04:07:08Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "258d6629-9a37-5481-8cce-7bf620c7a189",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "64.188.104.2",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790752338",
+    "first_seen": "2026-09-30T02:07:13+00:00",
+    "last_seen": "2026-09-30T04:07:08+00:00",
+    "comment": "GhostSocks c2; confidence 95; last verified live 2026-09-30T07:12:18Z; expires 2026-10-14T04:07:08Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "c07d1215-2654-58a3-a87f-f83d16b4e69f",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "64.188.70.194",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790752338",
+    "first_seen": "2026-09-30T03:07:08+00:00",
+    "last_seen": "2026-09-30T04:07:08+00:00",
+    "comment": "GhostSocks c2; confidence 95; last verified live 2026-09-30T07:12:18Z; expires 2026-10-14T04:07:08Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "6da28ede-4d47-5552-bbbe-4c3042f7b805",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "77.239.121.3",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790752338",
+    "first_seen": "2026-09-30T02:07:13+00:00",
+    "last_seen": "2026-09-30T04:07:08+00:00",
+    "comment": "GhostSocks c2; confidence 95; last verified live 2026-09-30T07:12:18Z; expires 2026-10-14T04:07:08Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "900bbca9-e36e-5457-8d60-5870b0541c29",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "144.31.123.157|30001",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790752338",
+    "first_seen": "2026-09-30T02:07:13+00:00",
+    "last_seen": "2026-09-30T04:07:08+00:00",
+    "comment": "GhostSocks c2; confidence 85; last verified live 2026-09-30T07:12:18Z; expires 2026-10-14T04:07:08Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "b28c7b90-32a6-58f2-977d-bdf905676ef3",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "144.31.139.201|30001",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790752338",
+    "first_seen": "2026-09-30T02:07:13+00:00",
+    "last_seen": "2026-09-30T04:07:08+00:00",
+    "comment": "GhostSocks c2; confidence 85; last verified live 2026-09-30T07:12:18Z; expires 2026-10-14T04:07:08Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "c51cf701-9ff5-5b9b-96fe-f6e1f64f7202",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "144.31.139.203|30001",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790752338",
+    "first_seen": "2026-09-30T02:07:13+00:00",
+    "last_seen": "2026-09-30T04:07:08+00:00",
+    "comment": "GhostSocks c2; confidence 85; last verified live 2026-09-30T07:12:18Z; expires 2026-10-14T04:07:08Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "8fe02d27-03b7-548a-8230-ef3652d0732b",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "193.23.211.29|30001",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790752338",
+    "first_seen": "2026-09-30T02:07:13+00:00",
+    "last_seen": "2026-09-30T04:07:08+00:00",
+    "comment": "GhostSocks c2; confidence 85; last verified live 2026-09-30T07:12:18Z; expires 2026-10-14T04:07:08Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "29aea5a2-21e4-5a4c-b26c-b7996e50f256",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "64.188.104.2|30001",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790752338",
+    "first_seen": "2026-09-30T02:07:13+00:00",
+    "last_seen": "2026-09-30T04:07:08+00:00",
+    "comment": "GhostSocks c2; confidence 85; last verified live 2026-09-30T07:12:18Z; expires 2026-10-14T04:07:08Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "288a4b79-72e8-56c2-b22d-438315e13e5c",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "64.188.70.194|30001",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790752338",
+    "first_seen": "2026-09-30T03:07:08+00:00",
+    "last_seen": "2026-09-30T04:07:08+00:00",
+    "comment": "GhostSocks c2; confidence 85; last verified live 2026-09-30T07:12:18Z; expires 2026-10-14T04:07:08Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "eb1d5e62-47b9-5c1a-8013-6307748b1fa7",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "77.239.121.3|30001",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790752338",
+    "first_seen": "2026-09-30T03:07:08+00:00",
+    "last_seen": "2026-09-30T04:07:08+00:00",
+    "comment": "GhostSocks c2; confidence 85; last verified live 2026-09-30T07:12:18Z; expires 2026-10-14T04:07:08Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   }
+  ]
+ }
+}
