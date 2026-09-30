@@ -14,8 +14,13 @@ commit is one refresh in which at least one file changed. TLP:CLEAR.
 | `stix/bundle.json` | STIX 2.1: indicators, addresses, a malware per family, relationships |
 | `opencti/csv-feed.json` | an OpenCTI CSV feed (with its mapper) for `iocs.csv` |
 
-Confidence is the strength of the match that produced the indicator (0-100).
-`last_verified` is when a live check last confirmed the service still matched.
+Confidence (0-100) is the strength of the evidence behind the indicator: the match that
+produced it, lowered to the strength of the latest live confirmation when that is weaker.
+`last_verified` is when a live check last confirmed the service. For most families that
+is the fingerprint seen again; for listeners a scanner cannot capture (the .NET RATs:
+DcRat, VenomRAT, QuasarRAT, PureRAT, which answer only a client that already speaks their
+TLS version) it is the discovery certificate plus the port still answering, at a lower
+confidence.
 `expires_at` is when the indicator lapses unless it is observed again; expired indicators
 are removed from every file (MISP keeps them as deleted attributes for 30 days).
 IPv6 `ip:port` values are bracketed: `[2001:db8::1]:443`.

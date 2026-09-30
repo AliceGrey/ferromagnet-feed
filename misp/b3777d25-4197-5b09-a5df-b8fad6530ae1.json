@@ -1,0 +1,352 @@
+{
+ "Event": {
+  "uuid": "b3777d25-4197-5b09-a5df-b8fad6530ae1",
+  "info": "FerroMagnet: VenomRAT C2 infrastructure",
+  "date": "2026-09-30",
+  "analysis": "1",
+  "threat_level_id": "2",
+  "distribution": "3",
+  "published": true,
+  "timestamp": "1790786666",
+  "publish_timestamp": "1790786666",
+  "extends_uuid": "",
+  "protected": null,
+  "Orgc": {
+   "name": "FerroMagnet",
+   "uuid": "560e70be-921d-5f72-b281-7e6af1620e06"
+  },
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   },
+   {
+    "name": "type:OSINT"
+   },
+   {
+    "name": "kill-chain:Command and Control"
+   },
+   {
+    "name": "misp-galaxy:malpedia=\"Venom RAT\""
+   }
+  ],
+  "Attribute": [
+   {
+    "uuid": "cc3c7df5-85b9-55d2-b6b3-343236324b83",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "103.36.222.170",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790785331",
+    "first_seen": "2026-09-30T16:07:22+00:00",
+    "last_seen": "2026-09-30T16:07:22+00:00",
+    "comment": "VenomRAT c2; confidence 85; last verified live 2026-09-30T16:22:11Z; expires 2026-10-14T16:07:22Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "14396919-9d36-5544-b2f5-0a04a8e3d714",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "103.77.208.197",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790785331",
+    "first_seen": "2026-09-30T16:07:22+00:00",
+    "last_seen": "2026-09-30T16:07:22+00:00",
+    "comment": "VenomRAT c2; confidence 85; last verified live 2026-09-30T16:22:11Z; expires 2026-10-14T16:07:22Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "a435b681-58f6-5298-b7de-2ff04cefba31",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "106.52.235.124",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790785483",
+    "first_seen": "2026-09-30T16:07:22+00:00",
+    "last_seen": "2026-09-30T16:07:22+00:00",
+    "comment": "VenomRAT c2; confidence 85; last verified live 2026-09-30T16:24:43Z; expires 2026-10-14T16:07:22Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "c288bd66-12ef-531b-82ff-750c5bf192ba",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "192.30.242.138",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790785756",
+    "first_seen": "2026-09-30T16:07:22+00:00",
+    "last_seen": "2026-09-30T16:07:22+00:00",
+    "comment": "VenomRAT c2; confidence 85; last verified live 2026-09-30T16:29:16Z; expires 2026-10-14T16:07:22Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "71a8c799-66b3-5bec-84ae-260edb4cf769",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "65.20.79.75",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790786666",
+    "first_seen": "2026-09-30T16:07:22+00:00",
+    "last_seen": "2026-09-30T16:07:22+00:00",
+    "comment": "VenomRAT c2; confidence 85; last verified live 2026-09-30T16:44:26Z; expires 2026-10-14T16:07:22Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "41ff718d-3ca0-5e53-b3ba-9e535d2979b3",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "77.83.39.9",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790786090",
+    "first_seen": "2026-09-30T16:07:22+00:00",
+    "last_seen": "2026-09-30T16:07:22+00:00",
+    "comment": "VenomRAT c2; confidence 85; last verified live 2026-09-30T16:34:50Z; expires 2026-10-14T16:07:22Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "3c6671b8-bb18-5ac8-92ad-20d50be13f36",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "81.70.105.7",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790785331",
+    "first_seen": "2026-09-30T16:07:22+00:00",
+    "last_seen": "2026-09-30T16:07:22+00:00",
+    "comment": "VenomRAT c2; confidence 85; last verified live 2026-09-30T16:22:11Z; expires 2026-10-14T16:07:22Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "ea5da4cd-1ad9-5712-b759-e5feedbcfe10",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "85.137.252.174",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790786424",
+    "first_seen": "2026-09-30T16:07:22+00:00",
+    "last_seen": "2026-09-30T16:07:22+00:00",
+    "comment": "VenomRAT c2; confidence 85; last verified live 2026-09-30T16:40:24Z; expires 2026-10-14T16:07:22Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "ce5e2443-b1ea-52c3-9803-a8db7db9c228",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "103.36.222.170|4449",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790785331",
+    "first_seen": "2026-09-30T16:07:22+00:00",
+    "last_seen": "2026-09-30T16:07:22+00:00",
+    "comment": "VenomRAT c2; confidence 85; last verified live 2026-09-30T16:22:11Z; expires 2026-10-14T16:07:22Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "ebb63fc0-1ebf-5d8d-8466-dd751a981fe6",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "103.77.208.197|4449",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790785331",
+    "first_seen": "2026-09-30T16:07:22+00:00",
+    "last_seen": "2026-09-30T16:07:22+00:00",
+    "comment": "VenomRAT c2; confidence 85; last verified live 2026-09-30T16:22:11Z; expires 2026-10-14T16:07:22Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "9c366699-b07a-523f-a73b-05068a4185dc",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "106.52.235.124|5050",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790785483",
+    "first_seen": "2026-09-30T16:07:22+00:00",
+    "last_seen": "2026-09-30T16:07:22+00:00",
+    "comment": "VenomRAT c2; confidence 85; last verified live 2026-09-30T16:24:43Z; expires 2026-10-14T16:07:22Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "bbe0c802-8788-53c1-a8c0-c7c46f95e50c",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "192.30.242.138|7000",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790785756",
+    "first_seen": "2026-09-30T16:07:22+00:00",
+    "last_seen": "2026-09-30T16:07:22+00:00",
+    "comment": "VenomRAT c2; confidence 85; last verified live 2026-09-30T16:29:16Z; expires 2026-10-14T16:07:22Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "8389e54f-4bb6-5e29-ba7d-f1343aa19245",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "65.20.79.75|22295",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790786666",
+    "first_seen": "2026-09-30T16:07:22+00:00",
+    "last_seen": "2026-09-30T16:07:22+00:00",
+    "comment": "VenomRAT c2; confidence 85; last verified live 2026-09-30T16:44:26Z; expires 2026-10-14T16:07:22Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "e528c247-d2f6-5206-a2b3-e56f159d61c1",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "77.83.39.9|8080",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790785999",
+    "first_seen": "2026-09-30T16:07:22+00:00",
+    "last_seen": "2026-09-30T16:07:22+00:00",
+    "comment": "VenomRAT c2; confidence 85; last verified live 2026-09-30T16:33:19Z; expires 2026-10-14T16:07:22Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "174fc729-5905-53a2-8877-0cfe7fd04f30",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "77.83.39.9|8088",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790786090",
+    "first_seen": "2026-09-30T16:07:22+00:00",
+    "last_seen": "2026-09-30T16:07:22+00:00",
+    "comment": "VenomRAT c2; confidence 85; last verified live 2026-09-30T16:34:50Z; expires 2026-10-14T16:07:22Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "5fffe0ea-03ef-5a2c-8bd5-9404ff3da775",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "81.70.105.7|4449",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790785331",
+    "first_seen": "2026-09-30T16:07:22+00:00",
+    "last_seen": "2026-09-30T16:07:22+00:00",
+    "comment": "VenomRAT c2; confidence 85; last verified live 2026-09-30T16:22:11Z; expires 2026-10-14T16:07:22Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "f7cc9503-2142-59f7-831a-83e8e7d65969",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "85.137.252.174|8943",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790786424",
+    "first_seen": "2026-09-30T16:07:22+00:00",
+    "last_seen": "2026-09-30T16:07:22+00:00",
+    "comment": "VenomRAT c2; confidence 85; last verified live 2026-09-30T16:40:24Z; expires 2026-10-14T16:07:22Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "a49136c3-936f-5be7-87e3-a656fb2762b5",
+    "type": "link",
+    "category": "External analysis",
+    "value": "https://malpedia.caad.fkie.fraunhofer.de/details/win.venom",
+    "to_ids": false,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790784442",
+    "comment": "Malpedia: win.venom"
+   }
+  ]
+ }
+}
