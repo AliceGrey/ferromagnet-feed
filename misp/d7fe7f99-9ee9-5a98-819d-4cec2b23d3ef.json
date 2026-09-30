@@ -24,6 +24,9 @@
    },
    {
     "name": "kill-chain:Command and Control"
+   },
+   {
+    "name": "misp-galaxy:malpedia=\"AdaptixC2\""
    }
   ],
   "Attribute": [
@@ -1227,6 +1230,42 @@
     "first_seen": "2026-09-29T14:09:52+00:00",
     "last_seen": "2026-09-30T14:07:09+00:00",
     "comment": "AdaptixC2 c2; confidence 90; last verified live 2026-09-30T00:32:20Z; expires 2026-10-14T14:07:09Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "3a62112f-5f4f-59ce-a2b5-fff1a30dbb7d",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "154.219.115.123",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790777227",
+    "first_seen": "2026-09-28T06:43:14+00:00",
+    "last_seen": "2026-09-30T14:07:07+00:00",
+    "comment": "AdaptixC2 c2; confidence 90; last verified live 2026-09-30T02:22:17Z; expires 2026-10-14T14:07:07Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "57ae42da-a666-55ce-bc44-4f7d93b2898c",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "154.222.31.149",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790777228",
+    "first_seen": "2026-09-28T07:19:56+00:00",
+    "last_seen": "2026-09-30T14:07:08+00:00",
+    "comment": "AdaptixC2 c2; confidence 90; last verified live 2026-09-30T00:41:28Z; expires 2026-10-14T14:07:08Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""

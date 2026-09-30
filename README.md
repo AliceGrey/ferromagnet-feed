@@ -1,9 +1,8 @@
 # FerroMagnet feed
 
-Indicators of C2 and offensive-security-tooling infrastructure observed by
-[FerroMagnet](https://github.com/AliceGrey/ferromagnet). Only indicators that a live check
-confirmed are published. Updated automatically; each commit is one refresh in which at
-least one file changed. TLP:CLEAR.
+Indicators of C2 and offensive-security-tooling infrastructure observed by FerroMagnet.
+Only indicators that a live check confirmed are published. Updated automatically; each
+commit is one refresh in which at least one file changed. TLP:CLEAR.
 
 | File | Contents |
 |---|---|
