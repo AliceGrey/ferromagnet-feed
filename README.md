@@ -24,6 +24,9 @@ confidence.
 `expires_at` is when the indicator lapses unless it is observed again; expired indicators
 are removed from every file (MISP keeps them as deleted attributes for 30 days).
 IPv6 `ip:port` values are bracketed: `[2001:db8::1]:443`.
+An address used by several families is listed once under each of them (one actor often
+runs several tools on one host); in `stix/bundle.json` it is one indicator that indicates
+each family.
 
 ## MISP
 

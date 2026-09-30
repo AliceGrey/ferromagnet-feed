@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1790800210",
-  "publish_timestamp": "1790800210",
+  "timestamp": "1790801834",
+  "publish_timestamp": "1790801834",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -276,6 +276,42 @@
     "first_seen": "2026-09-30T16:07:14+00:00",
     "last_seen": "2026-09-30T20:07:09+00:00",
     "comment": "DcRat c2; confidence 85; last verified live 2026-09-30T16:38:22Z; expires 2026-10-14T20:07:09Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "7cfe8875-e1ad-59e3-9f0c-8c2f2575b23a",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "45.74.34.32",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790801834",
+    "first_seen": "2026-09-30T20:07:09+00:00",
+    "last_seen": "2026-09-30T20:07:09+00:00",
+    "comment": "DcRat c2; confidence 85; last verified live 2026-09-30T20:22:43Z; expires 2026-10-14T20:07:09Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "0ad4ab98-25ff-50f2-9315-836e1c9f8d07",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "5.230.201.242",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790801834",
+    "first_seen": "2026-09-30T20:07:09+00:00",
+    "last_seen": "2026-09-30T20:07:09+00:00",
+    "comment": "DcRat c2; confidence 85; last verified live 2026-09-30T20:22:43Z; expires 2026-10-14T20:07:09Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
