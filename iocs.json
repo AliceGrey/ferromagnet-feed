@@ -1,8 +1,8 @@
 {
   "feed": "ferromagnet",
   "version": 1,
-  "generated_at": "2026-10-01T19:07:09Z",
-  "count": 7380,
+  "generated_at": "2026-10-01T19:16:05Z",
+  "count": 7382,
   "indicators": [
     {
       "type": "ip",
@@ -11676,6 +11676,21 @@
     },
     {
       "type": "ip",
+      "value": "172.172.163.9",
+      "family": "Havoc",
+      "kind": "c2",
+      "confidence": 85,
+      "first_seen": "2026-10-01T19:07:06Z",
+      "last_seen": "2026-10-01T19:16:05Z",
+      "last_verified": "2026-10-01T19:16:05Z",
+      "expires_at": "2026-10-15T19:16:05Z",
+      "ip": "172.172.163.9",
+      "port": null,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[ipv4-addr:value = '172.172.163.9']"
+    },
+    {
+      "type": "ip",
       "value": "172.233.32.196",
       "family": "Havoc",
       "kind": "c2",
@@ -12453,6 +12468,21 @@
       "port": 443,
       "observable_type": "IPv4-Addr",
       "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '164.92.79.49' AND network-traffic:dst_port = 443]"
+    },
+    {
+      "type": "ip_port",
+      "value": "172.172.163.9:443",
+      "family": "Havoc",
+      "kind": "c2",
+      "confidence": 85,
+      "first_seen": "2026-10-01T19:07:06Z",
+      "last_seen": "2026-10-01T19:16:05Z",
+      "last_verified": "2026-10-01T19:16:05Z",
+      "expires_at": "2026-10-15T19:16:05Z",
+      "ip": "172.172.163.9",
+      "port": 443,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '172.172.163.9' AND network-traffic:dst_port = 443]"
     },
     {
       "type": "ip_port",

@@ -1,6 +1,6 @@
 {
  "type": "bundle",
- "id": "bundle--16dfb3f2-127b-54d2-a2a3-0a537a7b4029",
+ "id": "bundle--caca7fcc-e2ba-58ce-a77d-714075cee9e9",
  "objects": [
   {
    "type": "identity",
@@ -113,7 +113,7 @@
    "is_family": true,
    "spec_version": "2.1",
    "created": "2026-09-30T05:07:08.000Z",
-   "modified": "2026-10-01T19:07:06.000Z",
+   "modified": "2026-10-01T19:16:05.000Z",
    "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
    "object_marking_refs": [
     "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
@@ -52079,6 +52079,77 @@
   {
    "type": "ipv4-addr",
    "spec_version": "2.1",
+   "id": "ipv4-addr--6eb50108-e904-51a1-93a8-1e11c39dc6fa",
+   "value": "172.172.163.9",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "id": "indicator--3ff23646-631e-50d3-b6ce-4c52103000c4",
+   "name": "172.172.163.9",
+   "description": "Havoc c2 infrastructure: 172.172.163.9. Last observed 2026-10-01T19:16:05Z, last verified live 2026-10-01T19:16:05Z.",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '172.172.163.9']",
+   "pattern_type": "stix",
+   "pattern_version": "2.1",
+   "valid_from": "2026-10-01T19:07:06Z",
+   "valid_until": "2026-10-15T19:16:05Z",
+   "confidence": 85,
+   "labels": [
+    "c2",
+    "havoc"
+   ],
+   "kill_chain_phases": [
+    {
+     "kill_chain_name": "mitre-attack",
+     "phase_name": "command-and-control"
+    }
+   ],
+   "x_opencti_score": 85,
+   "x_opencti_main_observable_type": "IPv4-Addr",
+   "spec_version": "2.1",
+   "created": "2026-10-01T19:07:06.000Z",
+   "modified": "2026-10-01T19:16:05.000Z",
+   "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "relationship",
+   "id": "relationship--eb762ce8-4c97-5b09-aae4-ba39929b0d22",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--3ff23646-631e-50d3-b6ce-4c52103000c4",
+   "target_ref": "malware--2f5b13ad-f782-5c0a-a9b7-75e8d233e292",
+   "spec_version": "2.1",
+   "created": "2026-10-01T19:07:06.000Z",
+   "modified": "2026-10-01T19:16:05.000Z",
+   "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "relationship",
+   "id": "relationship--b346ded5-f233-59e9-830b-0fb6cb6b27bd",
+   "relationship_type": "based-on",
+   "source_ref": "indicator--3ff23646-631e-50d3-b6ce-4c52103000c4",
+   "target_ref": "ipv4-addr--6eb50108-e904-51a1-93a8-1e11c39dc6fa",
+   "spec_version": "2.1",
+   "created": "2026-10-01T19:07:06.000Z",
+   "modified": "2026-10-01T19:16:05.000Z",
+   "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "spec_version": "2.1",
    "id": "ipv4-addr--6ee1b9f4-87ab-5969-945e-4950a46e9424",
    "value": "172.233.32.196",
    "object_marking_refs": [
@@ -55473,6 +55544,68 @@
    "spec_version": "2.1",
    "created": "2026-09-30T06:07:07.000Z",
    "modified": "2026-10-01T19:07:06.000Z",
+   "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "id": "indicator--a294866d-02f4-50d7-b146-6264e302181f",
+   "name": "172.172.163.9:443",
+   "description": "Havoc c2 infrastructure: 172.172.163.9 port 443. Last observed 2026-10-01T19:16:05Z, last verified live 2026-10-01T19:16:05Z.",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '172.172.163.9' AND network-traffic:dst_port = 443]",
+   "pattern_type": "stix",
+   "pattern_version": "2.1",
+   "valid_from": "2026-10-01T19:07:06Z",
+   "valid_until": "2026-10-15T19:16:05Z",
+   "confidence": 85,
+   "labels": [
+    "c2",
+    "havoc"
+   ],
+   "kill_chain_phases": [
+    {
+     "kill_chain_name": "mitre-attack",
+     "phase_name": "command-and-control"
+    }
+   ],
+   "x_opencti_score": 85,
+   "x_opencti_main_observable_type": "IPv4-Addr",
+   "spec_version": "2.1",
+   "created": "2026-10-01T19:07:06.000Z",
+   "modified": "2026-10-01T19:16:05.000Z",
+   "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "relationship",
+   "id": "relationship--66fdb63e-24e4-5267-83b7-11cc3a904331",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--a294866d-02f4-50d7-b146-6264e302181f",
+   "target_ref": "malware--2f5b13ad-f782-5c0a-a9b7-75e8d233e292",
+   "spec_version": "2.1",
+   "created": "2026-10-01T19:07:06.000Z",
+   "modified": "2026-10-01T19:16:05.000Z",
+   "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "relationship",
+   "id": "relationship--565b3f4c-13a7-58cb-8b7a-2470871df55f",
+   "relationship_type": "based-on",
+   "source_ref": "indicator--a294866d-02f4-50d7-b146-6264e302181f",
+   "target_ref": "ipv4-addr--6eb50108-e904-51a1-93a8-1e11c39dc6fa",
+   "spec_version": "2.1",
+   "created": "2026-10-01T19:07:06.000Z",
+   "modified": "2026-10-01T19:16:05.000Z",
    "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
    "object_marking_refs": [
     "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
