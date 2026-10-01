@@ -1,8 +1,8 @@
 {
   "feed": "ferromagnet",
   "version": 1,
-  "generated_at": "2026-10-01T02:07:06Z",
-  "count": 2584,
+  "generated_at": "2026-10-01T02:16:05Z",
+  "count": 2585,
   "indicators": [
     {
       "type": "ip",
@@ -2006,9 +2006,9 @@
       "kind": "c2",
       "confidence": 90,
       "first_seen": "2026-09-28T08:27:00Z",
-      "last_seen": "2026-10-01T02:07:06Z",
-      "last_verified": "2026-09-30T23:07:09Z",
-      "expires_at": "2026-10-15T02:07:06Z",
+      "last_seen": "2026-10-01T02:16:05Z",
+      "last_verified": "2026-10-01T02:16:05Z",
+      "expires_at": "2026-10-15T02:16:05Z",
       "ip": "205.234.170.231",
       "port": null,
       "observable_type": "IPv4-Addr",
@@ -6348,6 +6348,21 @@
       "port": 443,
       "observable_type": "IPv4-Addr",
       "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '203.91.93.189' AND network-traffic:dst_port = 443]"
+    },
+    {
+      "type": "ip_port",
+      "value": "205.234.170.231:22443",
+      "family": "AdaptixC2",
+      "kind": "c2",
+      "confidence": 90,
+      "first_seen": "2026-10-01T02:07:06Z",
+      "last_seen": "2026-10-01T02:16:05Z",
+      "last_verified": "2026-10-01T02:16:05Z",
+      "expires_at": "2026-10-15T02:16:05Z",
+      "ip": "205.234.170.231",
+      "port": 22443,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '205.234.170.231' AND network-traffic:dst_port = 22443]"
     },
     {
       "type": "ip_port",
