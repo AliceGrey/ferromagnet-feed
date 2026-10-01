@@ -1,6 +1,6 @@
 {
  "type": "bundle",
- "id": "bundle--ce01faa3-48b8-5237-8d87-e513e0216b02",
+ "id": "bundle--8f228712-1beb-5900-84f4-23e3e36e4392",
  "objects": [
   {
    "type": "identity",
@@ -278,7 +278,7 @@
    "is_family": true,
    "spec_version": "2.1",
    "created": "2026-09-28T09:53:52.000Z",
-   "modified": "2026-10-01T00:22:14.000Z",
+   "modified": "2026-10-01T04:07:18.000Z",
    "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
    "object_marking_refs": [
     "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
@@ -136294,7 +136294,7 @@
    "type": "indicator",
    "id": "indicator--6e97dba0-9004-5c93-be5b-ca878562f7c7",
    "name": "1.14.73.118",
-   "description": "Sliver c2 infrastructure: 1.14.73.118. Last observed 2026-09-30T22:24:16Z, last verified live 2026-09-30T22:24:16Z.",
+   "description": "Sliver c2 infrastructure: 1.14.73.118. Last observed 2026-10-01T04:07:07Z, last verified live 2026-10-01T04:07:07Z.",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -136302,7 +136302,7 @@
    "pattern_type": "stix",
    "pattern_version": "2.1",
    "valid_from": "2026-09-30T17:07:18Z",
-   "valid_until": "2026-10-14T22:24:16Z",
+   "valid_until": "2026-10-15T04:07:07Z",
    "confidence": 95,
    "labels": [
     "c2",
@@ -136318,7 +136318,7 @@
    "x_opencti_main_observable_type": "IPv4-Addr",
    "spec_version": "2.1",
    "created": "2026-09-30T17:07:18.000Z",
-   "modified": "2026-09-30T22:24:16.000Z",
+   "modified": "2026-10-01T04:07:07.000Z",
    "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
    "object_marking_refs": [
     "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
@@ -136332,7 +136332,7 @@
    "target_ref": "malware--5b1819b2-f264-5849-8822-fbdcd27beaa3",
    "spec_version": "2.1",
    "created": "2026-09-30T17:07:18.000Z",
-   "modified": "2026-09-30T22:24:16.000Z",
+   "modified": "2026-10-01T04:07:07.000Z",
    "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
    "object_marking_refs": [
     "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
@@ -136346,7 +136346,7 @@
    "target_ref": "ipv4-addr--4e473373-48e6-5c6f-97f5-414d2e5e0349",
    "spec_version": "2.1",
    "created": "2026-09-30T17:07:18.000Z",
-   "modified": "2026-09-30T22:24:16.000Z",
+   "modified": "2026-10-01T04:07:07.000Z",
    "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
    "object_marking_refs": [
     "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
@@ -137980,6 +137980,77 @@
    "spec_version": "2.1",
    "created": "2026-09-30T17:07:21.000Z",
    "modified": "2026-09-30T23:06:37.000Z",
+   "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "ipv4-addr",
+   "spec_version": "2.1",
+   "id": "ipv4-addr--ce07ab5a-73fb-58d3-931b-7e4c19ee7ce6",
+   "value": "13.49.66.51",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "id": "indicator--df00feab-d77f-521a-abd2-a3af0124fb40",
+   "name": "13.49.66.51",
+   "description": "Sliver c2 infrastructure: 13.49.66.51. Last observed 2026-10-01T04:07:02Z, last verified live 2026-10-01T04:07:02Z.",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '13.49.66.51']",
+   "pattern_type": "stix",
+   "pattern_version": "2.1",
+   "valid_from": "2026-09-30T17:07:25Z",
+   "valid_until": "2026-10-15T04:07:02Z",
+   "confidence": 85,
+   "labels": [
+    "c2",
+    "sliver"
+   ],
+   "kill_chain_phases": [
+    {
+     "kill_chain_name": "mitre-attack",
+     "phase_name": "command-and-control"
+    }
+   ],
+   "x_opencti_score": 85,
+   "x_opencti_main_observable_type": "IPv4-Addr",
+   "spec_version": "2.1",
+   "created": "2026-09-30T17:07:25.000Z",
+   "modified": "2026-10-01T04:07:02.000Z",
+   "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "relationship",
+   "id": "relationship--9736c91d-407c-55d3-addb-4a62c2a448ca",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--df00feab-d77f-521a-abd2-a3af0124fb40",
+   "target_ref": "malware--5b1819b2-f264-5849-8822-fbdcd27beaa3",
+   "spec_version": "2.1",
+   "created": "2026-09-30T17:07:25.000Z",
+   "modified": "2026-10-01T04:07:02.000Z",
+   "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "relationship",
+   "id": "relationship--d94aa14b-b542-518f-b935-7efefb747b7a",
+   "relationship_type": "based-on",
+   "source_ref": "indicator--df00feab-d77f-521a-abd2-a3af0124fb40",
+   "target_ref": "ipv4-addr--ce07ab5a-73fb-58d3-931b-7e4c19ee7ce6",
+   "spec_version": "2.1",
+   "created": "2026-09-30T17:07:25.000Z",
+   "modified": "2026-10-01T04:07:02.000Z",
    "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
    "object_marking_refs": [
     "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
@@ -140270,7 +140341,7 @@
    "type": "indicator",
    "id": "indicator--ccebbd6b-4329-58ae-93b2-23f7bd2918a1",
    "name": "168.138.40.244",
-   "description": "Sliver c2 infrastructure: 168.138.40.244. Last observed 2026-09-30T22:24:16Z, last verified live 2026-09-30T22:24:16Z.",
+   "description": "Sliver c2 infrastructure: 168.138.40.244. Last observed 2026-10-01T04:07:18Z, last verified live 2026-10-01T04:07:18Z.",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -140278,7 +140349,7 @@
    "pattern_type": "stix",
    "pattern_version": "2.1",
    "valid_from": "2026-09-30T17:07:11Z",
-   "valid_until": "2026-10-14T22:24:16Z",
+   "valid_until": "2026-10-15T04:07:18Z",
    "confidence": 95,
    "labels": [
     "c2",
@@ -140294,7 +140365,7 @@
    "x_opencti_main_observable_type": "IPv4-Addr",
    "spec_version": "2.1",
    "created": "2026-09-30T17:07:11.000Z",
-   "modified": "2026-09-30T22:24:16.000Z",
+   "modified": "2026-10-01T04:07:18.000Z",
    "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
    "object_marking_refs": [
     "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
@@ -140308,7 +140379,7 @@
    "target_ref": "malware--5b1819b2-f264-5849-8822-fbdcd27beaa3",
    "spec_version": "2.1",
    "created": "2026-09-30T17:07:11.000Z",
-   "modified": "2026-09-30T22:24:16.000Z",
+   "modified": "2026-10-01T04:07:18.000Z",
    "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
    "object_marking_refs": [
     "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
@@ -140322,7 +140393,7 @@
    "target_ref": "ipv4-addr--871f3173-06bb-5189-931f-b3a930a4e24f",
    "spec_version": "2.1",
    "created": "2026-09-30T17:07:11.000Z",
-   "modified": "2026-09-30T22:24:16.000Z",
+   "modified": "2026-10-01T04:07:18.000Z",
    "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
    "object_marking_refs": [
     "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
@@ -144885,7 +144956,7 @@
    "type": "indicator",
    "id": "indicator--25c357a3-9c2d-5722-ba41-4195f9b42b10",
    "name": "57.180.228.100",
-   "description": "Sliver c2 infrastructure: 57.180.228.100. Last observed 2026-09-30T22:43:11Z, last verified live 2026-09-30T22:43:11Z.",
+   "description": "Sliver c2 infrastructure: 57.180.228.100. Last observed 2026-10-01T04:07:13Z, last verified live 2026-10-01T04:07:13Z.",
    "indicator_types": [
     "malicious-activity"
    ],
@@ -144893,7 +144964,7 @@
    "pattern_type": "stix",
    "pattern_version": "2.1",
    "valid_from": "2026-09-30T17:07:11Z",
-   "valid_until": "2026-10-14T22:43:11Z",
+   "valid_until": "2026-10-15T04:07:13Z",
    "confidence": 95,
    "labels": [
     "c2",
@@ -144909,7 +144980,7 @@
    "x_opencti_main_observable_type": "IPv4-Addr",
    "spec_version": "2.1",
    "created": "2026-09-30T17:07:11.000Z",
-   "modified": "2026-09-30T22:43:11.000Z",
+   "modified": "2026-10-01T04:07:13.000Z",
    "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
    "object_marking_refs": [
     "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
@@ -144923,7 +144994,7 @@
    "target_ref": "malware--5b1819b2-f264-5849-8822-fbdcd27beaa3",
    "spec_version": "2.1",
    "created": "2026-09-30T17:07:11.000Z",
-   "modified": "2026-09-30T22:43:11.000Z",
+   "modified": "2026-10-01T04:07:13.000Z",
    "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
    "object_marking_refs": [
     "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
@@ -144937,7 +145008,7 @@
    "target_ref": "ipv4-addr--12d3d58a-2d3d-5be9-bbe5-81e63c57bc56",
    "spec_version": "2.1",
    "created": "2026-09-30T17:07:11.000Z",
-   "modified": "2026-09-30T22:43:11.000Z",
+   "modified": "2026-10-01T04:07:13.000Z",
    "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
    "object_marking_refs": [
     "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
@@ -146791,6 +146862,68 @@
   },
   {
    "type": "indicator",
+   "id": "indicator--3ca1bea9-07b7-5af4-af18-9a2436ff797a",
+   "name": "1.14.73.118:34091",
+   "description": "Sliver c2 infrastructure: 1.14.73.118 port 34091. Last observed 2026-10-01T04:07:07Z, last verified live 2026-10-01T04:07:07Z.",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '1.14.73.118' AND network-traffic:dst_port = 34091]",
+   "pattern_type": "stix",
+   "pattern_version": "2.1",
+   "valid_from": "2026-09-30T17:07:23Z",
+   "valid_until": "2026-10-15T04:07:07Z",
+   "confidence": 90,
+   "labels": [
+    "c2",
+    "sliver"
+   ],
+   "kill_chain_phases": [
+    {
+     "kill_chain_name": "mitre-attack",
+     "phase_name": "command-and-control"
+    }
+   ],
+   "x_opencti_score": 90,
+   "x_opencti_main_observable_type": "IPv4-Addr",
+   "spec_version": "2.1",
+   "created": "2026-09-30T17:07:23.000Z",
+   "modified": "2026-10-01T04:07:07.000Z",
+   "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "relationship",
+   "id": "relationship--4041d04c-a722-543e-a065-9a7bc7bf9fb8",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--3ca1bea9-07b7-5af4-af18-9a2436ff797a",
+   "target_ref": "malware--5b1819b2-f264-5849-8822-fbdcd27beaa3",
+   "spec_version": "2.1",
+   "created": "2026-09-30T17:07:23.000Z",
+   "modified": "2026-10-01T04:07:07.000Z",
+   "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "relationship",
+   "id": "relationship--be6d9e51-42d2-56fb-bf88-63fa9f22a005",
+   "relationship_type": "based-on",
+   "source_ref": "indicator--3ca1bea9-07b7-5af4-af18-9a2436ff797a",
+   "target_ref": "ipv4-addr--4e473373-48e6-5c6f-97f5-414d2e5e0349",
+   "spec_version": "2.1",
+   "created": "2026-09-30T17:07:23.000Z",
+   "modified": "2026-10-01T04:07:07.000Z",
+   "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
    "id": "indicator--950304fd-ceb6-515b-85d6-ccd814dbe7da",
    "name": "1.14.73.118:443",
    "description": "Sliver c2 infrastructure: 1.14.73.118 port 443. Last observed 2026-09-30T22:24:16Z, last verified live 2026-09-30T22:24:16Z.",
@@ -148520,6 +148653,68 @@
    "spec_version": "2.1",
    "created": "2026-09-30T17:07:21.000Z",
    "modified": "2026-09-30T23:06:37.000Z",
+   "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "id": "indicator--d472eb89-4a47-5727-8d69-656484310165",
+   "name": "13.49.66.51:8888",
+   "description": "Sliver c2 infrastructure: 13.49.66.51 port 8888. Last observed 2026-10-01T04:07:02Z, last verified live 2026-10-01T04:07:02Z.",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '13.49.66.51' AND network-traffic:dst_port = 8888]",
+   "pattern_type": "stix",
+   "pattern_version": "2.1",
+   "valid_from": "2026-09-30T17:07:25Z",
+   "valid_until": "2026-10-15T04:07:02Z",
+   "confidence": 85,
+   "labels": [
+    "c2",
+    "sliver"
+   ],
+   "kill_chain_phases": [
+    {
+     "kill_chain_name": "mitre-attack",
+     "phase_name": "command-and-control"
+    }
+   ],
+   "x_opencti_score": 85,
+   "x_opencti_main_observable_type": "IPv4-Addr",
+   "spec_version": "2.1",
+   "created": "2026-09-30T17:07:25.000Z",
+   "modified": "2026-10-01T04:07:02.000Z",
+   "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "relationship",
+   "id": "relationship--95ad99bf-b4d5-571f-95e4-82b028a91e49",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--d472eb89-4a47-5727-8d69-656484310165",
+   "target_ref": "malware--5b1819b2-f264-5849-8822-fbdcd27beaa3",
+   "spec_version": "2.1",
+   "created": "2026-09-30T17:07:25.000Z",
+   "modified": "2026-10-01T04:07:02.000Z",
+   "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "relationship",
+   "id": "relationship--132b732f-2d34-5306-8226-5ad4ac7eb1c7",
+   "relationship_type": "based-on",
+   "source_ref": "indicator--d472eb89-4a47-5727-8d69-656484310165",
+   "target_ref": "ipv4-addr--ce07ab5a-73fb-58d3-931b-7e4c19ee7ce6",
+   "spec_version": "2.1",
+   "created": "2026-09-30T17:07:25.000Z",
+   "modified": "2026-10-01T04:07:02.000Z",
    "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
    "object_marking_refs": [
     "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
@@ -150690,6 +150885,68 @@
    "spec_version": "2.1",
    "created": "2026-09-30T17:07:21.000Z",
    "modified": "2026-09-30T22:24:16.000Z",
+   "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "id": "indicator--5e9e8d3e-9151-56f6-af88-32936bfa9a05",
+   "name": "168.138.40.244:31337",
+   "description": "Sliver c2 infrastructure: 168.138.40.244 port 31337. Last observed 2026-10-01T04:07:18Z, last verified live 2026-10-01T04:07:18Z.",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '168.138.40.244' AND network-traffic:dst_port = 31337]",
+   "pattern_type": "stix",
+   "pattern_version": "2.1",
+   "valid_from": "2026-09-30T17:07:21Z",
+   "valid_until": "2026-10-15T04:07:18Z",
+   "confidence": 90,
+   "labels": [
+    "c2",
+    "sliver"
+   ],
+   "kill_chain_phases": [
+    {
+     "kill_chain_name": "mitre-attack",
+     "phase_name": "command-and-control"
+    }
+   ],
+   "x_opencti_score": 90,
+   "x_opencti_main_observable_type": "IPv4-Addr",
+   "spec_version": "2.1",
+   "created": "2026-09-30T17:07:21.000Z",
+   "modified": "2026-10-01T04:07:18.000Z",
+   "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "relationship",
+   "id": "relationship--a82bebe2-7243-5bfe-9447-c9d074cd1017",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--5e9e8d3e-9151-56f6-af88-32936bfa9a05",
+   "target_ref": "malware--5b1819b2-f264-5849-8822-fbdcd27beaa3",
+   "spec_version": "2.1",
+   "created": "2026-09-30T17:07:21.000Z",
+   "modified": "2026-10-01T04:07:18.000Z",
+   "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "relationship",
+   "id": "relationship--863da7cd-780b-5ae5-a86a-52a168e7a5ea",
+   "relationship_type": "based-on",
+   "source_ref": "indicator--5e9e8d3e-9151-56f6-af88-32936bfa9a05",
+   "target_ref": "ipv4-addr--871f3173-06bb-5189-931f-b3a930a4e24f",
+   "spec_version": "2.1",
+   "created": "2026-09-30T17:07:21.000Z",
+   "modified": "2026-10-01T04:07:18.000Z",
    "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
    "object_marking_refs": [
     "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
@@ -155278,6 +155535,68 @@
    "spec_version": "2.1",
    "created": "2026-09-30T17:07:11.000Z",
    "modified": "2026-09-30T22:43:11.000Z",
+   "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "id": "indicator--0964c801-78da-5786-9243-24b919e9e4d8",
+   "name": "57.180.228.100:8888",
+   "description": "Sliver c2 infrastructure: 57.180.228.100 port 8888. Last observed 2026-10-01T04:07:13Z, last verified live 2026-10-01T04:07:13Z.",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '57.180.228.100' AND network-traffic:dst_port = 8888]",
+   "pattern_type": "stix",
+   "pattern_version": "2.1",
+   "valid_from": "2026-09-30T17:07:23Z",
+   "valid_until": "2026-10-15T04:07:13Z",
+   "confidence": 85,
+   "labels": [
+    "c2",
+    "sliver"
+   ],
+   "kill_chain_phases": [
+    {
+     "kill_chain_name": "mitre-attack",
+     "phase_name": "command-and-control"
+    }
+   ],
+   "x_opencti_score": 85,
+   "x_opencti_main_observable_type": "IPv4-Addr",
+   "spec_version": "2.1",
+   "created": "2026-09-30T17:07:23.000Z",
+   "modified": "2026-10-01T04:07:13.000Z",
+   "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "relationship",
+   "id": "relationship--9635e3e2-10cf-5be6-b315-d00e60b86aa0",
+   "relationship_type": "indicates",
+   "source_ref": "indicator--0964c801-78da-5786-9243-24b919e9e4d8",
+   "target_ref": "malware--5b1819b2-f264-5849-8822-fbdcd27beaa3",
+   "spec_version": "2.1",
+   "created": "2026-09-30T17:07:23.000Z",
+   "modified": "2026-10-01T04:07:13.000Z",
+   "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "relationship",
+   "id": "relationship--d8bd0fb8-1399-55c9-941f-13b865d43624",
+   "relationship_type": "based-on",
+   "source_ref": "indicator--0964c801-78da-5786-9243-24b919e9e4d8",
+   "target_ref": "ipv4-addr--12d3d58a-2d3d-5be9-bbe5-81e63c57bc56",
+   "spec_version": "2.1",
+   "created": "2026-09-30T17:07:23.000Z",
+   "modified": "2026-10-01T04:07:13.000Z",
    "created_by_ref": "identity--98d03678-924f-5cb3-aa17-926a1eb25199",
    "object_marking_refs": [
     "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
