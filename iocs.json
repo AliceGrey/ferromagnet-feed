@@ -1,8 +1,8 @@
 {
   "feed": "ferromagnet",
   "version": 1,
-  "generated_at": "2026-10-01T15:07:08Z",
-  "count": 7375,
+  "generated_at": "2026-10-01T15:16:06Z",
+  "count": 7379,
   "indicators": [
     {
       "type": "ip",
@@ -198,6 +198,21 @@
       "port": null,
       "observable_type": "IPv4-Addr",
       "stix_pattern": "[ipv4-addr:value = '103.116.52.203']"
+    },
+    {
+      "type": "ip",
+      "value": "103.122.245.201",
+      "family": "AdaptixC2",
+      "kind": "c2",
+      "confidence": 90,
+      "first_seen": "2026-10-01T15:07:07Z",
+      "last_seen": "2026-10-01T15:16:06Z",
+      "last_verified": "2026-10-01T15:16:06Z",
+      "expires_at": "2026-10-15T15:16:06Z",
+      "ip": "103.122.245.201",
+      "port": null,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[ipv4-addr:value = '103.122.245.201']"
     },
     {
       "type": "ip",
@@ -438,6 +453,21 @@
       "port": null,
       "observable_type": "IPv4-Addr",
       "stix_pattern": "[ipv4-addr:value = '115.191.9.76']"
+    },
+    {
+      "type": "ip",
+      "value": "117.55.235.249",
+      "family": "AdaptixC2",
+      "kind": "c2",
+      "confidence": 90,
+      "first_seen": "2026-09-25T03:22:22Z",
+      "last_seen": "2026-10-01T15:16:06Z",
+      "last_verified": "2026-10-01T15:16:06Z",
+      "expires_at": "2026-10-15T15:16:06Z",
+      "ip": "117.55.235.249",
+      "port": null,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[ipv4-addr:value = '117.55.235.249']"
     },
     {
       "type": "ip",
@@ -4086,6 +4116,21 @@
     },
     {
       "type": "ip_port",
+      "value": "103.122.245.201:443",
+      "family": "AdaptixC2",
+      "kind": "c2",
+      "confidence": 90,
+      "first_seen": "2026-10-01T15:07:07Z",
+      "last_seen": "2026-10-01T15:16:06Z",
+      "last_verified": "2026-10-01T15:16:06Z",
+      "expires_at": "2026-10-15T15:16:06Z",
+      "ip": "103.122.245.201",
+      "port": 443,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '103.122.245.201' AND network-traffic:dst_port = 443]"
+    },
+    {
+      "type": "ip_port",
       "value": "103.228.171.113:4322",
       "family": "AdaptixC2",
       "kind": "c2",
@@ -4368,6 +4413,21 @@
       "port": 37788,
       "observable_type": "IPv4-Addr",
       "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '115.191.9.76' AND network-traffic:dst_port = 37788]"
+    },
+    {
+      "type": "ip_port",
+      "value": "117.55.235.249:4321",
+      "family": "AdaptixC2",
+      "kind": "c2",
+      "confidence": 90,
+      "first_seen": "2026-10-01T15:07:07Z",
+      "last_seen": "2026-10-01T15:16:06Z",
+      "last_verified": "2026-10-01T15:16:06Z",
+      "expires_at": "2026-10-15T15:16:06Z",
+      "ip": "117.55.235.249",
+      "port": 4321,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '117.55.235.249' AND network-traffic:dst_port = 4321]"
     },
     {
       "type": "ip_port",
