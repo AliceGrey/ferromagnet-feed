@@ -1,8 +1,8 @@
 {
   "feed": "ferromagnet",
   "version": 1,
-  "generated_at": "2026-10-01T21:07:09Z",
-  "count": 7382,
+  "generated_at": "2026-10-01T21:16:36Z",
+  "count": 7399,
   "indicators": [
     {
       "type": "ip",
@@ -213,6 +213,21 @@
       "port": null,
       "observable_type": "IPv4-Addr",
       "stix_pattern": "[ipv4-addr:value = '103.122.245.201']"
+    },
+    {
+      "type": "ip",
+      "value": "103.122.245.202",
+      "family": "AdaptixC2",
+      "kind": "c2",
+      "confidence": 90,
+      "first_seen": "2026-10-01T21:07:07Z",
+      "last_seen": "2026-10-01T21:16:05Z",
+      "last_verified": "2026-10-01T21:16:05Z",
+      "expires_at": "2026-10-15T21:16:05Z",
+      "ip": "103.122.245.202",
+      "port": null,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[ipv4-addr:value = '103.122.245.202']"
     },
     {
       "type": "ip",
@@ -1563,6 +1578,21 @@
       "port": null,
       "observable_type": "IPv4-Addr",
       "stix_pattern": "[ipv4-addr:value = '18.143.169.148']"
+    },
+    {
+      "type": "ip",
+      "value": "180.76.97.85",
+      "family": "AdaptixC2",
+      "kind": "c2",
+      "confidence": 90,
+      "first_seen": "2026-10-01T21:07:07Z",
+      "last_seen": "2026-10-01T21:16:05Z",
+      "last_verified": "2026-10-01T21:16:05Z",
+      "expires_at": "2026-10-15T21:16:05Z",
+      "ip": "180.76.97.85",
+      "port": null,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[ipv4-addr:value = '180.76.97.85']"
     },
     {
       "type": "ip",
@@ -3546,6 +3576,21 @@
     },
     {
       "type": "ip",
+      "value": "80.78.26.38",
+      "family": "AdaptixC2",
+      "kind": "c2",
+      "confidence": 90,
+      "first_seen": "2026-10-01T21:07:07Z",
+      "last_seen": "2026-10-01T21:16:05Z",
+      "last_verified": "2026-10-01T21:16:05Z",
+      "expires_at": "2026-10-15T21:16:05Z",
+      "ip": "80.78.26.38",
+      "port": null,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[ipv4-addr:value = '80.78.26.38']"
+    },
+    {
+      "type": "ip",
       "value": "80.78.27.42",
       "family": "AdaptixC2",
       "kind": "c2",
@@ -4128,6 +4173,21 @@
       "port": 443,
       "observable_type": "IPv4-Addr",
       "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '103.122.245.201' AND network-traffic:dst_port = 443]"
+    },
+    {
+      "type": "ip_port",
+      "value": "103.122.245.202:443",
+      "family": "AdaptixC2",
+      "kind": "c2",
+      "confidence": 90,
+      "first_seen": "2026-10-01T21:07:07Z",
+      "last_seen": "2026-10-01T21:16:05Z",
+      "last_verified": "2026-10-01T21:16:05Z",
+      "expires_at": "2026-10-15T21:16:05Z",
+      "ip": "103.122.245.202",
+      "port": 443,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '103.122.245.202' AND network-traffic:dst_port = 443]"
     },
     {
       "type": "ip_port",
@@ -5853,6 +5913,21 @@
       "port": 443,
       "observable_type": "IPv4-Addr",
       "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '18.143.169.148' AND network-traffic:dst_port = 443]"
+    },
+    {
+      "type": "ip_port",
+      "value": "180.76.97.85:4321",
+      "family": "AdaptixC2",
+      "kind": "c2",
+      "confidence": 90,
+      "first_seen": "2026-10-01T21:07:07Z",
+      "last_seen": "2026-10-01T21:16:05Z",
+      "last_verified": "2026-10-01T21:16:05Z",
+      "expires_at": "2026-10-15T21:16:05Z",
+      "ip": "180.76.97.85",
+      "port": 4321,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '180.76.97.85' AND network-traffic:dst_port = 4321]"
     },
     {
       "type": "ip_port",
@@ -8631,6 +8706,21 @@
     },
     {
       "type": "ip_port",
+      "value": "80.78.26.38:443",
+      "family": "AdaptixC2",
+      "kind": "c2",
+      "confidence": 90,
+      "first_seen": "2026-10-01T21:07:07Z",
+      "last_seen": "2026-10-01T21:16:05Z",
+      "last_verified": "2026-10-01T21:16:05Z",
+      "expires_at": "2026-10-15T21:16:05Z",
+      "ip": "80.78.26.38",
+      "port": 443,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '80.78.26.38' AND network-traffic:dst_port = 443]"
+    },
+    {
+      "type": "ip_port",
       "value": "80.78.27.42:443",
       "family": "AdaptixC2",
       "kind": "c2",
@@ -9216,6 +9306,21 @@
     },
     {
       "type": "ip",
+      "value": "187.201.56.116",
+      "family": "DcRat",
+      "kind": "c2",
+      "confidence": 85,
+      "first_seen": "2026-10-01T21:07:09Z",
+      "last_seen": "2026-10-01T21:16:36Z",
+      "last_verified": "2026-10-01T21:16:36Z",
+      "expires_at": "2026-10-15T21:16:36Z",
+      "ip": "187.201.56.116",
+      "port": null,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[ipv4-addr:value = '187.201.56.116']"
+    },
+    {
+      "type": "ip",
       "value": "191.107.92.58",
       "family": "DcRat",
       "kind": "c2",
@@ -9276,6 +9381,21 @@
     },
     {
       "type": "ip",
+      "value": "193.24.123.206",
+      "family": "DcRat",
+      "kind": "c2",
+      "confidence": 85,
+      "first_seen": "2026-10-01T21:07:09Z",
+      "last_seen": "2026-10-01T21:16:36Z",
+      "last_verified": "2026-10-01T21:16:36Z",
+      "expires_at": "2026-10-15T21:16:36Z",
+      "ip": "193.24.123.206",
+      "port": null,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[ipv4-addr:value = '193.24.123.206']"
+    },
+    {
+      "type": "ip",
       "value": "194.59.30.237",
       "family": "DcRat",
       "kind": "c2",
@@ -9306,6 +9426,36 @@
     },
     {
       "type": "ip",
+      "value": "207.57.162.48",
+      "family": "DcRat",
+      "kind": "c2",
+      "confidence": 85,
+      "first_seen": "2026-10-01T21:07:09Z",
+      "last_seen": "2026-10-01T21:16:36Z",
+      "last_verified": "2026-10-01T21:16:36Z",
+      "expires_at": "2026-10-15T21:16:36Z",
+      "ip": "207.57.162.48",
+      "port": null,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[ipv4-addr:value = '207.57.162.48']"
+    },
+    {
+      "type": "ip",
+      "value": "207.57.163.104",
+      "family": "DcRat",
+      "kind": "c2",
+      "confidence": 85,
+      "first_seen": "2026-10-01T21:07:09Z",
+      "last_seen": "2026-10-01T21:16:36Z",
+      "last_verified": "2026-10-01T21:16:36Z",
+      "expires_at": "2026-10-15T21:16:36Z",
+      "ip": "207.57.163.104",
+      "port": null,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[ipv4-addr:value = '207.57.163.104']"
+    },
+    {
+      "type": "ip",
       "value": "223.130.11.38",
       "family": "DcRat",
       "kind": "c2",
@@ -9333,6 +9483,21 @@
       "port": null,
       "observable_type": "IPv4-Addr",
       "stix_pattern": "[ipv4-addr:value = '223.26.59.24']"
+    },
+    {
+      "type": "ip",
+      "value": "31.56.19.40",
+      "family": "DcRat",
+      "kind": "c2",
+      "confidence": 85,
+      "first_seen": "2026-10-01T21:07:09Z",
+      "last_seen": "2026-10-01T21:16:36Z",
+      "last_verified": "2026-10-01T21:16:36Z",
+      "expires_at": "2026-10-15T21:16:36Z",
+      "ip": "31.56.19.40",
+      "port": null,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[ipv4-addr:value = '31.56.19.40']"
     },
     {
       "type": "ip",
@@ -9831,6 +9996,21 @@
     },
     {
       "type": "ip_port",
+      "value": "187.201.56.116:8848",
+      "family": "DcRat",
+      "kind": "c2",
+      "confidence": 85,
+      "first_seen": "2026-10-01T21:07:09Z",
+      "last_seen": "2026-10-01T21:16:36Z",
+      "last_verified": "2026-10-01T21:16:36Z",
+      "expires_at": "2026-10-15T21:16:36Z",
+      "ip": "187.201.56.116",
+      "port": 8848,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '187.201.56.116' AND network-traffic:dst_port = 8848]"
+    },
+    {
+      "type": "ip_port",
       "value": "191.107.92.58:9002",
       "family": "DcRat",
       "kind": "c2",
@@ -9921,6 +10101,21 @@
     },
     {
       "type": "ip_port",
+      "value": "193.24.123.206:8848",
+      "family": "DcRat",
+      "kind": "c2",
+      "confidence": 85,
+      "first_seen": "2026-10-01T21:07:09Z",
+      "last_seen": "2026-10-01T21:16:36Z",
+      "last_verified": "2026-10-01T21:16:36Z",
+      "expires_at": "2026-10-15T21:16:36Z",
+      "ip": "193.24.123.206",
+      "port": 8848,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '193.24.123.206' AND network-traffic:dst_port = 8848]"
+    },
+    {
+      "type": "ip_port",
       "value": "194.59.30.237:6475",
       "family": "DcRat",
       "kind": "c2",
@@ -9951,6 +10146,51 @@
     },
     {
       "type": "ip_port",
+      "value": "207.57.162.48:12159",
+      "family": "DcRat",
+      "kind": "c2",
+      "confidence": 85,
+      "first_seen": "2026-10-01T21:07:09Z",
+      "last_seen": "2026-10-01T21:16:36Z",
+      "last_verified": "2026-10-01T21:16:36Z",
+      "expires_at": "2026-10-15T21:16:36Z",
+      "ip": "207.57.162.48",
+      "port": 12159,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '207.57.162.48' AND network-traffic:dst_port = 12159]"
+    },
+    {
+      "type": "ip_port",
+      "value": "207.57.162.48:8848",
+      "family": "DcRat",
+      "kind": "c2",
+      "confidence": 85,
+      "first_seen": "2026-10-01T21:07:09Z",
+      "last_seen": "2026-10-01T21:16:36Z",
+      "last_verified": "2026-10-01T21:16:36Z",
+      "expires_at": "2026-10-15T21:16:36Z",
+      "ip": "207.57.162.48",
+      "port": 8848,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '207.57.162.48' AND network-traffic:dst_port = 8848]"
+    },
+    {
+      "type": "ip_port",
+      "value": "207.57.163.104:8848",
+      "family": "DcRat",
+      "kind": "c2",
+      "confidence": 85,
+      "first_seen": "2026-10-01T21:07:09Z",
+      "last_seen": "2026-10-01T21:16:36Z",
+      "last_verified": "2026-10-01T21:16:36Z",
+      "expires_at": "2026-10-15T21:16:36Z",
+      "ip": "207.57.163.104",
+      "port": 8848,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '207.57.163.104' AND network-traffic:dst_port = 8848]"
+    },
+    {
+      "type": "ip_port",
       "value": "223.130.11.38:8848",
       "family": "DcRat",
       "kind": "c2",
@@ -9978,6 +10218,21 @@
       "port": 3232,
       "observable_type": "IPv4-Addr",
       "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '223.26.59.24' AND network-traffic:dst_port = 3232]"
+    },
+    {
+      "type": "ip_port",
+      "value": "31.56.19.40:6666",
+      "family": "DcRat",
+      "kind": "c2",
+      "confidence": 85,
+      "first_seen": "2026-10-01T21:07:09Z",
+      "last_seen": "2026-10-01T21:16:36Z",
+      "last_verified": "2026-10-01T21:16:36Z",
+      "expires_at": "2026-10-15T21:16:36Z",
+      "ip": "31.56.19.40",
+      "port": 6666,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '31.56.19.40' AND network-traffic:dst_port = 6666]"
     },
     {
       "type": "ip_port",
