@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1790961805",
-  "publish_timestamp": "1790961805",
+  "timestamp": "1790975237",
+  "publish_timestamp": "1790975237",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -1448,10 +1448,10 @@
     "timestamp": "1790838431",
     "first_seen": "2026-09-30T17:07:21+00:00",
     "last_seen": "2026-10-01T07:07:11+00:00",
-    "comment": "Sliver c2; confidence 90; last verified live 2026-10-01T04:32:48Z; expires 2026-10-15T07:07:11Z",
+    "comment": "Sliver c2; confidence 95; last verified live 2026-10-01T04:32:48Z; expires 2026-10-15T07:07:11Z",
     "Tag": [
      {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
      }
     ]
    },
@@ -3158,7 +3158,7 @@
     "timestamp": "1790916125",
     "first_seen": "2026-09-30T17:07:21+00:00",
     "last_seen": "2026-10-02T04:42:05+00:00",
-    "comment": "Sliver c2; confidence 85; last verified live 2026-10-02T04:42:05Z; expires 2026-10-16T04:42:05Z",
+    "comment": "Sliver c2; confidence 90; last verified live 2026-10-02T04:42:05Z; expires 2026-10-16T04:42:05Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -3374,7 +3374,7 @@
     "timestamp": "1790828466",
     "first_seen": "2026-09-30T17:07:14+00:00",
     "last_seen": "2026-10-01T04:21:06+00:00",
-    "comment": "Sliver c2; confidence 85; last verified live 2026-10-01T04:21:06Z; expires 2026-10-15T04:21:06Z",
+    "comment": "Sliver c2; confidence 90; last verified live 2026-10-01T04:21:06Z; expires 2026-10-15T04:21:06Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -3846,6 +3846,24 @@
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "1cbc4b12-0afb-5382-84fa-5e652e7882a1",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "20.219.107.220",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790975237",
+    "first_seen": "2026-09-30T17:07:11+00:00",
+    "last_seen": "2026-10-01T07:07:11+00:00",
+    "comment": "Sliver c2; confidence 95; last verified live 2026-09-30T17:16:38Z; expires 2026-10-15T07:07:11Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
      }
     ]
    },
@@ -5139,6 +5157,24 @@
     "first_seen": "2026-09-30T17:07:11+00:00",
     "last_seen": "2026-10-02T07:07:15+00:00",
     "comment": "Sliver c2; confidence 95; last verified live 2026-10-02T04:52:49Z; expires 2026-10-16T07:07:15Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "e529cb23-f989-5d8f-a087-14a3c8e44a36",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "45.158.116.151",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790975237",
+    "first_seen": "2026-09-30T17:07:21+00:00",
+    "last_seen": "2026-10-01T07:07:11+00:00",
+    "comment": "Sliver c2; confidence 95; last verified live 2026-09-30T18:01:48Z; expires 2026-10-15T07:07:11Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -7028,10 +7064,10 @@
     "timestamp": "1790960089",
     "first_seen": "2026-09-30T17:07:21+00:00",
     "last_seen": "2026-10-02T16:54:49+00:00",
-    "comment": "Sliver c2; confidence 90; last verified live 2026-10-02T16:54:49Z; expires 2026-10-16T16:54:49Z",
+    "comment": "Sliver c2; confidence 95; last verified live 2026-10-02T16:54:49Z; expires 2026-10-16T16:54:49Z",
     "Tag": [
      {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
      }
     ]
    },
@@ -7083,6 +7119,24 @@
     "first_seen": "2026-09-30T17:07:16+00:00",
     "last_seen": "2026-10-02T07:07:11+00:00",
     "comment": "Sliver c2; confidence 95; last verified live 2026-10-02T04:31:42Z; expires 2026-10-16T07:07:11Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "78da1136-0902-5b09-b9f0-9f9bf9ed7624",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "95.133.167.31",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790975237",
+    "first_seen": "2026-09-30T17:07:16+00:00",
+    "last_seen": "2026-10-01T07:07:11+00:00",
+    "comment": "Sliver c2; confidence 95; last verified live 2026-09-30T17:16:38Z; expires 2026-10-15T07:07:11Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -12202,6 +12256,24 @@
     ]
    },
    {
+    "uuid": "defee12f-261f-5afc-a23e-a4d1a7cd60fa",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "20.219.107.220|443",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790975237",
+    "first_seen": "2026-09-30T17:07:11+00:00",
+    "last_seen": "2026-10-01T07:07:11+00:00",
+    "comment": "Sliver c2; confidence 95; last verified live 2026-09-30T17:16:38Z; expires 2026-10-15T07:07:11Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
     "uuid": "75afcba6-f61f-5e88-9800-5261a56173ad",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -13761,6 +13833,24 @@
     "first_seen": "2026-09-30T17:07:11+00:00",
     "last_seen": "2026-10-02T07:07:15+00:00",
     "comment": "Sliver c2; confidence 95; last verified live 2026-10-02T04:52:49Z; expires 2026-10-16T07:07:15Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "78c00db3-4be9-5158-8e53-2491d5b9ca36",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "45.158.116.151|443",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790975237",
+    "first_seen": "2026-09-30T17:07:21+00:00",
+    "last_seen": "2026-10-01T07:07:11+00:00",
+    "comment": "Sliver c2; confidence 95; last verified live 2026-09-30T18:01:48Z; expires 2026-10-15T07:07:11Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -16216,6 +16306,24 @@
     ]
    },
    {
+    "uuid": "c503c54e-5888-57f1-bfd3-44f88fa83d92",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "95.133.167.31|443",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790975237",
+    "first_seen": "2026-09-30T17:07:16+00:00",
+    "last_seen": "2026-10-01T07:07:11+00:00",
+    "comment": "Sliver c2; confidence 95; last verified live 2026-09-30T17:16:38Z; expires 2026-10-15T07:07:11Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
     "uuid": "a750e701-e82a-5dd3-aa2f-106745ab6112",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -16284,114 +16392,6 @@
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
-     }
-    ]
-   },
-   {
-    "uuid": "1cbc4b12-0afb-5382-84fa-5e652e7882a1",
-    "type": "ip-dst",
-    "category": "Network activity",
-    "value": "20.219.107.220",
-    "to_ids": false,
-    "deleted": true,
-    "distribution": "5",
-    "timestamp": "1790917632",
-    "first_seen": "2026-09-30T17:07:11+00:00",
-    "last_seen": "2026-10-01T07:07:11+00:00",
-    "comment": "Sliver c2; confidence 95; last verified live 2026-09-30T17:16:38Z; expires 2026-10-15T07:07:11Z; no longer observed since 2026-10-02T05:07:12Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"almost-certain\""
-     }
-    ]
-   },
-   {
-    "uuid": "e529cb23-f989-5d8f-a087-14a3c8e44a36",
-    "type": "ip-dst",
-    "category": "Network activity",
-    "value": "45.158.116.151",
-    "to_ids": false,
-    "deleted": true,
-    "distribution": "5",
-    "timestamp": "1790917632",
-    "first_seen": "2026-09-30T17:07:21+00:00",
-    "last_seen": "2026-10-01T07:07:11+00:00",
-    "comment": "Sliver c2; confidence 95; last verified live 2026-09-30T18:01:48Z; expires 2026-10-15T07:07:11Z; no longer observed since 2026-10-02T05:07:12Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"almost-certain\""
-     }
-    ]
-   },
-   {
-    "uuid": "78da1136-0902-5b09-b9f0-9f9bf9ed7624",
-    "type": "ip-dst",
-    "category": "Network activity",
-    "value": "95.133.167.31",
-    "to_ids": false,
-    "deleted": true,
-    "distribution": "5",
-    "timestamp": "1790917632",
-    "first_seen": "2026-09-30T17:07:16+00:00",
-    "last_seen": "2026-10-01T07:07:11+00:00",
-    "comment": "Sliver c2; confidence 95; last verified live 2026-09-30T17:16:38Z; expires 2026-10-15T07:07:11Z; no longer observed since 2026-10-02T05:07:12Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"almost-certain\""
-     }
-    ]
-   },
-   {
-    "uuid": "defee12f-261f-5afc-a23e-a4d1a7cd60fa",
-    "type": "ip-dst|port",
-    "category": "Network activity",
-    "value": "20.219.107.220|443",
-    "to_ids": false,
-    "deleted": true,
-    "distribution": "5",
-    "timestamp": "1790917632",
-    "first_seen": "2026-09-30T17:07:11+00:00",
-    "last_seen": "2026-10-01T07:07:11+00:00",
-    "comment": "Sliver c2; confidence 95; last verified live 2026-09-30T17:16:38Z; expires 2026-10-15T07:07:11Z; no longer observed since 2026-10-02T05:07:12Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"almost-certain\""
-     }
-    ]
-   },
-   {
-    "uuid": "78c00db3-4be9-5158-8e53-2491d5b9ca36",
-    "type": "ip-dst|port",
-    "category": "Network activity",
-    "value": "45.158.116.151|443",
-    "to_ids": false,
-    "deleted": true,
-    "distribution": "5",
-    "timestamp": "1790917632",
-    "first_seen": "2026-09-30T17:07:21+00:00",
-    "last_seen": "2026-10-01T07:07:11+00:00",
-    "comment": "Sliver c2; confidence 95; last verified live 2026-09-30T18:01:48Z; expires 2026-10-15T07:07:11Z; no longer observed since 2026-10-02T05:07:12Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"almost-certain\""
-     }
-    ]
-   },
-   {
-    "uuid": "c503c54e-5888-57f1-bfd3-44f88fa83d92",
-    "type": "ip-dst|port",
-    "category": "Network activity",
-    "value": "95.133.167.31|443",
-    "to_ids": false,
-    "deleted": true,
-    "distribution": "5",
-    "timestamp": "1790917632",
-    "first_seen": "2026-09-30T17:07:16+00:00",
-    "last_seen": "2026-10-01T07:07:11+00:00",
-    "comment": "Sliver c2; confidence 95; last verified live 2026-09-30T17:16:38Z; expires 2026-10-15T07:07:11Z; no longer observed since 2026-10-02T05:07:12Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"almost-certain\""
      }
     ]
    },
