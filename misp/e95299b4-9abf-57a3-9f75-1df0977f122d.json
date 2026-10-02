@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1790928433",
-  "publish_timestamp": "1790928433",
+  "timestamp": "1790928997",
+  "publish_timestamp": "1790928997",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -435,6 +435,24 @@
     "first_seen": "2026-09-29T09:30:37+00:00",
     "last_seen": "2026-10-02T08:07:13+00:00",
     "comment": "Reverse_SSH ost; confidence 85; last verified live 2026-10-02T04:38:56Z; expires 2026-10-16T08:07:13Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "101b4542-62ac-5d3f-bc2b-253bc4cedf54",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "123.4.42.188",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790928997",
+    "first_seen": "2026-10-02T08:07:12+00:00",
+    "last_seen": "2026-10-02T08:16:37+00:00",
+    "comment": "Reverse_SSH ost; confidence 85; last verified live 2026-10-02T08:16:37Z; expires 2026-10-16T08:16:37Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -2350,6 +2368,24 @@
     ]
    },
    {
+    "uuid": "f2f30fbe-77f0-5154-befd-5343bfeb4a6b",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "77.111.101.84",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790928997",
+    "first_seen": "2026-10-02T08:07:12+00:00",
+    "last_seen": "2026-10-02T08:16:37+00:00",
+    "comment": "Reverse_SSH ost; confidence 85; last verified live 2026-10-02T08:16:37Z; expires 2026-10-16T08:16:37Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "1499b2d9-8d02-5e70-b874-921d5f2364f3",
     "type": "ip-dst",
     "category": "Network activity",
@@ -2955,6 +2991,24 @@
     "first_seen": "2026-09-29T09:30:37+00:00",
     "last_seen": "2026-10-02T08:07:13+00:00",
     "comment": "Reverse_SSH ost; confidence 85; last verified live 2026-10-02T04:38:56Z; expires 2026-10-16T08:07:13Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "29e35e4c-cdd6-54ea-acb5-e1ff4571e246",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "123.4.42.188|3232",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790928997",
+    "first_seen": "2026-10-02T08:07:12+00:00",
+    "last_seen": "2026-10-02T08:16:37+00:00",
+    "comment": "Reverse_SSH ost; confidence 85; last verified live 2026-10-02T08:16:37Z; expires 2026-10-16T08:16:37Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -5151,6 +5205,24 @@
     "first_seen": "2026-09-29T00:18:40+00:00",
     "last_seen": "2026-10-02T05:09:28+00:00",
     "comment": "Reverse_SSH ost; confidence 85; last verified live 2026-10-02T05:09:28Z; expires 2026-10-16T05:09:28Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "dcd5fc74-725c-59b3-a04b-948021c83492",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "77.111.101.84|8081",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790928997",
+    "first_seen": "2026-10-02T08:07:12+00:00",
+    "last_seen": "2026-10-02T08:16:37+00:00",
+    "comment": "Reverse_SSH ost; confidence 85; last verified live 2026-10-02T08:16:37Z; expires 2026-10-16T08:16:37Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
