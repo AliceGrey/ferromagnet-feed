@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1790924826",
-  "publish_timestamp": "1790924826",
+  "timestamp": "1790925365",
+  "publish_timestamp": "1790925365",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -243,6 +243,24 @@
     "first_seen": "2026-09-30T06:07:07+00:00",
     "last_seen": "2026-10-02T07:07:06+00:00",
     "comment": "Havoc c2; confidence 90; last verified live 2026-10-02T04:52:49Z; expires 2026-10-16T07:07:06Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "fe7410bd-1f9f-56e6-a84a-af25a596a45a",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "158.94.210.16",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790925365",
+    "first_seen": "2026-10-02T07:07:06+00:00",
+    "last_seen": "2026-10-02T07:16:05+00:00",
+    "comment": "Havoc c2; confidence 90; last verified live 2026-10-02T07:16:05Z; expires 2026-10-16T07:16:05Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -779,10 +797,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1790924826",
+    "timestamp": "1790925365",
     "first_seen": "2026-10-02T01:07:06+00:00",
-    "last_seen": "2026-10-02T07:07:06+00:00",
-    "comment": "Havoc c2; confidence 90; last verified live 2026-10-02T01:16:05Z; expires 2026-10-16T07:07:06Z",
+    "last_seen": "2026-10-02T07:16:05+00:00",
+    "comment": "Havoc c2; confidence 90; last verified live 2026-10-02T07:16:05Z; expires 2026-10-16T07:16:05Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -1215,6 +1233,24 @@
     "first_seen": "2026-09-30T06:07:07+00:00",
     "last_seen": "2026-10-02T04:31:42+00:00",
     "comment": "Havoc c2; confidence 90; last verified live 2026-10-02T04:31:42Z; expires 2026-10-16T04:31:42Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "13de20d1-6e2e-5f74-82db-99404e905fe0",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "158.94.210.16|2853",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790925365",
+    "first_seen": "2026-10-02T07:07:06+00:00",
+    "last_seen": "2026-10-02T07:16:05+00:00",
+    "comment": "Havoc c2; confidence 90; last verified live 2026-10-02T07:16:05Z; expires 2026-10-16T07:16:05Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -1881,6 +1917,24 @@
     "first_seen": "2026-09-30T06:07:07+00:00",
     "last_seen": "2026-10-02T04:39:56+00:00",
     "comment": "Havoc c2; confidence 85; last verified live 2026-10-02T04:39:56Z; expires 2026-10-16T04:39:56Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "f2cbc506-87df-59c7-a1f3-1d92fc4b5b68",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "92.51.46.35|40056",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790925365",
+    "first_seen": "2026-10-02T07:07:06+00:00",
+    "last_seen": "2026-10-02T07:16:05+00:00",
+    "comment": "Havoc c2; confidence 85; last verified live 2026-10-02T07:16:05Z; expires 2026-10-16T07:16:05Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
