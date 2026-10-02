@@ -1,8 +1,8 @@
 {
   "feed": "ferromagnet",
   "version": 1,
-  "generated_at": "2026-10-02T01:07:09Z",
-  "count": 7409,
+  "generated_at": "2026-10-02T01:16:05Z",
+  "count": 7415,
   "indicators": [
     {
       "type": "ip",
@@ -12231,6 +12231,21 @@
     },
     {
       "type": "ip",
+      "value": "68.178.202.150",
+      "family": "Havoc",
+      "kind": "c2",
+      "confidence": 90,
+      "first_seen": "2026-09-30T06:07:07Z",
+      "last_seen": "2026-10-02T01:16:05Z",
+      "last_verified": "2026-10-02T01:16:05Z",
+      "expires_at": "2026-10-16T01:16:05Z",
+      "ip": "68.178.202.150",
+      "port": null,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[ipv4-addr:value = '68.178.202.150']"
+    },
+    {
+      "type": "ip",
       "value": "68.183.248.32",
       "family": "Havoc",
       "kind": "c2",
@@ -12303,6 +12318,21 @@
       "port": null,
       "observable_type": "IPv4-Addr",
       "stix_pattern": "[ipv4-addr:value = '88.119.179.118']"
+    },
+    {
+      "type": "ip",
+      "value": "92.51.46.35",
+      "family": "Havoc",
+      "kind": "c2",
+      "confidence": 90,
+      "first_seen": "2026-10-02T01:07:06Z",
+      "last_seen": "2026-10-02T01:16:05Z",
+      "last_verified": "2026-10-02T01:16:05Z",
+      "expires_at": "2026-10-16T01:16:05Z",
+      "ip": "92.51.46.35",
+      "port": null,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[ipv4-addr:value = '92.51.46.35']"
     },
     {
       "type": "ip",
@@ -13116,6 +13146,21 @@
     },
     {
       "type": "ip_port",
+      "value": "68.178.202.150:443",
+      "family": "Havoc",
+      "kind": "c2",
+      "confidence": 90,
+      "first_seen": "2026-10-02T01:07:06Z",
+      "last_seen": "2026-10-02T01:16:05Z",
+      "last_verified": "2026-10-02T01:16:05Z",
+      "expires_at": "2026-10-16T01:16:05Z",
+      "ip": "68.178.202.150",
+      "port": 443,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '68.178.202.150' AND network-traffic:dst_port = 443]"
+    },
+    {
+      "type": "ip_port",
       "value": "68.183.248.32:4443",
       "family": "Havoc",
       "kind": "c2",
@@ -13203,6 +13248,21 @@
       "port": 8448,
       "observable_type": "IPv4-Addr",
       "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '88.119.179.118' AND network-traffic:dst_port = 8448]"
+    },
+    {
+      "type": "ip_port",
+      "value": "92.51.46.35:8443",
+      "family": "Havoc",
+      "kind": "c2",
+      "confidence": 90,
+      "first_seen": "2026-10-02T01:07:06Z",
+      "last_seen": "2026-10-02T01:16:05Z",
+      "last_verified": "2026-10-02T01:16:05Z",
+      "expires_at": "2026-10-16T01:16:05Z",
+      "ip": "92.51.46.35",
+      "port": 8443,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '92.51.46.35' AND network-traffic:dst_port = 8443]"
     },
     {
       "type": "ip_port",
@@ -15581,9 +15641,9 @@
       "kind": "c2",
       "confidence": 95,
       "first_seen": "2026-10-02T00:07:08Z",
-      "last_seen": "2026-10-02T00:37:07Z",
-      "last_verified": "2026-10-02T00:16:06Z",
-      "expires_at": "2026-10-16T00:37:07Z",
+      "last_seen": "2026-10-02T01:16:05Z",
+      "last_verified": "2026-10-02T01:16:05Z",
+      "expires_at": "2026-10-16T01:16:05Z",
       "ip": "120.79.146.35",
       "port": null,
       "observable_type": "IPv4-Addr",
@@ -16496,9 +16556,9 @@
       "kind": "c2",
       "confidence": 95,
       "first_seen": "2026-10-02T00:07:08Z",
-      "last_seen": "2026-10-02T00:37:07Z",
-      "last_verified": "2026-10-02T00:16:06Z",
-      "expires_at": "2026-10-16T00:37:07Z",
+      "last_seen": "2026-10-02T01:16:05Z",
+      "last_verified": "2026-10-02T01:16:05Z",
+      "expires_at": "2026-10-16T01:16:05Z",
       "ip": "120.79.146.35",
       "port": 7443,
       "observable_type": "IPv4-Addr",
@@ -58626,6 +58686,21 @@
     },
     {
       "type": "ip",
+      "value": "123.4.42.188",
+      "family": "Supershell",
+      "kind": "c2",
+      "confidence": 85,
+      "first_seen": "2026-10-02T01:07:07Z",
+      "last_seen": "2026-10-02T01:16:05Z",
+      "last_verified": "2026-10-02T01:16:05Z",
+      "expires_at": "2026-10-16T01:16:05Z",
+      "ip": "123.4.42.188",
+      "port": null,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[ipv4-addr:value = '123.4.42.188']"
+    },
+    {
+      "type": "ip",
       "value": "124.221.221.58",
       "family": "Supershell",
       "kind": "c2",
@@ -59313,6 +59388,21 @@
       "port": 8035,
       "observable_type": "IPv4-Addr",
       "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '120.78.121.146' AND network-traffic:dst_port = 8035]"
+    },
+    {
+      "type": "ip_port",
+      "value": "123.4.42.188:5873",
+      "family": "Supershell",
+      "kind": "c2",
+      "confidence": 85,
+      "first_seen": "2026-10-02T01:07:07Z",
+      "last_seen": "2026-10-02T01:16:05Z",
+      "last_verified": "2026-10-02T01:16:05Z",
+      "expires_at": "2026-10-16T01:16:05Z",
+      "ip": "123.4.42.188",
+      "port": 5873,
+      "observable_type": "IPv4-Addr",
+      "stix_pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '123.4.42.188' AND network-traffic:dst_port = 5873]"
     },
     {
       "type": "ip_port",
