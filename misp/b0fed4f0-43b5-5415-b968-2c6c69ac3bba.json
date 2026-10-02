@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1790946426",
-  "publish_timestamp": "1790946426",
+  "timestamp": "1790946966",
+  "publish_timestamp": "1790946966",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -693,6 +693,24 @@
     "first_seen": "2026-09-30T06:07:07+00:00",
     "last_seen": "2026-10-02T13:07:06+00:00",
     "comment": "Havoc c2; confidence 90; last verified live 2026-10-02T01:16:05Z; expires 2026-10-16T13:07:06Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "2f2df450-4c1f-5a06-92ac-5fc3c6fb24fe",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "68.178.205.17",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790946966",
+    "first_seen": "2026-09-30T06:07:07+00:00",
+    "last_seen": "2026-10-02T13:16:06+00:00",
+    "comment": "Havoc c2; confidence 90; last verified live 2026-10-02T13:16:06Z; expires 2026-10-16T13:16:06Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -1809,6 +1827,24 @@
     "first_seen": "2026-10-02T01:07:06+00:00",
     "last_seen": "2026-10-02T07:07:06+00:00",
     "comment": "Havoc c2; confidence 90; last verified live 2026-10-02T01:16:05Z; expires 2026-10-16T07:07:06Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "9ec29a8c-de74-5e36-a034-2476fc2999c3",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "68.178.205.17|443",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1790946966",
+    "first_seen": "2026-10-02T13:07:06+00:00",
+    "last_seen": "2026-10-02T13:16:06+00:00",
+    "comment": "Havoc c2; confidence 90; last verified live 2026-10-02T13:16:06Z; expires 2026-10-16T13:16:06Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
