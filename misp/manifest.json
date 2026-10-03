@@ -1,4 +1,29 @@
 {
+ "01b75758-d8d7-531d-8bad-559aecab0777": {
+  "Orgc": {
+   "name": "FerroMagnet",
+   "uuid": "560e70be-921d-5f72-b281-7e6af1620e06"
+  },
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   },
+   {
+    "name": "type:OSINT"
+   },
+   {
+    "name": "kill-chain:Command and Control"
+   },
+   {
+    "name": "misp-galaxy:malpedia=\"NetSupportManager RAT\""
+   }
+  ],
+  "analysis": "1",
+  "date": "2026-10-03",
+  "info": "FerroMagnet: NetSupportGateway C2 infrastructure",
+  "threat_level_id": "2",
+  "timestamp": "1791008919"
+ },
  "03c48848-e564-5b45-b1dd-5771b91458de": {
   "Orgc": {
    "name": "FerroMagnet",
@@ -22,7 +47,110 @@
   "date": "2026-09-30",
   "info": "FerroMagnet: GhostSocks C2 infrastructure",
   "threat_level_id": "2",
-  "timestamp": "1791002519"
+  "timestamp": "1791007592"
+ },
+ "066cd833-0430-555d-b3ca-9a55783df6d8": {
+  "Orgc": {
+   "name": "FerroMagnet",
+   "uuid": "560e70be-921d-5f72-b281-7e6af1620e06"
+  },
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   },
+   {
+    "name": "type:OSINT"
+   },
+   {
+    "name": "kill-chain:Command and Control"
+   },
+   {
+    "name": "misp-galaxy:malpedia=\"AsyncRAT\""
+   },
+   {
+    "name": "misp-galaxy:mitre-tool=\"AsyncRAT - S1087\""
+   }
+  ],
+  "analysis": "1",
+  "date": "2026-09-30",
+  "info": "FerroMagnet: AsyncRAT C2 infrastructure",
+  "threat_level_id": "2",
+  "timestamp": "1791008919"
+ },
+ "0d1155dc-6a0f-55a9-aff8-3af3bc1a697a": {
+  "Orgc": {
+   "name": "FerroMagnet",
+   "uuid": "560e70be-921d-5f72-b281-7e6af1620e06"
+  },
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   },
+   {
+    "name": "type:OSINT"
+   },
+   {
+    "name": "kill-chain:Command and Control"
+   },
+   {
+    "name": "misp-galaxy:malpedia=\"Empire\""
+   },
+   {
+    "name": "misp-galaxy:mitre-tool=\"Empire - S0363\""
+   }
+  ],
+  "analysis": "1",
+  "date": "2026-10-03",
+  "info": "FerroMagnet: Empire C2 infrastructure",
+  "threat_level_id": "2",
+  "timestamp": "1791008919"
+ },
+ "0d474b80-045f-5a58-b9a5-64f5c01af1a7": {
+  "Orgc": {
+   "name": "FerroMagnet",
+   "uuid": "560e70be-921d-5f72-b281-7e6af1620e06"
+  },
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   },
+   {
+    "name": "type:OSINT"
+   },
+   {
+    "name": "kill-chain:Command and Control"
+   },
+   {
+    "name": "misp-galaxy:mitre-tool=\"FRP - S1144\""
+   }
+  ],
+  "analysis": "1",
+  "date": "2026-10-03",
+  "info": "FerroMagnet: FRP offensive-tooling infrastructure",
+  "threat_level_id": "2",
+  "timestamp": "1791008919"
+ },
+ "2d3f902c-32a2-5d74-9691-21a8fe3d7e70": {
+  "Orgc": {
+   "name": "FerroMagnet",
+   "uuid": "560e70be-921d-5f72-b281-7e6af1620e06"
+  },
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   },
+   {
+    "name": "type:OSINT"
+   },
+   {
+    "name": "kill-chain:Command and Control"
+   }
+  ],
+  "analysis": "1",
+  "date": "2026-10-03",
+  "info": "FerroMagnet: nps offensive-tooling infrastructure",
+  "threat_level_id": "2",
+  "timestamp": "1791008919"
  },
  "32398314-51c0-5ffd-bc03-0c6c7075f304": {
   "Orgc": {
@@ -47,7 +175,7 @@
   "date": "2026-09-30",
   "info": "FerroMagnet: DcRat C2 infrastructure",
   "threat_level_id": "2",
-  "timestamp": "1791003687"
+  "timestamp": "1791007700"
  },
  "39a4cf53-edcb-556a-87ac-758ec302baf9": {
   "Orgc": {
@@ -69,7 +197,7 @@
   "date": "2026-09-29",
   "info": "FerroMagnet: Supershell C2 infrastructure",
   "threat_level_id": "2",
-  "timestamp": "1790991073"
+  "timestamp": "1791008208"
  },
  "3b46bba8-e292-592b-90ac-52beb2cc3b49": {
   "Orgc": {
@@ -94,7 +222,7 @@
   "date": "2026-09-30",
   "info": "FerroMagnet: PureLogs C2 infrastructure",
   "threat_level_id": "2",
-  "timestamp": "1790991073"
+  "timestamp": "1791008208"
  },
  "3e1f45e9-a809-5ed6-8c0d-38966ce0facf": {
   "Orgc": {
@@ -122,7 +250,7 @@
   "date": "2026-09-28",
   "info": "FerroMagnet: Sliver C2 infrastructure",
   "threat_level_id": "2",
-  "timestamp": "1791003258"
+  "timestamp": "1791008208"
  },
  "67be6bfb-a0b2-5688-bb30-ea592c24dee1": {
   "Orgc": {
@@ -172,7 +300,29 @@
   "date": "2026-09-30",
   "info": "FerroMagnet: Ligolo-ng offensive-tooling infrastructure",
   "threat_level_id": "2",
-  "timestamp": "1790982996"
+  "timestamp": "1791008107"
+ },
+ "7d00c3eb-05cd-5e5e-889f-4a27c57bfa0d": {
+  "Orgc": {
+   "name": "FerroMagnet",
+   "uuid": "560e70be-921d-5f72-b281-7e6af1620e06"
+  },
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   },
+   {
+    "name": "type:OSINT"
+   },
+   {
+    "name": "kill-chain:Command and Control"
+   }
+  ],
+  "analysis": "1",
+  "date": "2026-10-03",
+  "info": "FerroMagnet: NimPlant C2 infrastructure",
+  "threat_level_id": "2",
+  "timestamp": "1791008919"
  },
  "7d4fbc48-32b2-5da4-8b4b-ca6f2881dfaf": {
   "Orgc": {
@@ -197,7 +347,7 @@
   "date": "2026-09-30",
   "info": "FerroMagnet: VShell C2 infrastructure",
   "threat_level_id": "2",
-  "timestamp": "1790981598"
+  "timestamp": "1791008107"
  },
  "82d6ee72-1c98-521b-9636-9b19816f0a74": {
   "Orgc": {
@@ -225,7 +375,7 @@
   "date": "2026-09-30",
   "info": "FerroMagnet: DinDoor C2 infrastructure",
   "threat_level_id": "2",
-  "timestamp": "1790978189"
+  "timestamp": "1791007762"
  },
  "86fd3a85-0e49-556c-828e-0ed5332c7d94": {
   "Orgc": {
@@ -253,7 +403,35 @@
   "date": "2026-09-30",
   "info": "FerroMagnet: PoshC2 C2 infrastructure",
   "threat_level_id": "2",
-  "timestamp": "1790978189"
+  "timestamp": "1791007347"
+ },
+ "99dbd8ca-effb-5172-9c70-4a0a52394ef5": {
+  "Orgc": {
+   "name": "FerroMagnet",
+   "uuid": "560e70be-921d-5f72-b281-7e6af1620e06"
+  },
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   },
+   {
+    "name": "type:OSINT"
+   },
+   {
+    "name": "kill-chain:Command and Control"
+   },
+   {
+    "name": "misp-galaxy:malpedia=\"Cobalt Strike\""
+   },
+   {
+    "name": "misp-galaxy:mitre-tool=\"Cobalt Strike - S0154\""
+   }
+  ],
+  "analysis": "1",
+  "date": "2026-10-03",
+  "info": "FerroMagnet: CobaltStrike C2 infrastructure",
+  "threat_level_id": "2",
+  "timestamp": "1791008919"
  },
  "9ab13534-45ae-5a35-bb8c-d27adc602873": {
   "Orgc": {
@@ -275,7 +453,7 @@
   "date": "2026-09-30",
   "info": "FerroMagnet: Viper C2 infrastructure",
   "threat_level_id": "2",
-  "timestamp": "1790975237"
+  "timestamp": "1791008208"
  },
  "b065a6ee-9b2c-591e-b8e0-99a5281841ef": {
   "Orgc": {
@@ -297,7 +475,7 @@
   "date": "2026-09-26",
   "info": "FerroMagnet: Oktos offensive-tooling infrastructure",
   "threat_level_id": "2",
-  "timestamp": "1790960472"
+  "timestamp": "1791008208"
  },
  "b0fed4f0-43b5-5415-b968-2c6c69ac3bba": {
   "Orgc": {
@@ -325,7 +503,7 @@
   "date": "2026-09-30",
   "info": "FerroMagnet: Havoc C2 infrastructure",
   "threat_level_id": "2",
-  "timestamp": "1790991073"
+  "timestamp": "1791008206"
  },
  "b158b9fa-137f-59a5-930e-2981c3b6240c": {
   "Orgc": {
@@ -350,7 +528,35 @@
   "date": "2026-09-30",
   "info": "FerroMagnet: Mythic C2 infrastructure",
   "threat_level_id": "2",
-  "timestamp": "1790991073"
+  "timestamp": "1791008208"
+ },
+ "b1d34523-a298-566f-9cb6-cd0f53beaedc": {
+  "Orgc": {
+   "name": "FerroMagnet",
+   "uuid": "560e70be-921d-5f72-b281-7e6af1620e06"
+  },
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   },
+   {
+    "name": "type:OSINT"
+   },
+   {
+    "name": "kill-chain:Command and Control"
+   },
+   {
+    "name": "misp-galaxy:malpedia=\"Brute Ratel C4\""
+   },
+   {
+    "name": "misp-galaxy:mitre-tool=\"Brute Ratel C4 - S1063\""
+   }
+  ],
+  "analysis": "1",
+  "date": "2026-10-03",
+  "info": "FerroMagnet: BruteRatel C2 infrastructure",
+  "threat_level_id": "2",
+  "timestamp": "1791008919"
  },
  "b3777d25-4197-5b09-a5df-b8fad6530ae1": {
   "Orgc": {
@@ -375,7 +581,7 @@
   "date": "2026-09-30",
   "info": "FerroMagnet: VenomRAT C2 infrastructure",
   "threat_level_id": "2",
-  "timestamp": "1790980399"
+  "timestamp": "1791007700"
  },
  "b47018c8-59cf-581e-9054-9e6c57fffeeb": {
   "Orgc": {
@@ -403,7 +609,7 @@
   "date": "2026-09-30",
   "info": "FerroMagnet: PureRAT C2 infrastructure",
   "threat_level_id": "2",
-  "timestamp": "1791003935"
+  "timestamp": "1791007653"
  },
  "b6918bea-aeb3-5821-ab5d-10d00144f919": {
   "Orgc": {
@@ -456,7 +662,29 @@
   "date": "2026-09-30",
   "info": "FerroMagnet: QuasarRAT C2 infrastructure",
   "threat_level_id": "2",
-  "timestamp": "1791003692"
+  "timestamp": "1791007698"
+ },
+ "d586faf0-c866-58db-bf80-338a9b28fecd": {
+  "Orgc": {
+   "name": "FerroMagnet",
+   "uuid": "560e70be-921d-5f72-b281-7e6af1620e06"
+  },
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   },
+   {
+    "name": "type:OSINT"
+   },
+   {
+    "name": "kill-chain:Command and Control"
+   }
+  ],
+  "analysis": "1",
+  "date": "2026-10-03",
+  "info": "FerroMagnet: Covenant C2 infrastructure",
+  "threat_level_id": "2",
+  "timestamp": "1791008919"
  },
  "d7fe7f99-9ee9-5a98-819d-4cec2b23d3ef": {
   "Orgc": {
@@ -481,7 +709,7 @@
   "date": "2026-09-02",
   "info": "FerroMagnet: AdaptixC2 C2 infrastructure",
   "threat_level_id": "2",
-  "timestamp": "1790998302"
+  "timestamp": "1791008208"
  },
  "e95299b4-9abf-57a3-9f75-1df0977f122d": {
   "Orgc": {
@@ -503,6 +731,28 @@
   "date": "2026-09-20",
   "info": "FerroMagnet: Reverse_SSH offensive-tooling infrastructure",
   "threat_level_id": "2",
-  "timestamp": "1790978189"
+  "timestamp": "1791008208"
+ },
+ "fb3a40e6-105e-55a1-8df4-04d9b8b87537": {
+  "Orgc": {
+   "name": "FerroMagnet",
+   "uuid": "560e70be-921d-5f72-b281-7e6af1620e06"
+  },
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   },
+   {
+    "name": "type:OSINT"
+   },
+   {
+    "name": "kill-chain:Command and Control"
+   }
+  ],
+  "analysis": "1",
+  "date": "2026-10-03",
+  "info": "FerroMagnet: DeimosC2 C2 infrastructure",
+  "threat_level_id": "2",
+  "timestamp": "1791008919"
  }
 }

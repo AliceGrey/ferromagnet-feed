@@ -1,0 +1,104 @@
+{
+ "Event": {
+  "uuid": "d586faf0-c866-58db-bf80-338a9b28fecd",
+  "info": "FerroMagnet: Covenant C2 infrastructure",
+  "date": "2026-10-03",
+  "analysis": "1",
+  "threat_level_id": "2",
+  "distribution": "3",
+  "published": true,
+  "timestamp": "1791008919",
+  "publish_timestamp": "1791008919",
+  "extends_uuid": "",
+  "protected": null,
+  "Orgc": {
+   "name": "FerroMagnet",
+   "uuid": "560e70be-921d-5f72-b281-7e6af1620e06"
+  },
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   },
+   {
+    "name": "type:OSINT"
+   },
+   {
+    "name": "kill-chain:Command and Control"
+   }
+  ],
+  "Attribute": [
+   {
+    "uuid": "7e5977c2-7ce5-56d3-b10b-7decd420b1ff",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "77.241.196.163",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:09:48+00:00",
+    "last_seen": "2026-10-03T05:16:40+00:00",
+    "comment": "Covenant c2; confidence 95; last verified live 2026-10-03T05:16:40Z; expires 2026-10-17T05:16:40Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "4894d594-d6ee-5c80-9b14-23b7cbc85215",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "89.58.30.49",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:09:48+00:00",
+    "last_seen": "2026-10-03T05:16:40+00:00",
+    "comment": "Covenant c2; confidence 95; last verified live 2026-10-03T05:16:40Z; expires 2026-10-17T05:16:40Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "8561c503-fb01-5508-87c3-b888e0ddaad4",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "77.241.196.163|7443",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:09:48+00:00",
+    "last_seen": "2026-10-03T05:16:40+00:00",
+    "comment": "Covenant c2; confidence 95; last verified live 2026-10-03T05:16:40Z; expires 2026-10-17T05:16:40Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "3e5a0e00-c4da-5029-a446-a0851c7d490f",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "89.58.30.49|7443",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:09:48+00:00",
+    "last_seen": "2026-10-03T05:16:40+00:00",
+    "comment": "Covenant c2; confidence 95; last verified live 2026-10-03T05:16:40Z; expires 2026-10-17T05:16:40Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   }
+  ]
+ }
+}

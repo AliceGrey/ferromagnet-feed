@@ -1,0 +1,254 @@
+{
+ "Event": {
+  "uuid": "b1d34523-a298-566f-9cb6-cd0f53beaedc",
+  "info": "FerroMagnet: BruteRatel C2 infrastructure",
+  "date": "2026-10-03",
+  "analysis": "1",
+  "threat_level_id": "2",
+  "distribution": "3",
+  "published": true,
+  "timestamp": "1791008919",
+  "publish_timestamp": "1791008919",
+  "extends_uuid": "",
+  "protected": null,
+  "Orgc": {
+   "name": "FerroMagnet",
+   "uuid": "560e70be-921d-5f72-b281-7e6af1620e06"
+  },
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   },
+   {
+    "name": "type:OSINT"
+   },
+   {
+    "name": "kill-chain:Command and Control"
+   },
+   {
+    "name": "misp-galaxy:malpedia=\"Brute Ratel C4\""
+   },
+   {
+    "name": "misp-galaxy:mitre-tool=\"Brute Ratel C4 - S1063\""
+   }
+  ],
+  "Attribute": [
+   {
+    "uuid": "b2f4f11e-63a8-5290-a950-b9f2f4cad587",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "159.65.42.43",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:10:04+00:00",
+    "last_seen": "2026-10-03T05:27:55+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-03T05:27:55Z; expires 2026-10-17T05:27:55Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "2b9ff77f-deee-54b7-b75a-5b6ed3a55448",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "213.199.35.149",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:10:04+00:00",
+    "last_seen": "2026-10-03T05:27:55+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-03T05:27:55Z; expires 2026-10-17T05:27:55Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "7ef1e852-20a5-5a67-9adc-a167675c3f22",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "37.119.57.195",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:10:04+00:00",
+    "last_seen": "2026-10-03T05:27:55+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-03T05:27:55Z; expires 2026-10-17T05:27:55Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "082def7b-adad-502c-979f-025e9139328a",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "45.55.98.175",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:10:04+00:00",
+    "last_seen": "2026-10-03T05:27:55+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-03T05:27:55Z; expires 2026-10-17T05:27:55Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "8dafb892-1fd1-56b7-b965-2ecea23461e4",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "52.196.90.106",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:10:04+00:00",
+    "last_seen": "2026-10-03T05:27:55+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-03T05:27:55Z; expires 2026-10-17T05:27:55Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "b0a70eea-9692-5056-8077-4faebaad0884",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "57.182.163.105",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:10:04+00:00",
+    "last_seen": "2026-10-03T05:27:55+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-03T05:27:55Z; expires 2026-10-17T05:27:55Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "fcc4e4d4-e0de-563a-9663-180cc7b20200",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "159.65.42.43|60560",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:10:04+00:00",
+    "last_seen": "2026-10-03T05:27:55+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-03T05:27:55Z; expires 2026-10-17T05:27:55Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "87cb232c-0fea-545d-9582-68c02091c964",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "213.199.35.149|443",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:10:04+00:00",
+    "last_seen": "2026-10-03T05:27:55+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-03T05:27:55Z; expires 2026-10-17T05:27:55Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "3b4199e4-5d6f-5cf0-9f58-16732fa3a6c6",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "37.119.57.195|9002",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:10:04+00:00",
+    "last_seen": "2026-10-03T05:27:55+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-03T05:27:55Z; expires 2026-10-17T05:27:55Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "56078141-cfe8-504f-a9c2-b2153f445181",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "45.55.98.175|60560",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:10:04+00:00",
+    "last_seen": "2026-10-03T05:27:55+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-03T05:27:55Z; expires 2026-10-17T05:27:55Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "325d046e-cb57-50bf-aeff-623791396c7b",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "52.196.90.106|80",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:10:04+00:00",
+    "last_seen": "2026-10-03T05:27:55+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-03T05:27:55Z; expires 2026-10-17T05:27:55Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "5defd8b0-5237-569f-915c-b3ceafe9e00b",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "57.182.163.105|80",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:10:04+00:00",
+    "last_seen": "2026-10-03T05:27:55+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-03T05:27:55Z; expires 2026-10-17T05:27:55Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   }
+  ]
+ }
+}

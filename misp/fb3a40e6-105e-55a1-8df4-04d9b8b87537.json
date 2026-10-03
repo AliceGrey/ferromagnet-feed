@@ -1,0 +1,176 @@
+{
+ "Event": {
+  "uuid": "fb3a40e6-105e-55a1-8df4-04d9b8b87537",
+  "info": "FerroMagnet: DeimosC2 C2 infrastructure",
+  "date": "2026-10-03",
+  "analysis": "1",
+  "threat_level_id": "2",
+  "distribution": "3",
+  "published": true,
+  "timestamp": "1791008919",
+  "publish_timestamp": "1791008919",
+  "extends_uuid": "",
+  "protected": null,
+  "Orgc": {
+   "name": "FerroMagnet",
+   "uuid": "560e70be-921d-5f72-b281-7e6af1620e06"
+  },
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   },
+   {
+    "name": "type:OSINT"
+   },
+   {
+    "name": "kill-chain:Command and Control"
+   }
+  ],
+  "Attribute": [
+   {
+    "uuid": "b73302ac-9cd5-5462-8126-df2b5f4bf857",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "116.196.85.61",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:10:05+00:00",
+    "last_seen": "2026-10-03T05:27:55+00:00",
+    "comment": "DeimosC2 c2; confidence 90; last verified live 2026-10-03T05:27:55Z; expires 2026-10-17T05:27:55Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "7912e53e-ccef-5929-8e55-18dcdf2ab468",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "20.2.91.42",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:10:05+00:00",
+    "last_seen": "2026-10-03T05:27:55+00:00",
+    "comment": "DeimosC2 c2; confidence 90; last verified live 2026-10-03T05:27:55Z; expires 2026-10-17T05:27:55Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "86e5743b-eab1-555f-838b-1b151c3c13fb",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "20.212.240.137",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:10:05+00:00",
+    "last_seen": "2026-10-03T05:27:55+00:00",
+    "comment": "DeimosC2 c2; confidence 90; last verified live 2026-10-03T05:27:55Z; expires 2026-10-17T05:27:55Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "f4590366-6096-575c-9e8e-a49e05261a30",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "5.230.75.234",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:10:05+00:00",
+    "last_seen": "2026-10-03T05:27:55+00:00",
+    "comment": "DeimosC2 c2; confidence 90; last verified live 2026-10-03T05:27:55Z; expires 2026-10-17T05:27:55Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "c2acf70e-0af8-5eeb-a571-a484e0924b77",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "116.196.85.61|58195",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:10:05+00:00",
+    "last_seen": "2026-10-03T05:27:55+00:00",
+    "comment": "DeimosC2 c2; confidence 90; last verified live 2026-10-03T05:27:55Z; expires 2026-10-17T05:27:55Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "2fb22a06-5ce7-5465-8e29-31dedde32830",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "20.2.91.42|58195",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:10:05+00:00",
+    "last_seen": "2026-10-03T05:27:55+00:00",
+    "comment": "DeimosC2 c2; confidence 90; last verified live 2026-10-03T05:27:55Z; expires 2026-10-17T05:27:55Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "df98d86d-7e76-5b11-9727-aed9f6853739",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "20.212.240.137|54055",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:10:05+00:00",
+    "last_seen": "2026-10-03T05:27:55+00:00",
+    "comment": "DeimosC2 c2; confidence 90; last verified live 2026-10-03T05:27:55Z; expires 2026-10-17T05:27:55Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "2ca78c40-4105-53e5-8dcb-6fac82b86623",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "5.230.75.234|8443",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791008919",
+    "first_seen": "2026-10-03T05:10:05+00:00",
+    "last_seen": "2026-10-03T05:27:55+00:00",
+    "comment": "DeimosC2 c2; confidence 90; last verified live 2026-10-03T05:27:55Z; expires 2026-10-17T05:27:55Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   }
+  ]
+ }
+}
