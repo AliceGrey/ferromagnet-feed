@@ -8,7 +8,7 @@ commit is one refresh in which at least one file changed. TLP:CLEAR.
 |---|---|
 | `ip_port.txt` | one `ip:port` per line, grouped by family, with a trailing comment |
 | `ip.txt` | one address per line, grouped by family |
-| `iocs.csv` | every indicator: family, kind, confidence, timestamps, ip, port, STIX pattern |
+| `iocs.csv` | every indicator: family, kind, confidence, times, ip, port, STIX pattern, cluster |
 | `iocs.json` | the same, as a document with `generated_at` and `count` |
 | `misp/` | a MISP feed: `manifest.json`, one event per family, `hashes.csv` |
 | `stix/bundle.json` | STIX 2.1: indicators, addresses, a malware per family, relationships |
@@ -27,6 +27,11 @@ IPv6 `ip:port` values are bracketed: `[2001:db8::1]:443`.
 An address used by several families is listed once under each of them (one actor often
 runs several tools on one host); in `stix/bundle.json` it is one indicator that indicates
 each family.
+`cluster_id` (`FM-C-0042`; MISP comment `cluster FM-C-0042`, STIX `x_ferromagnet_cluster`)
+groups addresses that share operator-chosen infrastructure (a generated certificate, an
+SSH host key, names in a certificate) at overlapping times. It is an opaque, stable label
+for grouping indicators by operator, not an attribution, and it says nothing about what
+was shared. Addresses with no such link have no cluster id.
 
 ## MISP
 
