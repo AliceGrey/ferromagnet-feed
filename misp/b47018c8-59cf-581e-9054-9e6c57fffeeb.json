@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1791094051",
-  "publish_timestamp": "1791094051",
+  "timestamp": "1791097653",
+  "publish_timestamp": "1791097653",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -2219,10 +2219,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1791079657",
+    "timestamp": "1791097653",
     "first_seen": "2026-09-30T19:07:15+00:00",
-    "last_seen": "2026-10-04T04:41:41+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-04T04:41:41Z; expires 2026-10-18T04:41:41Z; cluster FM-C-0181",
+    "last_seen": "2026-10-04T07:03:20+00:00",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-04T07:03:20Z; expires 2026-10-18T07:03:20Z; cluster FM-C-0181",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -3364,6 +3364,24 @@
     ]
    },
    {
+    "uuid": "4c89f1e0-c8cc-51ae-984c-9e2d6c6f7ec5",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "179.236.107.22",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791079651",
+    "first_seen": "2026-09-30T19:07:12+00:00",
+    "last_seen": "2026-10-04T06:36:23+00:00",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-04T06:36:23Z; expires 2026-10-18T06:36:23Z; cluster FM-C-0195",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "fbe18553-726d-55a5-b037-292d67b31fce",
     "type": "ip-dst",
     "category": "Network activity",
@@ -4307,10 +4325,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1791079652",
+    "timestamp": "1791097653",
     "first_seen": "2026-09-30T19:07:12+00:00",
-    "last_seen": "2026-10-04T02:07:32+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-03T18:31:44Z; expires 2026-10-18T02:07:32Z; cluster FM-C-0329",
+    "last_seen": "2026-10-04T06:43:40+00:00",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-04T06:43:40Z; expires 2026-10-18T06:43:40Z; cluster FM-C-0329",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -13660,6 +13678,24 @@
     ]
    },
    {
+    "uuid": "4a84ec2f-e379-5fe3-a9a6-1a34ff45f59b",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "154.12.226.43|56002",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791079656",
+    "first_seen": "2026-10-01T07:46:22+00:00",
+    "last_seen": "2026-10-04T07:03:20+00:00",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-04T07:03:20Z; expires 2026-10-18T07:03:20Z; cluster FM-C-0181",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "9f86737c-9a2a-5042-b74c-f6026bcef8c2",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -16468,6 +16504,24 @@
     ]
    },
    {
+    "uuid": "337a79fb-5b69-5790-af1a-ca10abc385a5",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "179.236.107.22|56003",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791079651",
+    "first_seen": "2026-10-01T07:46:14+00:00",
+    "last_seen": "2026-10-04T06:36:23+00:00",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-04T06:36:23Z; expires 2026-10-18T06:36:23Z; cluster FM-C-0195",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "c75e32b4-c71a-5bb2-b807-2ea23977abbc",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -18909,6 +18963,24 @@
     "first_seen": "2026-09-30T19:07:12+00:00",
     "last_seen": "2026-10-04T02:07:32+00:00",
     "comment": "PureRAT c2; confidence 85; last verified live 2026-10-03T18:31:44Z; expires 2026-10-18T02:07:32Z; cluster FM-C-0329",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "d85cc6cf-e8e0-576f-b2e8-52c386e39f47",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "196.251.121.52|56002",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791079649",
+    "first_seen": "2026-10-01T07:46:14+00:00",
+    "last_seen": "2026-10-04T06:43:40+00:00",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-04T06:43:40Z; expires 2026-10-18T06:43:40Z; cluster FM-C-0329",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
