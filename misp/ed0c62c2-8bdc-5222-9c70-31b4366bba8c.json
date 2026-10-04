@@ -1,0 +1,287 @@
+{
+ "Event": {
+  "uuid": "ed0c62c2-8bdc-5222-9c70-31b4366bba8c",
+  "info": "FerroMagnet: Pupy C2 infrastructure",
+  "date": "2026-10-03",
+  "analysis": "1",
+  "threat_level_id": "2",
+  "distribution": "3",
+  "published": true,
+  "timestamp": "1791076336",
+  "publish_timestamp": "1791076336",
+  "extends_uuid": "",
+  "protected": null,
+  "Orgc": {
+   "name": "FerroMagnet",
+   "uuid": "560e70be-921d-5f72-b281-7e6af1620e06"
+  },
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   },
+   {
+    "name": "type:OSINT"
+   },
+   {
+    "name": "kill-chain:Command and Control"
+   },
+   {
+    "name": "misp-galaxy:mitre-tool=\"Pupy - S0192\""
+   }
+  ],
+  "Attribute": [
+   {
+    "uuid": "d0aaf2cd-bfc7-5e5b-a516-eaa348e10461",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "185.70.104.61",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791076336",
+    "first_seen": "2026-10-03T05:12:49+00:00",
+    "last_seen": "2026-10-04T01:12:16+00:00",
+    "comment": "Pupy c2; confidence 90; last verified live 2026-10-04T01:12:16Z; expires 2026-10-18T01:12:16Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "b189746e-2cb0-577d-a2eb-8d0a09b0284b",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "193.233.230.144",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791076305",
+    "first_seen": "2026-10-03T05:12:49+00:00",
+    "last_seen": "2026-10-04T01:11:45+00:00",
+    "comment": "Pupy c2; confidence 90; last verified live 2026-10-04T01:11:45Z; expires 2026-10-18T01:11:45Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "2af79cb2-7cee-5ef0-b13c-4ca0a08f750b",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "195.58.48.140",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791076311",
+    "first_seen": "2026-10-03T05:12:49+00:00",
+    "last_seen": "2026-10-04T01:11:51+00:00",
+    "comment": "Pupy c2; confidence 90; last verified live 2026-10-04T01:11:51Z; expires 2026-10-18T01:11:51Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "dc7e012a-f39c-546c-823c-cfb71572d558",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "195.58.48.183",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791076320",
+    "first_seen": "2026-10-03T05:12:49+00:00",
+    "last_seen": "2026-10-04T01:12:00+00:00",
+    "comment": "Pupy c2; confidence 90; last verified live 2026-10-04T01:12:00Z; expires 2026-10-18T01:12:00Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "6e9df50b-73e6-5b1e-aa8d-72835b4759fd",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "195.58.48.42",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791076330",
+    "first_seen": "2026-10-03T05:12:49+00:00",
+    "last_seen": "2026-10-04T01:12:10+00:00",
+    "comment": "Pupy c2; confidence 90; last verified live 2026-10-04T01:12:10Z; expires 2026-10-18T01:12:10Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "bd64cbb1-03d4-5451-9ee2-7ab8b6b4b02c",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "45.130.147.46",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791076314",
+    "first_seen": "2026-10-03T05:12:49+00:00",
+    "last_seen": "2026-10-04T01:11:54+00:00",
+    "comment": "Pupy c2; confidence 90; last verified live 2026-10-04T01:11:54Z; expires 2026-10-18T01:11:54Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "b945b616-4b48-5ce8-8699-14e7eedeecbd",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "5.252.176.63",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791076326",
+    "first_seen": "2026-10-03T05:12:49+00:00",
+    "last_seen": "2026-10-04T01:12:06+00:00",
+    "comment": "Pupy c2; confidence 90; last verified live 2026-10-04T01:12:06Z; expires 2026-10-18T01:12:06Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "81c668c1-4771-537c-8454-dc5b200b8430",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "185.70.104.61|44692",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791076336",
+    "first_seen": "2026-10-03T05:12:49+00:00",
+    "last_seen": "2026-10-04T01:12:16+00:00",
+    "comment": "Pupy c2; confidence 90; last verified live 2026-10-04T01:12:16Z; expires 2026-10-18T01:12:16Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "4e63e8de-2fb2-5b21-ba58-732b25aa77a1",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "193.233.230.144|62732",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791076305",
+    "first_seen": "2026-10-03T05:12:49+00:00",
+    "last_seen": "2026-10-04T01:11:45+00:00",
+    "comment": "Pupy c2; confidence 90; last verified live 2026-10-04T01:11:45Z; expires 2026-10-18T01:11:45Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "bfd3abe7-8be8-5297-b365-3d5369accb98",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "195.58.48.140|49931",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791076311",
+    "first_seen": "2026-10-03T05:12:49+00:00",
+    "last_seen": "2026-10-04T01:11:51+00:00",
+    "comment": "Pupy c2; confidence 90; last verified live 2026-10-04T01:11:51Z; expires 2026-10-18T01:11:51Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "8c2fb598-bae2-5a25-a79f-f7f529269dd9",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "195.58.48.183|51528",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791076320",
+    "first_seen": "2026-10-03T05:12:49+00:00",
+    "last_seen": "2026-10-04T01:12:00+00:00",
+    "comment": "Pupy c2; confidence 90; last verified live 2026-10-04T01:12:00Z; expires 2026-10-18T01:12:00Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "351c85e7-0330-593e-9458-fd6baede6f6c",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "195.58.48.42|51545",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791076330",
+    "first_seen": "2026-10-03T05:12:49+00:00",
+    "last_seen": "2026-10-04T01:12:10+00:00",
+    "comment": "Pupy c2; confidence 90; last verified live 2026-10-04T01:12:10Z; expires 2026-10-18T01:12:10Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "d1797d1d-8770-5ffe-8925-1cad760a4f1b",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "45.130.147.46|51432",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791076314",
+    "first_seen": "2026-10-03T05:12:49+00:00",
+    "last_seen": "2026-10-04T01:11:54+00:00",
+    "comment": "Pupy c2; confidence 90; last verified live 2026-10-04T01:11:54Z; expires 2026-10-18T01:11:54Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "c8d2009c-0352-582c-8a4f-17934621c8e3",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "5.252.176.63|64539",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791076326",
+    "first_seen": "2026-10-03T05:12:49+00:00",
+    "last_seen": "2026-10-04T01:12:06+00:00",
+    "comment": "Pupy c2; confidence 90; last verified live 2026-10-04T01:12:06Z; expires 2026-10-18T01:12:06Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   }
+  ]
+ }
+}
