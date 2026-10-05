@@ -1,0 +1,140 @@
+{
+ "Event": {
+  "uuid": "08f10fe3-0523-5a3b-993d-fc375a9d9026",
+  "info": "FerroMagnet: JAR Staging offensive-tooling infrastructure",
+  "date": "2026-10-05",
+  "analysis": "1",
+  "threat_level_id": "2",
+  "distribution": "3",
+  "published": true,
+  "timestamp": "1791180449",
+  "publish_timestamp": "1791180449",
+  "extends_uuid": "",
+  "protected": null,
+  "Orgc": {
+   "name": "FerroMagnet",
+   "uuid": "560e70be-921d-5f72-b281-7e6af1620e06"
+  },
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   },
+   {
+    "name": "type:OSINT"
+   },
+   {
+    "name": "kill-chain:Delivery"
+   }
+  ],
+  "Attribute": [
+   {
+    "uuid": "15efe8c9-cd01-51fc-9bcb-cd09fb17768e",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "124.220.46.83",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791180449",
+    "first_seen": "2026-10-05T05:07:16+00:00",
+    "last_seen": "2026-10-05T06:07:09+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-10-05T05:33:25Z; expires 2026-10-19T06:07:09Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "15a9d744-8c4b-5f3e-a0ee-d1d8c57855c5",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "38.76.191.231",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791180449",
+    "first_seen": "2026-10-05T05:07:16+00:00",
+    "last_seen": "2026-10-05T05:32:23+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-10-05T05:32:23Z; expires 2026-10-19T05:32:23Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "e620c2aa-f7e5-5b98-829e-1e503c91ff3d",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "124.220.46.83|19200",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791180449",
+    "first_seen": "2026-10-05T05:07:16+00:00",
+    "last_seen": "2026-10-05T05:33:25+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-10-05T05:33:25Z; expires 2026-10-19T05:33:25Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "e14e289a-e39d-57b2-b6ea-b52529ac48c0",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "124.220.46.83|19205",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791180449",
+    "first_seen": "2026-10-05T05:07:16+00:00",
+    "last_seen": "2026-10-05T06:07:09+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-10-05T05:33:25Z; expires 2026-10-19T06:07:09Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "5d1fcf3d-d5e6-59de-8a1b-2f0e43e7f6f5",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "124.220.46.83|19212",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791180449",
+    "first_seen": "2026-10-05T05:07:16+00:00",
+    "last_seen": "2026-10-05T05:33:25+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-10-05T05:33:25Z; expires 2026-10-19T05:33:25Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "38749f08-ac47-59b4-b1dc-4a7f6f9887b4",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "38.76.191.231|8899",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791180449",
+    "first_seen": "2026-10-05T05:07:16+00:00",
+    "last_seen": "2026-10-05T05:32:23+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-10-05T05:32:23Z; expires 2026-10-19T05:32:23Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   }
+  ]
+ }
+}
