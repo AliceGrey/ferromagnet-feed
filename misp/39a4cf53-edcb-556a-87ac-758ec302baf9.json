@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1791259647",
-  "publish_timestamp": "1791259647",
+  "timestamp": "1791263258",
+  "publish_timestamp": "1791263258",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -874,24 +874,6 @@
     ]
    },
    {
-    "uuid": "044ab446-45a0-5312-a01b-25d1ba9b9ceb",
-    "type": "ip-dst",
-    "category": "Network activity",
-    "value": "91.202.5.107",
-    "to_ids": true,
-    "deleted": false,
-    "distribution": "5",
-    "timestamp": "1791238049",
-    "first_seen": "2026-09-30T17:07:33+00:00",
-    "last_seen": "2026-09-30T22:07:24+00:00",
-    "comment": "Supershell c2; confidence 85; last verified live 2026-09-30T22:07:24Z; expires 2026-10-14T22:07:24Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
-     }
-    ]
-   },
-   {
     "uuid": "0f2d9fa8-9ce0-5ffd-9376-45cf1f7247d4",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -1738,17 +1720,35 @@
     ]
    },
    {
+    "uuid": "044ab446-45a0-5312-a01b-25d1ba9b9ceb",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "91.202.5.107",
+    "to_ids": false,
+    "deleted": true,
+    "distribution": "5",
+    "timestamp": "1791263258",
+    "first_seen": "2026-09-30T17:07:33+00:00",
+    "last_seen": "2026-09-30T22:07:24+00:00",
+    "comment": "Supershell c2; confidence 85; last verified live 2026-09-30T22:07:24Z; expires 2026-10-14T22:07:24Z; no longer observed since 2026-10-06T05:07:38Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "90687f7c-e9b6-537f-a784-08bebe7cf5dd",
     "type": "ip-dst|port",
     "category": "Network activity",
     "value": "91.202.5.107|8888",
-    "to_ids": true,
-    "deleted": false,
+    "to_ids": false,
+    "deleted": true,
     "distribution": "5",
-    "timestamp": "1791238049",
+    "timestamp": "1791263258",
     "first_seen": "2026-09-30T17:07:33+00:00",
     "last_seen": "2026-09-30T22:07:24+00:00",
-    "comment": "Supershell c2; confidence 85; last verified live 2026-09-30T22:07:24Z; expires 2026-10-14T22:07:24Z",
+    "comment": "Supershell c2; confidence 85; last verified live 2026-09-30T22:07:24Z; expires 2026-10-14T22:07:24Z; no longer observed since 2026-10-06T05:07:38Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
