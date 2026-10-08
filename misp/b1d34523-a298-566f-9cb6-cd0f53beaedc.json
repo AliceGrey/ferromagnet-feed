@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1791418054",
-  "publish_timestamp": "1791418054",
+  "timestamp": "1791432464",
+  "publish_timestamp": "1791432464",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -45,6 +45,24 @@
     "first_seen": "2026-10-03T05:10:04+00:00",
     "last_seen": "2026-10-07T23:34:28+00:00",
     "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-07T23:34:28Z; expires 2026-10-21T23:34:28Z; cluster FM-C-0449",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "64624b0f-c41a-53cc-b27c-5ceb6f690052",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "18.176.225.124",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791432464",
+    "first_seen": "2026-10-07T06:07:59+00:00",
+    "last_seen": "2026-10-08T03:16:09+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-08T03:16:09Z; expires 2026-10-22T03:16:09Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -113,10 +131,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1791407252",
+    "timestamp": "1791432464",
     "first_seen": "2026-10-03T05:10:04+00:00",
-    "last_seen": "2026-10-07T20:31:48+00:00",
-    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-07T20:31:48Z; expires 2026-10-21T20:31:48Z",
+    "last_seen": "2026-10-08T03:31:50+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-08T03:31:50Z; expires 2026-10-22T03:31:50Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -153,6 +171,24 @@
     "first_seen": "2026-10-03T05:10:04+00:00",
     "last_seen": "2026-10-07T23:34:28+00:00",
     "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-07T23:34:28Z; expires 2026-10-21T23:34:28Z; cluster FM-C-0449",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "18d34a72-3da1-59df-90fc-19ac131fea84",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "18.176.225.124|80",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791432464",
+    "first_seen": "2026-10-07T06:07:59+00:00",
+    "last_seen": "2026-10-08T03:16:09+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-08T03:16:09Z; expires 2026-10-22T03:16:09Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -221,10 +257,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1791407252",
+    "timestamp": "1791432464",
     "first_seen": "2026-10-03T05:10:04+00:00",
-    "last_seen": "2026-10-07T20:31:48+00:00",
-    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-07T20:31:48Z; expires 2026-10-21T20:31:48Z",
+    "last_seen": "2026-10-08T03:31:50+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-08T03:31:50Z; expires 2026-10-22T03:31:50Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
