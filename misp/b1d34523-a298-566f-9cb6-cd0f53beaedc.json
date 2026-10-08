@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1791493653",
-  "publish_timestamp": "1791493653",
+  "timestamp": "1791500857",
+  "publish_timestamp": "1791500857",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -142,24 +142,6 @@
     ]
    },
    {
-    "uuid": "b0a70eea-9692-5056-8077-4faebaad0884",
-    "type": "ip-dst",
-    "category": "Network activity",
-    "value": "57.182.163.105",
-    "to_ids": true,
-    "deleted": false,
-    "distribution": "5",
-    "timestamp": "1791292052",
-    "first_seen": "2026-10-03T05:10:04+00:00",
-    "last_seen": "2026-10-06T12:42:10+00:00",
-    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-06T12:42:10Z; expires 2026-10-20T12:42:10Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
-     }
-    ]
-   },
-   {
     "uuid": "fcc4e4d4-e0de-563a-9663-180cc7b20200",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -268,17 +250,35 @@
     ]
    },
    {
+    "uuid": "b0a70eea-9692-5056-8077-4faebaad0884",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "57.182.163.105",
+    "to_ids": false,
+    "deleted": true,
+    "distribution": "5",
+    "timestamp": "1791500857",
+    "first_seen": "2026-10-03T05:10:04+00:00",
+    "last_seen": "2026-10-06T12:42:10+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-06T12:42:10Z; expires 2026-10-20T12:42:10Z; no longer observed since 2026-10-08T23:07:37Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "5defd8b0-5237-569f-915c-b3ceafe9e00b",
     "type": "ip-dst|port",
     "category": "Network activity",
     "value": "57.182.163.105|80",
-    "to_ids": true,
-    "deleted": false,
+    "to_ids": false,
+    "deleted": true,
     "distribution": "5",
-    "timestamp": "1791292052",
+    "timestamp": "1791500857",
     "first_seen": "2026-10-03T05:10:04+00:00",
     "last_seen": "2026-10-06T12:42:10+00:00",
-    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-06T12:42:10Z; expires 2026-10-20T12:42:10Z",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-06T12:42:10Z; expires 2026-10-20T12:42:10Z; no longer observed since 2026-10-08T23:07:37Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
