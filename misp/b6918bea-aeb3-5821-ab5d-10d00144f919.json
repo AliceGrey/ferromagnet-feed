@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1791662852",
-  "publish_timestamp": "1791662852",
+  "timestamp": "1791695255",
+  "publish_timestamp": "1791695255",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -49,24 +49,6 @@
     ]
    },
    {
-    "uuid": "b004d76b-ab79-5314-96d1-10adedbd9ca3",
-    "type": "ip-dst",
-    "category": "Network activity",
-    "value": "45.136.15.43",
-    "to_ids": true,
-    "deleted": false,
-    "distribution": "5",
-    "timestamp": "1791601723",
-    "first_seen": "2026-09-30T19:07:20+00:00",
-    "last_seen": "2026-10-08T23:35:17+00:00",
-    "comment": "SparkRAT c2; confidence 85; last verified live 2026-10-08T20:39:38Z; expires 2026-10-22T23:35:17Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
-     }
-    ]
-   },
-   {
     "uuid": "5beb6dce-abc9-578e-a26d-65c2c4e0acbd",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -85,17 +67,35 @@
     ]
    },
    {
+    "uuid": "b004d76b-ab79-5314-96d1-10adedbd9ca3",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "45.136.15.43",
+    "to_ids": false,
+    "deleted": true,
+    "distribution": "5",
+    "timestamp": "1791695255",
+    "first_seen": "2026-09-30T19:07:20+00:00",
+    "last_seen": "2026-10-08T23:35:17+00:00",
+    "comment": "SparkRAT c2; confidence 85; last verified live 2026-10-08T20:39:38Z; expires 2026-10-22T23:35:17Z; no longer observed since 2026-10-11T05:07:35Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "f3806ef0-42ea-5ffb-b4a2-42c168108bbe",
     "type": "ip-dst|port",
     "category": "Network activity",
     "value": "45.136.15.43|8000",
-    "to_ids": true,
-    "deleted": false,
+    "to_ids": false,
+    "deleted": true,
     "distribution": "5",
-    "timestamp": "1791601723",
+    "timestamp": "1791695255",
     "first_seen": "2026-09-30T19:07:20+00:00",
     "last_seen": "2026-10-08T23:35:17+00:00",
-    "comment": "SparkRAT c2; confidence 85; last verified live 2026-10-08T20:39:38Z; expires 2026-10-22T23:35:17Z",
+    "comment": "SparkRAT c2; confidence 85; last verified live 2026-10-08T20:39:38Z; expires 2026-10-22T23:35:17Z; no longer observed since 2026-10-11T05:07:35Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
