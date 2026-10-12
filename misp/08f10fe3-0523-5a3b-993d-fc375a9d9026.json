@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1791763657",
-  "publish_timestamp": "1791763657",
+  "timestamp": "1791767254",
+  "publish_timestamp": "1791767254",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -28,6 +28,24 @@
   ],
   "Attribute": [
    {
+    "uuid": "3f261a72-7950-5cf1-8769-7fcbd4c7a114",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "106.53.181.14",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791767254",
+    "first_seen": "2026-10-11T05:12:53+00:00",
+    "last_seen": "2026-10-12T00:16:09+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-10-12T00:16:09Z; expires 2026-10-26T00:16:09Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "15efe8c9-cd01-51fc-9bcb-cd09fb17768e",
     "type": "ip-dst",
     "category": "Network activity",
@@ -35,10 +53,28 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1791763657",
+    "timestamp": "1791767254",
     "first_seen": "2026-09-18T11:48:46+00:00",
-    "last_seen": "2026-10-11T23:42:45+00:00",
-    "comment": "JAR Staging ost; confidence 80; last verified live 2026-10-11T23:42:45Z; expires 2026-10-25T23:42:45Z",
+    "last_seen": "2026-10-12T00:32:57+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-10-12T00:32:57Z; expires 2026-10-26T00:32:57Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "313a87bd-9704-5835-a673-fe740fee9d89",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "14.128.50.113",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791767254",
+    "first_seen": "2026-10-11T16:16:51+00:00",
+    "last_seen": "2026-10-12T00:16:09+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-10-12T00:16:09Z; expires 2026-10-26T00:16:09Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -82,6 +118,24 @@
     ]
    },
    {
+    "uuid": "580cdecc-0671-54ad-b4d1-07ed81b28e91",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "38.147.189.199",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791767254",
+    "first_seen": "2026-10-11T02:03:49+00:00",
+    "last_seen": "2026-10-12T00:16:09+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-10-12T00:16:09Z; expires 2026-10-26T00:16:09Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "15a9d744-8c4b-5f3e-a0ee-d1d8c57855c5",
     "type": "ip-dst",
     "category": "Network activity",
@@ -93,6 +147,24 @@
     "first_seen": "2026-10-05T05:07:16+00:00",
     "last_seen": "2026-10-11T19:40:42+00:00",
     "comment": "JAR Staging ost; confidence 80; last verified live 2026-10-11T19:40:42Z; expires 2026-10-25T19:40:42Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "2a81b3fe-662b-530d-b745-fbf689a9282b",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "106.53.181.14|18090",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791767254",
+    "first_seen": "2026-10-11T05:12:53+00:00",
+    "last_seen": "2026-10-12T00:16:09+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-10-12T00:16:09Z; expires 2026-10-26T00:16:09Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -125,10 +197,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1791742053",
+    "timestamp": "1791767254",
     "first_seen": "2026-10-05T05:07:16+00:00",
-    "last_seen": "2026-10-11T17:34:00+00:00",
-    "comment": "JAR Staging ost; confidence 80; last verified live 2026-10-11T17:34:00Z; expires 2026-10-25T17:34:00Z",
+    "last_seen": "2026-10-12T00:32:57+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-10-12T00:32:57Z; expires 2026-10-26T00:32:57Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -147,6 +219,24 @@
     "first_seen": "2026-10-05T05:07:16+00:00",
     "last_seen": "2026-10-11T23:42:45+00:00",
     "comment": "JAR Staging ost; confidence 80; last verified live 2026-10-11T23:42:45Z; expires 2026-10-25T23:42:45Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "8663cb14-0a8a-54af-ad61-8a8aa1dc7ecd",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "14.128.50.113|443",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791767254",
+    "first_seen": "2026-10-11T16:16:51+00:00",
+    "last_seen": "2026-10-12T00:16:09+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-10-12T00:16:09Z; expires 2026-10-26T00:16:09Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -219,6 +309,24 @@
     "first_seen": "2026-10-08T12:38:52+00:00",
     "last_seen": "2026-10-10T12:22:24+00:00",
     "comment": "JAR Staging ost; confidence 80; last verified live 2026-10-10T12:22:24Z; expires 2026-10-24T12:22:24Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "053baed5-bc0a-563b-800a-e80560d2a02b",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "38.147.189.199|8000",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791767254",
+    "first_seen": "2026-10-11T02:03:49+00:00",
+    "last_seen": "2026-10-12T00:16:09+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-10-12T00:16:09Z; expires 2026-10-26T00:16:09Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
