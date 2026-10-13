@@ -1,0 +1,140 @@
+{
+ "Event": {
+  "uuid": "69e2c8e5-44ac-5f2a-b783-d50166e2abeb",
+  "info": "FerroMagnet: WebSocket Skimmer C2 infrastructure",
+  "date": "2026-10-11",
+  "analysis": "1",
+  "threat_level_id": "2",
+  "distribution": "3",
+  "published": true,
+  "timestamp": "1791853672",
+  "publish_timestamp": "1791853672",
+  "extends_uuid": "",
+  "protected": null,
+  "Orgc": {
+   "name": "FerroMagnet",
+   "uuid": "560e70be-921d-5f72-b281-7e6af1620e06"
+  },
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   },
+   {
+    "name": "type:OSINT"
+   },
+   {
+    "name": "kill-chain:Command and Control"
+   }
+  ],
+  "Attribute": [
+   {
+    "uuid": "fba3aced-d57f-528e-8a3b-ee1cada87a0a",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "185.28.119.234",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791853672",
+    "first_seen": "2026-10-12T21:56:54+00:00",
+    "last_seen": "2026-10-13T00:57:12+00:00",
+    "comment": "WebSocket Skimmer c2; confidence 85; last verified live 2026-10-13T00:57:12Z; expires 2026-10-27T00:57:12Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "7ddd302c-72be-5fff-80e5-044b4ca94cc6",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "45.86.230.236",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791853672",
+    "first_seen": "2026-10-11T20:29:56+00:00",
+    "last_seen": "2026-10-13T00:57:12+00:00",
+    "comment": "WebSocket Skimmer c2; confidence 85; last verified live 2026-10-13T00:57:12Z; expires 2026-10-27T00:57:12Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "5788868f-fba5-5539-a4e7-d2be901ee418",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "5.188.86.202",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791853672",
+    "first_seen": "2026-10-12T15:12:06+00:00",
+    "last_seen": "2026-10-13T00:57:12+00:00",
+    "comment": "WebSocket Skimmer c2; confidence 85; last verified live 2026-10-13T00:57:12Z; expires 2026-10-27T00:57:12Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "1b2867db-f879-57e6-bf42-358a97d5c78c",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "185.28.119.234|443",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791853672",
+    "first_seen": "2026-10-12T21:56:54+00:00",
+    "last_seen": "2026-10-13T00:57:12+00:00",
+    "comment": "WebSocket Skimmer c2; confidence 85; last verified live 2026-10-13T00:57:12Z; expires 2026-10-27T00:57:12Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "d73334a0-640e-5863-860b-5e302ebfa0fb",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "45.86.230.236|443",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791853672",
+    "first_seen": "2026-10-11T20:29:56+00:00",
+    "last_seen": "2026-10-13T00:57:12+00:00",
+    "comment": "WebSocket Skimmer c2; confidence 85; last verified live 2026-10-13T00:57:12Z; expires 2026-10-27T00:57:12Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "4dca654a-e302-5d25-a799-0ac2350dc520",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "5.188.86.202|443",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791853672",
+    "first_seen": "2026-10-12T15:12:06+00:00",
+    "last_seen": "2026-10-13T00:57:12+00:00",
+    "comment": "WebSocket Skimmer c2; confidence 85; last verified live 2026-10-13T00:57:12Z; expires 2026-10-27T00:57:12Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   }
+  ]
+ }
+}
