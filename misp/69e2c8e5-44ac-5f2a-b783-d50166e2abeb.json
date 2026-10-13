@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1791853672",
-  "publish_timestamp": "1791853672",
+  "timestamp": "1791871701",
+  "publish_timestamp": "1791871701",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -39,6 +39,24 @@
     "first_seen": "2026-10-12T21:56:54+00:00",
     "last_seen": "2026-10-13T00:57:12+00:00",
     "comment": "WebSocket Skimmer c2; confidence 85; last verified live 2026-10-13T00:57:12Z; expires 2026-10-27T00:57:12Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "3fbbfdc5-79c3-5ee6-bd58-bcb34c90648f",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "45.227.255.221",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791871701",
+    "first_seen": "2026-10-12T00:57:16+00:00",
+    "last_seen": "2026-10-13T05:48:25+00:00",
+    "comment": "WebSocket Skimmer c2; confidence 90; last verified live 2026-10-13T05:48:25Z; expires 2026-10-27T05:48:25Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -93,6 +111,24 @@
     "first_seen": "2026-10-12T21:56:54+00:00",
     "last_seen": "2026-10-13T00:57:12+00:00",
     "comment": "WebSocket Skimmer c2; confidence 85; last verified live 2026-10-13T00:57:12Z; expires 2026-10-27T00:57:12Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "bd2736bb-08be-5775-b9d9-9a31166a9b21",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "45.227.255.221|80",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791871701",
+    "first_seen": "2026-10-12T00:57:16+00:00",
+    "last_seen": "2026-10-13T05:48:25+00:00",
+    "comment": "WebSocket Skimmer c2; confidence 90; last verified live 2026-10-13T05:48:25Z; expires 2026-10-27T05:48:25Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
