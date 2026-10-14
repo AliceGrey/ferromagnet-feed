@@ -2,13 +2,13 @@
  "Event": {
   "uuid": "82d6ee72-1c98-521b-9636-9b19816f0a74",
   "info": "FerroMagnet: DinDoor C2 infrastructure",
-  "date": "2026-09-30",
+  "date": "2026-09-28",
   "analysis": "1",
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1791932854",
-  "publish_timestamp": "1791932854",
+  "timestamp": "1791936454",
+  "publish_timestamp": "1791936454",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -243,6 +243,24 @@
     "first_seen": "2026-09-30T05:07:07+00:00",
     "last_seen": "2026-10-13T19:31:22+00:00",
     "comment": "DinDoor c2; confidence 85; last verified live 2026-10-13T19:31:22Z; expires 2026-10-27T19:31:22Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "29a33a73-2bd9-531f-bbd1-d3518d90d9f8",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "2.27.122.16",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791936454",
+    "first_seen": "2026-09-28T15:11:17+00:00",
+    "last_seen": "2026-10-13T23:19:23+00:00",
+    "comment": "DinDoor c2; confidence 85; last verified live 2026-10-13T23:19:23Z; expires 2026-10-27T23:19:23Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -711,6 +729,24 @@
     "first_seen": "2026-09-30T05:07:07+00:00",
     "last_seen": "2026-10-13T19:31:22+00:00",
     "comment": "DinDoor c2; confidence 85; last verified live 2026-10-13T19:31:22Z; expires 2026-10-27T19:31:22Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "4d76e28a-360a-520b-86fd-ad4a0e789d26",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "2.27.122.16|443",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1791936454",
+    "first_seen": "2026-09-28T15:11:17+00:00",
+    "last_seen": "2026-10-13T23:19:23+00:00",
+    "comment": "DinDoor c2; confidence 85; last verified live 2026-10-13T23:19:23Z; expires 2026-10-27T23:19:23Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
