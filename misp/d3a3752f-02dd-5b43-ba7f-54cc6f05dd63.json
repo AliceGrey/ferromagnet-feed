@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1792033658",
-  "publish_timestamp": "1792033658",
+  "timestamp": "1792037255",
+  "publish_timestamp": "1792037255",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -1290,6 +1290,24 @@
     "first_seen": "2026-10-02T18:17:04+00:00",
     "last_seen": "2026-10-14T22:45:00+00:00",
     "comment": "QuasarRAT c2; confidence 80; last verified live 2026-10-14T22:45:00Z; expires 2026-10-28T22:45:00Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "daf473a8-3c8b-545c-9523-9650e14ccb51",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "217.60.195.226",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792037255",
+    "first_seen": "2026-10-02T18:17:04+00:00",
+    "last_seen": "2026-10-15T03:38:38+00:00",
+    "comment": "QuasarRAT c2; confidence 80; last verified live 2026-10-15T03:38:38Z; expires 2026-10-29T03:38:38Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -3612,6 +3630,24 @@
     "first_seen": "2026-10-02T18:17:04+00:00",
     "last_seen": "2026-10-14T22:45:00+00:00",
     "comment": "QuasarRAT c2; confidence 80; last verified live 2026-10-14T22:45:00Z; expires 2026-10-28T22:45:00Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "564a7280-162c-511f-9f65-fe7b70398825",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "217.60.195.226|4782",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792037255",
+    "first_seen": "2026-10-02T18:17:04+00:00",
+    "last_seen": "2026-10-15T03:38:38+00:00",
+    "comment": "QuasarRAT c2; confidence 80; last verified live 2026-10-15T03:38:38Z; expires 2026-10-29T03:38:38Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
