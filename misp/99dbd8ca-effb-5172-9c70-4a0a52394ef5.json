@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1792202880",
-  "publish_timestamp": "1792202880",
+  "timestamp": "1792206472",
+  "publish_timestamp": "1792206472",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -33,6 +33,24 @@
    }
   ],
   "Attribute": [
+   {
+    "uuid": "e4577e63-c28f-5664-9d1b-d47204a72444",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "1.117.74.144",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792206472",
+    "first_seen": "2026-10-15T22:27:06+00:00",
+    "last_seen": "2026-10-17T02:11:49+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:11:49Z; expires 2026-10-31T02:11:49Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
    {
     "uuid": "1ad7ba52-ffe4-5c84-b742-794623c7371e",
     "type": "ip-dst",
@@ -59,10 +77,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792170450",
+    "timestamp": "1792206472",
     "first_seen": "2026-09-05T03:36:18+00:00",
-    "last_seen": "2026-10-16T16:35:17+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T16:35:17Z; expires 2026-10-30T16:35:17Z",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -185,10 +203,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:39+00:00",
-    "last_seen": "2026-10-16T19:51:52+00:00",
-    "comment": "CobaltStrike c2; confidence 85; last verified live 2026-10-16T19:51:52Z; expires 2026-10-30T19:51:52Z",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 85; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -347,10 +365,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792177658",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:32+00:00",
-    "last_seen": "2026-10-16T18:41:49+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T18:41:49Z; expires 2026-10-30T18:41:49Z",
+    "last_seen": "2026-10-17T02:10:13+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:10:13Z; expires 2026-10-31T02:10:13Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -365,10 +383,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-09T07:02:52+00:00",
-    "last_seen": "2026-10-17T00:27:53+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:38:39Z; expires 2026-10-31T00:27:53Z",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -527,10 +545,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792195657",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:36+00:00",
-    "last_seen": "2026-10-16T23:40:10+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T23:40:10Z; expires 2026-10-30T23:40:10Z",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -563,10 +581,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792174049",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:32+00:00",
-    "last_seen": "2026-10-16T17:42:08+00:00",
-    "comment": "CobaltStrike c2; confidence 80; last verified live 2026-10-16T17:42:08Z; expires 2026-10-30T17:42:08Z",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 80; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -599,10 +617,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:39+00:00",
-    "last_seen": "2026-10-16T19:51:52+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:51:52Z; expires 2026-10-30T19:51:52Z",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -635,10 +653,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-04T02:07:11+00:00",
-    "last_seen": "2026-10-16T19:52:23+00:00",
-    "comment": "CobaltStrike c2; confidence 80; last verified live 2026-10-16T19:52:23Z; expires 2026-10-30T19:52:23Z",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 80; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -700,6 +718,24 @@
     ]
    },
    {
+    "uuid": "0509eae1-49d4-5d00-b815-559cb08ec1a9",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "117.72.220.70",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792206472",
+    "first_seen": "2026-10-15T23:40:20+00:00",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
     "uuid": "8b7261e0-8659-5823-ab7c-d3c7365e2dbc",
     "type": "ip-dst",
     "category": "Network activity",
@@ -711,6 +747,24 @@
     "first_seen": "2026-10-03T05:09:32+00:00",
     "last_seen": "2026-10-16T23:38:37+00:00",
     "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T23:38:37Z; expires 2026-10-30T23:38:37Z; cluster FM-C-0438",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "91119b3e-224c-5fc9-a19b-8393d7ad07ce",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "118.126.95.117",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792206472",
+    "first_seen": "2026-10-15T13:43:18+00:00",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -815,10 +869,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:32+00:00",
-    "last_seen": "2026-10-16T19:35:02+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:35:02Z; expires 2026-10-30T19:35:02Z",
+    "last_seen": "2026-10-17T02:35:01+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:35:01Z; expires 2026-10-31T02:35:01Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -941,10 +995,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792174049",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-10T08:08:24+00:00",
-    "last_seen": "2026-10-16T17:42:08+00:00",
-    "comment": "CobaltStrike c2; confidence 85; last verified live 2026-10-16T17:42:08Z; expires 2026-10-30T17:42:08Z",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 85; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -959,10 +1013,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:39+00:00",
-    "last_seen": "2026-10-16T19:43:49+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T18:36:04Z; expires 2026-10-30T19:43:49Z",
+    "last_seen": "2026-10-17T02:13:52+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:13:52Z; expires 2026-10-31T02:13:52Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -977,10 +1031,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:39+00:00",
-    "last_seen": "2026-10-16T20:01:55+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T17:42:08Z; expires 2026-10-30T20:01:55Z",
+    "last_seen": "2026-10-17T02:28:08+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:28:08Z; expires 2026-10-31T02:28:08Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -1139,10 +1193,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792177658",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:36+00:00",
-    "last_seen": "2026-10-16T18:57:12+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T18:57:12Z; expires 2026-10-30T18:57:12Z",
+    "last_seen": "2026-10-17T02:11:49+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:11:49Z; expires 2026-10-31T02:11:49Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -1211,10 +1265,28 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792192050",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:32+00:00",
-    "last_seen": "2026-10-16T22:35:29+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T22:35:29Z; expires 2026-10-30T22:35:29Z; cluster FM-C-0146",
+    "last_seen": "2026-10-17T02:23:28+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:23:28Z; expires 2026-10-31T02:23:28Z; cluster FM-C-0146",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "bbf140e8-734a-5aa2-9ebb-c51f4b84af9a",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "140.143.193.143",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792206472",
+    "first_seen": "2026-10-15T22:01:12+00:00",
+    "last_seen": "2026-10-17T02:10:13+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:10:13Z; expires 2026-10-31T02:10:13Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -1319,10 +1391,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:39+00:00",
-    "last_seen": "2026-10-16T21:49:29+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:38:39Z; expires 2026-10-30T21:49:29Z",
+    "last_seen": "2026-10-17T02:27:38+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:27:38Z; expires 2026-10-31T02:27:38Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -1463,10 +1535,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792177658",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:32+00:00",
-    "last_seen": "2026-10-16T18:50:54+00:00",
-    "comment": "CobaltStrike c2; confidence 80; last verified live 2026-10-16T18:50:54Z; expires 2026-10-30T18:50:54Z",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 80; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -1499,10 +1571,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:39+00:00",
-    "last_seen": "2026-10-16T22:10:38+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:04:33Z; expires 2026-10-30T22:10:38Z",
+    "last_seen": "2026-10-17T02:16:40+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:16:40Z; expires 2026-10-31T02:16:40Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -1607,10 +1679,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:36+00:00",
-    "last_seen": "2026-10-16T21:49:17+00:00",
-    "comment": "CobaltStrike c2; confidence 90; last verified live 2026-10-16T18:50:54Z; expires 2026-10-30T21:49:17Z; cluster FM-C-0549",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 90; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z; cluster FM-C-0549",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -1625,10 +1697,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-09-08T21:33:51+00:00",
-    "last_seen": "2026-10-16T19:37:03+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:37:03Z; expires 2026-10-30T19:37:03Z",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -1769,10 +1841,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:32+00:00",
-    "last_seen": "2026-10-17T02:02:59+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:02:59Z; expires 2026-10-31T02:02:59Z",
+    "last_seen": "2026-10-17T02:35:01+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:35:01Z; expires 2026-10-31T02:35:01Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -1877,10 +1949,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-07T22:23:11+00:00",
-    "last_seen": "2026-10-16T19:51:52+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:51:52Z; expires 2026-10-30T19:51:52Z",
+    "last_seen": "2026-10-17T02:27:38+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:27:38Z; expires 2026-10-31T02:27:38Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -2345,10 +2417,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:32+00:00",
-    "last_seen": "2026-10-17T01:20:11+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T23:32:23Z; expires 2026-10-31T01:20:11Z; cluster FM-C-0481",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z; cluster FM-C-0481",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -2417,10 +2489,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:36+00:00",
-    "last_seen": "2026-10-17T00:27:59+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:52:23Z; expires 2026-10-31T00:27:59Z; cluster FM-C-0146",
+    "last_seen": "2026-10-17T02:28:08+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:28:08Z; expires 2026-10-31T02:28:08Z; cluster FM-C-0146",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -2608,6 +2680,24 @@
     ]
    },
    {
+    "uuid": "ec845f63-b649-595b-9e13-756863a84522",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "38.76.164.162",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792206472",
+    "first_seen": "2026-10-17T00:08:49+00:00",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 80; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "dc706871-80c7-5cbd-afc7-a640b613e755",
     "type": "ip-dst",
     "category": "Network activity",
@@ -2669,10 +2759,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-05T02:07:08+00:00",
-    "last_seen": "2026-10-17T00:55:51+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:52:23Z; expires 2026-10-31T00:55:51Z",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -2759,10 +2849,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:36+00:00",
-    "last_seen": "2026-10-16T18:45:54+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-07T12:39:33Z; expires 2026-10-30T18:45:54Z",
+    "last_seen": "2026-10-17T02:11:17+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:11:17Z; expires 2026-10-31T02:11:17Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -2795,10 +2885,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792199259",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:36+00:00",
-    "last_seen": "2026-10-17T00:40:57+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T00:40:57Z; expires 2026-10-31T00:40:57Z; cluster FM-C-0548",
+    "last_seen": "2026-10-17T02:11:49+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:11:49Z; expires 2026-10-31T02:11:49Z; cluster FM-C-0548",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -2835,6 +2925,24 @@
     "first_seen": "2026-10-03T05:09:32+00:00",
     "last_seen": "2026-10-17T00:53:26+00:00",
     "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T00:53:26Z; expires 2026-10-31T00:53:26Z; cluster FM-C-0021",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "677f895e-b143-5b48-b868-43ca69e041ad",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "45.130.147.87",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792206472",
+    "first_seen": "2026-10-17T01:22:32+00:00",
+    "last_seen": "2026-10-17T02:16:40+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:16:40Z; expires 2026-10-31T02:16:40Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -2885,10 +2993,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:36+00:00",
-    "last_seen": "2026-10-16T19:52:23+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:52:23Z; expires 2026-10-30T19:52:23Z",
+    "last_seen": "2026-10-17T02:28:08+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:28:08Z; expires 2026-10-31T02:28:08Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -2975,10 +3083,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:32+00:00",
-    "last_seen": "2026-10-16T19:40:10+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:40:10Z; expires 2026-10-30T19:40:10Z",
+    "last_seen": "2026-10-17T02:21:53+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:21:53Z; expires 2026-10-31T02:21:53Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -3065,10 +3173,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792177658",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-04T02:07:13+00:00",
-    "last_seen": "2026-10-16T18:50:54+00:00",
-    "comment": "CobaltStrike c2; confidence 90; last verified live 2026-10-16T18:50:54Z; expires 2026-10-30T18:50:54Z; cluster FM-C-0553",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 90; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z; cluster FM-C-0553",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -3083,10 +3191,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:39+00:00",
-    "last_seen": "2026-10-16T20:44:59+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:38:39Z; expires 2026-10-30T20:44:59Z",
+    "last_seen": "2026-10-17T02:27:38+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:27:38Z; expires 2026-10-31T02:27:38Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -3173,10 +3281,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792170450",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-10T15:48:36+00:00",
-    "last_seen": "2026-10-16T16:35:17+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T16:35:17Z; expires 2026-10-30T16:35:17Z",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -3209,10 +3317,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:39+00:00",
-    "last_seen": "2026-10-16T19:38:39+00:00",
-    "comment": "CobaltStrike c2; confidence 90; last verified live 2026-10-16T19:38:39Z; expires 2026-10-30T19:38:39Z; cluster FM-C-0548",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 90; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z; cluster FM-C-0548",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -3227,10 +3335,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-08T01:55:50+00:00",
-    "last_seen": "2026-10-16T19:10:21+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:10:21Z; expires 2026-10-30T19:10:21Z",
+    "last_seen": "2026-10-17T02:10:13+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:10:13Z; expires 2026-10-31T02:10:13Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -3407,10 +3515,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792177658",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-08T02:07:13+00:00",
-    "last_seen": "2026-10-16T18:36:35+00:00",
-    "comment": "CobaltStrike c2; confidence 90; last verified live 2026-10-16T18:36:35Z; expires 2026-10-30T18:36:35Z; cluster FM-C-0553",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 90; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z; cluster FM-C-0553",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -3515,10 +3623,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792177658",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:36+00:00",
-    "last_seen": "2026-10-16T18:50:54+00:00",
-    "comment": "CobaltStrike c2; confidence 80; last verified live 2026-10-16T18:50:54Z; expires 2026-10-30T18:50:54Z",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 80; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -3533,10 +3641,28 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-14T00:11:52+00:00",
-    "last_seen": "2026-10-16T19:52:23+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:52:23Z; expires 2026-10-30T19:52:23Z; cluster FM-C-0561",
+    "last_seen": "2026-10-17T02:28:08+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:28:08Z; expires 2026-10-31T02:28:08Z; cluster FM-C-0561",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "2db3bd35-4535-5ea6-97d4-504da320f070",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "78.17.93.246",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792206472",
+    "first_seen": "2026-10-16T23:50:13+00:00",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z; cluster FM-C-0569",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -3659,10 +3785,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:36+00:00",
-    "last_seen": "2026-10-16T21:48:12+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:52:23Z; expires 2026-10-30T21:48:12Z",
+    "last_seen": "2026-10-17T02:28:08+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:28:08Z; expires 2026-10-31T02:28:08Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -3713,10 +3839,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792184851",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:32+00:00",
-    "last_seen": "2026-10-16T20:34:01+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T20:34:01Z; expires 2026-10-30T20:34:01Z; cluster FM-C-0548",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z; cluster FM-C-0548",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -3778,6 +3904,24 @@
     ]
    },
    {
+    "uuid": "e3c4e36f-5997-55a1-825b-24ba3a6318d5",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "91.92.242.137",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792206472",
+    "first_seen": "2026-10-16T23:56:50+00:00",
+    "last_seen": "2026-10-17T02:16:40+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:16:40Z; expires 2026-10-31T02:16:40Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
     "uuid": "b484b8c8-5f9c-5054-9e9e-a5010f9caea4",
     "type": "ip-dst",
     "category": "Network activity",
@@ -3792,6 +3936,24 @@
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "7afcf8c6-f2d0-5560-ab88-9ae6ce469326",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "1.117.74.144|18443",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792206472",
+    "first_seen": "2026-10-15T22:27:06+00:00",
+    "last_seen": "2026-10-17T02:11:49+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:11:49Z; expires 2026-10-31T02:11:49Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
      }
     ]
    },
@@ -3821,10 +3983,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792170450",
+    "timestamp": "1792206472",
     "first_seen": "2026-09-05T03:36:18+00:00",
-    "last_seen": "2026-10-16T16:35:17+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T16:35:17Z; expires 2026-10-30T16:35:17Z",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -3965,10 +4127,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:39+00:00",
-    "last_seen": "2026-10-16T19:51:52+00:00",
-    "comment": "CobaltStrike c2; confidence 85; last verified live 2026-10-16T19:51:52Z; expires 2026-10-30T19:51:52Z",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 85; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -4145,10 +4307,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792177658",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:32+00:00",
-    "last_seen": "2026-10-16T18:41:49+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T18:41:49Z; expires 2026-10-30T18:41:49Z",
+    "last_seen": "2026-10-17T02:10:13+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:10:13Z; expires 2026-10-31T02:10:13Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -4163,10 +4325,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-09T07:02:52+00:00",
-    "last_seen": "2026-10-17T00:27:53+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:38:39Z; expires 2026-10-31T00:27:53Z",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -4361,10 +4523,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792177658",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:36+00:00",
-    "last_seen": "2026-10-16T18:50:54+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T18:50:54Z; expires 2026-10-30T18:50:54Z",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -4415,10 +4577,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792174049",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:32+00:00",
-    "last_seen": "2026-10-16T17:42:08+00:00",
-    "comment": "CobaltStrike c2; confidence 80; last verified live 2026-10-16T17:42:08Z; expires 2026-10-30T17:42:08Z",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 80; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -4451,10 +4613,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:39+00:00",
-    "last_seen": "2026-10-16T19:51:52+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:51:52Z; expires 2026-10-30T19:51:52Z",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -4487,10 +4649,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-04T02:07:11+00:00",
-    "last_seen": "2026-10-16T19:52:23+00:00",
-    "comment": "CobaltStrike c2; confidence 80; last verified live 2026-10-16T19:52:23Z; expires 2026-10-30T19:52:23Z",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 80; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -4552,6 +4714,24 @@
     ]
    },
    {
+    "uuid": "0f7fb725-88cf-5875-a3ae-47bf22637e4e",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "117.72.220.70|50050",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792206472",
+    "first_seen": "2026-10-15T23:40:20+00:00",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
     "uuid": "79df4855-4470-5d18-88f6-9b0ba588d064",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -4563,6 +4743,24 @@
     "first_seen": "2026-10-03T05:09:32+00:00",
     "last_seen": "2026-10-16T23:38:37+00:00",
     "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T23:38:37Z; expires 2026-10-30T23:38:37Z; cluster FM-C-0438",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "d7d7e4ed-49c8-5a23-91b1-bfc97c78857f",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "118.126.95.117|50050",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792206472",
+    "first_seen": "2026-10-15T13:43:18+00:00",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -4667,10 +4865,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:32+00:00",
-    "last_seen": "2026-10-16T19:35:02+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:35:02Z; expires 2026-10-30T19:35:02Z",
+    "last_seen": "2026-10-17T02:35:01+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:35:01Z; expires 2026-10-31T02:35:01Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -4685,10 +4883,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792177658",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:32+00:00",
-    "last_seen": "2026-10-16T18:57:14+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T18:57:14Z; expires 2026-10-30T18:57:14Z",
+    "last_seen": "2026-10-17T02:11:49+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:11:49Z; expires 2026-10-31T02:11:49Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -4811,10 +5009,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792174049",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-10T08:08:24+00:00",
-    "last_seen": "2026-10-16T17:42:08+00:00",
-    "comment": "CobaltStrike c2; confidence 85; last verified live 2026-10-16T17:42:08Z; expires 2026-10-30T17:42:08Z",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 85; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -4829,10 +5027,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:39+00:00",
-    "last_seen": "2026-10-16T19:43:49+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T18:36:04Z; expires 2026-10-30T19:43:49Z",
+    "last_seen": "2026-10-17T02:13:52+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:13:52Z; expires 2026-10-31T02:13:52Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -4847,10 +5045,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:39+00:00",
-    "last_seen": "2026-10-16T20:01:55+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T17:42:08Z; expires 2026-10-30T20:01:55Z",
+    "last_seen": "2026-10-17T02:28:08+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:28:08Z; expires 2026-10-31T02:28:08Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -5027,10 +5225,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792177658",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:36+00:00",
-    "last_seen": "2026-10-16T18:57:12+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T18:57:12Z; expires 2026-10-30T18:57:12Z",
+    "last_seen": "2026-10-17T02:11:49+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:11:49Z; expires 2026-10-31T02:11:49Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -5117,10 +5315,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:32+00:00",
-    "last_seen": "2026-10-16T19:35:00+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:35:00Z; expires 2026-10-30T19:35:00Z; cluster FM-C-0146",
+    "last_seen": "2026-10-17T02:23:28+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:23:28Z; expires 2026-10-31T02:23:28Z; cluster FM-C-0146",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -5139,6 +5337,24 @@
     "first_seen": "2026-10-03T05:09:39+00:00",
     "last_seen": "2026-10-16T22:35:29+00:00",
     "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T22:35:29Z; expires 2026-10-30T22:35:29Z; cluster FM-C-0146",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "5c06dc09-8be9-5981-9a6f-637003446e9f",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "140.143.193.143|443",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792206472",
+    "first_seen": "2026-10-15T22:01:12+00:00",
+    "last_seen": "2026-10-17T02:10:13+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:10:13Z; expires 2026-10-31T02:10:13Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -5297,10 +5513,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:39+00:00",
-    "last_seen": "2026-10-16T21:49:29+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:38:39Z; expires 2026-10-30T21:49:29Z",
+    "last_seen": "2026-10-17T02:27:38+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:27:38Z; expires 2026-10-31T02:27:38Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -5441,10 +5657,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792177658",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:32+00:00",
-    "last_seen": "2026-10-16T18:50:54+00:00",
-    "comment": "CobaltStrike c2; confidence 80; last verified live 2026-10-16T18:50:54Z; expires 2026-10-30T18:50:54Z",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 80; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -5477,10 +5693,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:39+00:00",
-    "last_seen": "2026-10-16T22:10:38+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:04:33Z; expires 2026-10-30T22:10:38Z",
+    "last_seen": "2026-10-17T02:16:40+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:16:40Z; expires 2026-10-31T02:16:40Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -5567,10 +5783,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:36+00:00",
-    "last_seen": "2026-10-16T21:49:17+00:00",
-    "comment": "CobaltStrike c2; confidence 90; last verified live 2026-10-16T18:50:54Z; expires 2026-10-30T21:49:17Z; cluster FM-C-0549",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 90; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z; cluster FM-C-0549",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -5585,10 +5801,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:32+00:00",
-    "last_seen": "2026-10-16T19:37:03+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:37:03Z; expires 2026-10-30T19:37:03Z",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -5747,10 +5963,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:32+00:00",
-    "last_seen": "2026-10-16T19:42:17+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:42:17Z; expires 2026-10-30T19:42:17Z",
+    "last_seen": "2026-10-17T02:35:01+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:35:01Z; expires 2026-10-31T02:35:01Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -5819,10 +6035,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:36+00:00",
-    "last_seen": "2026-10-16T19:42:17+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:42:17Z; expires 2026-10-30T19:42:17Z",
+    "last_seen": "2026-10-17T02:35:01+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:35:01Z; expires 2026-10-31T02:35:01Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -5945,10 +6161,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-07T22:23:11+00:00",
-    "last_seen": "2026-10-16T19:51:52+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:51:52Z; expires 2026-10-30T19:51:52Z",
+    "last_seen": "2026-10-17T02:27:38+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:27:38Z; expires 2026-10-31T02:27:38Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -6503,10 +6719,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-07T21:44:07+00:00",
-    "last_seen": "2026-10-16T19:52:23+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:52:23Z; expires 2026-10-30T19:52:23Z; cluster FM-C-0481",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z; cluster FM-C-0481",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -6611,10 +6827,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:36+00:00",
-    "last_seen": "2026-10-16T23:18:36+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:35:00Z; expires 2026-10-30T23:18:36Z; cluster FM-C-0146",
+    "last_seen": "2026-10-17T02:23:28+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:23:28Z; expires 2026-10-31T02:23:28Z; cluster FM-C-0146",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -6629,10 +6845,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:36+00:00",
-    "last_seen": "2026-10-17T00:27:59+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:52:23Z; expires 2026-10-31T00:27:59Z; cluster FM-C-0146",
+    "last_seen": "2026-10-17T02:28:08+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:28:08Z; expires 2026-10-31T02:28:08Z; cluster FM-C-0146",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -6838,6 +7054,24 @@
     ]
    },
    {
+    "uuid": "31eb8778-88c6-51aa-98bb-e6530bf6300a",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "38.76.164.162|50050",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792206472",
+    "first_seen": "2026-10-17T00:08:49+00:00",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 80; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "3cadbfc2-e4b1-5abb-be2d-3519dd387394",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -6917,10 +7151,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-05T02:07:08+00:00",
-    "last_seen": "2026-10-16T19:52:23+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:52:23Z; expires 2026-10-30T19:52:23Z",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -6935,10 +7169,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-13T22:44:49+00:00",
-    "last_seen": "2026-10-17T00:55:51+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:06:05Z; expires 2026-10-31T00:55:51Z",
+    "last_seen": "2026-10-17T02:16:40+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:16:40Z; expires 2026-10-31T02:16:40Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -7036,6 +7270,24 @@
     ]
    },
    {
+    "uuid": "12d74bf4-ca7a-55b1-8f25-1e493429048f",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "43.136.92.170|8443",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792206472",
+    "first_seen": "2026-10-16T18:45:54+00:00",
+    "last_seen": "2026-10-17T02:11:17+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:11:17Z; expires 2026-10-31T02:11:17Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
     "uuid": "a6791c42-8a82-522b-9e66-fa105826dd13",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -7061,10 +7313,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792177658",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-10T03:35:32+00:00",
-    "last_seen": "2026-10-16T19:02:58+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:02:58Z; expires 2026-10-30T19:02:58Z; cluster FM-C-0548",
+    "last_seen": "2026-10-17T02:11:49+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:11:49Z; expires 2026-10-31T02:11:49Z; cluster FM-C-0548",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -7144,6 +7396,24 @@
     ]
    },
    {
+    "uuid": "de50abef-49e6-5dda-be80-3e0fdd2ced04",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "45.130.147.87|51213",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792206472",
+    "first_seen": "2026-10-17T01:22:32+00:00",
+    "last_seen": "2026-10-17T02:16:40+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:16:40Z; expires 2026-10-31T02:16:40Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
     "uuid": "8cdf3697-f01d-5065-9e14-6295d6352e4d",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -7187,10 +7457,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:36+00:00",
-    "last_seen": "2026-10-16T19:52:23+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:52:23Z; expires 2026-10-30T19:52:23Z",
+    "last_seen": "2026-10-17T02:28:08+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:28:08Z; expires 2026-10-31T02:28:08Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -7277,10 +7547,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:32+00:00",
-    "last_seen": "2026-10-16T19:40:10+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:40:10Z; expires 2026-10-30T19:40:10Z",
+    "last_seen": "2026-10-17T02:21:53+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:21:53Z; expires 2026-10-31T02:21:53Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -7385,10 +7655,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792177658",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-04T02:07:13+00:00",
-    "last_seen": "2026-10-16T18:50:54+00:00",
-    "comment": "CobaltStrike c2; confidence 90; last verified live 2026-10-16T18:50:54Z; expires 2026-10-30T18:50:54Z; cluster FM-C-0553",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 90; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z; cluster FM-C-0553",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -7403,10 +7673,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:39+00:00",
-    "last_seen": "2026-10-16T20:44:59+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:38:39Z; expires 2026-10-30T20:44:59Z",
+    "last_seen": "2026-10-17T02:27:38+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:27:38Z; expires 2026-10-31T02:27:38Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -7493,10 +7763,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792170450",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-10T15:48:36+00:00",
-    "last_seen": "2026-10-16T16:35:17+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T16:35:17Z; expires 2026-10-30T16:35:17Z",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -7529,10 +7799,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:39+00:00",
-    "last_seen": "2026-10-16T19:38:39+00:00",
-    "comment": "CobaltStrike c2; confidence 90; last verified live 2026-10-16T19:38:39Z; expires 2026-10-30T19:38:39Z; cluster FM-C-0548",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 90; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z; cluster FM-C-0548",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -7547,10 +7817,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-08T01:55:50+00:00",
-    "last_seen": "2026-10-16T19:10:21+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:10:21Z; expires 2026-10-30T19:10:21Z",
+    "last_seen": "2026-10-17T02:10:13+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:10:13Z; expires 2026-10-31T02:10:13Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -7727,10 +7997,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792177658",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-08T02:07:13+00:00",
-    "last_seen": "2026-10-16T18:36:35+00:00",
-    "comment": "CobaltStrike c2; confidence 90; last verified live 2026-10-16T18:36:35Z; expires 2026-10-30T18:36:35Z; cluster FM-C-0553",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 90; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z; cluster FM-C-0553",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -7835,10 +8105,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792177658",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:36+00:00",
-    "last_seen": "2026-10-16T18:50:54+00:00",
-    "comment": "CobaltStrike c2; confidence 80; last verified live 2026-10-16T18:50:54Z; expires 2026-10-30T18:50:54Z",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 80; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -7853,10 +8123,28 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-14T00:11:52+00:00",
-    "last_seen": "2026-10-16T19:52:23+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:52:23Z; expires 2026-10-30T19:52:23Z; cluster FM-C-0561",
+    "last_seen": "2026-10-17T02:28:08+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:28:08Z; expires 2026-10-31T02:28:08Z; cluster FM-C-0561",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "9701fa0b-18d0-5d98-a67d-7967f3bf9d5c",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "78.17.93.246|50050",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792206472",
+    "first_seen": "2026-10-16T23:50:13+00:00",
+    "last_seen": "2026-10-17T02:13:21+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:13:21Z; expires 2026-10-31T02:13:21Z; cluster FM-C-0569",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -7997,10 +8285,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792202880",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:36+00:00",
-    "last_seen": "2026-10-16T21:48:12+00:00",
-    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T19:52:23Z; expires 2026-10-30T21:48:12Z",
+    "last_seen": "2026-10-17T02:28:08+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:28:08Z; expires 2026-10-31T02:28:08Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -8051,10 +8339,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792181250",
+    "timestamp": "1792206472",
     "first_seen": "2026-10-03T05:09:32+00:00",
-    "last_seen": "2026-10-16T19:52:23+00:00",
-    "comment": "CobaltStrike c2; confidence 90; last verified live 2026-10-16T19:52:23Z; expires 2026-10-30T19:52:23Z; cluster FM-C-0548",
+    "last_seen": "2026-10-17T02:38:37+00:00",
+    "comment": "CobaltStrike c2; confidence 90; last verified live 2026-10-17T02:38:37Z; expires 2026-10-31T02:38:37Z; cluster FM-C-0548",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -8127,6 +8415,24 @@
     "first_seen": "2026-10-14T05:40:38+00:00",
     "last_seen": "2026-10-16T21:37:06+00:00",
     "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-16T21:37:06Z; expires 2026-10-30T21:37:06Z; cluster FM-C-0561",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "c95bba95-8b95-534b-880a-a7cfbd262b46",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "91.92.242.137|10010",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792206472",
+    "first_seen": "2026-10-16T23:56:50+00:00",
+    "last_seen": "2026-10-17T02:16:40+00:00",
+    "comment": "CobaltStrike c2; confidence 95; last verified live 2026-10-17T02:16:40Z; expires 2026-10-31T02:16:40Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
