@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1792274854",
-  "publish_timestamp": "1792274854",
+  "timestamp": "1792278453",
+  "publish_timestamp": "1792278453",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -124,6 +124,24 @@
     ]
    },
    {
+    "uuid": "f2f3a6ce-6a99-5ade-a79d-081db2ec3e26",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "54.199.35.147",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792278453",
+    "first_seen": "2026-10-16T16:18:08+00:00",
+    "last_seen": "2026-10-17T22:16:09+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-17T22:16:09Z; expires 2026-10-31T22:16:09Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "fcc4e4d4-e0de-563a-9663-180cc7b20200",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -207,6 +225,24 @@
     "first_seen": "2026-10-03T05:10:04+00:00",
     "last_seen": "2026-10-17T21:34:31+00:00",
     "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-17T21:34:31Z; expires 2026-10-31T21:34:31Z; cluster FM-C-0449",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "661778fd-9f4b-5f0e-8b96-57697f984eba",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "54.199.35.147|80",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792278453",
+    "first_seen": "2026-10-16T16:18:08+00:00",
+    "last_seen": "2026-10-17T22:16:09+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-10-17T22:16:09Z; expires 2026-10-31T22:16:09Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
