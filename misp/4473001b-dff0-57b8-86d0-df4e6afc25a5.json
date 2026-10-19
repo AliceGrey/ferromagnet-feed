@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1792426049",
-  "publish_timestamp": "1792426049",
+  "timestamp": "1792429663",
+  "publish_timestamp": "1792429663",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -35,28 +35,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792397250",
+    "timestamp": "1792429663",
     "first_seen": "2026-10-05T05:07:15+00:00",
-    "last_seen": "2026-10-19T07:39:43+00:00",
-    "comment": "DesRedTeam c2; confidence 80; last verified live 2026-10-19T07:39:43Z; expires 2026-11-02T07:39:43Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
-     }
-    ]
-   },
-   {
-    "uuid": "6ce0ac57-a2a1-58e6-a888-b2695295f88d",
-    "type": "ip-dst",
-    "category": "Network activity",
-    "value": "110.42.99.223",
-    "to_ids": true,
-    "deleted": false,
-    "distribution": "5",
-    "timestamp": "1792231650",
-    "first_seen": "2026-10-14T19:11:34+00:00",
-    "last_seen": "2026-10-17T09:41:11+00:00",
-    "comment": "DesRedTeam c2; confidence 80; last verified live 2026-10-17T09:41:11Z; expires 2026-10-31T09:41:11Z",
+    "last_seen": "2026-10-19T16:42:02+00:00",
+    "comment": "DesRedTeam c2; confidence 80; last verified live 2026-10-19T16:42:02Z; expires 2026-11-02T16:42:02Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -251,28 +233,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792397250",
+    "timestamp": "1792429663",
     "first_seen": "2026-10-05T05:07:15+00:00",
-    "last_seen": "2026-10-19T07:39:43+00:00",
-    "comment": "DesRedTeam c2; confidence 80; last verified live 2026-10-19T07:39:43Z; expires 2026-11-02T07:39:43Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
-     }
-    ]
-   },
-   {
-    "uuid": "605c1a6e-4f6a-507d-aef6-7b6c4f2bb1ae",
-    "type": "ip-dst|port",
-    "category": "Network activity",
-    "value": "110.42.99.223|8080",
-    "to_ids": true,
-    "deleted": false,
-    "distribution": "5",
-    "timestamp": "1792231650",
-    "first_seen": "2026-10-14T19:11:34+00:00",
-    "last_seen": "2026-10-17T09:41:11+00:00",
-    "comment": "DesRedTeam c2; confidence 80; last verified live 2026-10-17T09:41:11Z; expires 2026-10-31T09:41:11Z",
+    "last_seen": "2026-10-19T16:42:02+00:00",
+    "comment": "DesRedTeam c2; confidence 80; last verified live 2026-10-19T16:42:02Z; expires 2026-11-02T16:42:02Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -568,6 +532,24 @@
     ]
    },
    {
+    "uuid": "6ce0ac57-a2a1-58e6-a888-b2695295f88d",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "110.42.99.223",
+    "to_ids": false,
+    "deleted": true,
+    "distribution": "5",
+    "timestamp": "1792429663",
+    "first_seen": "2026-10-14T19:11:34+00:00",
+    "last_seen": "2026-10-17T09:41:11+00:00",
+    "comment": "DesRedTeam c2; confidence 80; last verified live 2026-10-17T09:41:11Z; expires 2026-10-31T09:41:11Z; no longer observed since 2026-10-19T17:07:43Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "9b36214e-1efe-558d-b516-d3ff61d08ca9",
     "type": "ip-dst",
     "category": "Network activity",
@@ -777,6 +759,24 @@
     "first_seen": "2026-10-05T05:07:15+00:00",
     "last_seen": "2026-10-10T04:34:27+00:00",
     "comment": "DesRedTeam c2; confidence 80; last verified live 2026-10-10T04:34:27Z; expires 2026-10-24T04:34:27Z; no longer observed since 2026-10-12T17:07:32Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "605c1a6e-4f6a-507d-aef6-7b6c4f2bb1ae",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "110.42.99.223|8080",
+    "to_ids": false,
+    "deleted": true,
+    "distribution": "5",
+    "timestamp": "1792429663",
+    "first_seen": "2026-10-14T19:11:34+00:00",
+    "last_seen": "2026-10-17T09:41:11+00:00",
+    "comment": "DesRedTeam c2; confidence 80; last verified live 2026-10-17T09:41:11Z; expires 2026-10-31T09:41:11Z; no longer observed since 2026-10-19T17:07:43Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""

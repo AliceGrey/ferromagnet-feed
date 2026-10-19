@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1792408050",
-  "publish_timestamp": "1792408050",
+  "timestamp": "1792429663",
+  "publish_timestamp": "1792429663",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -247,24 +247,6 @@
     ]
    },
    {
-    "uuid": "288a4b79-72e8-56c2-b22d-438315e13e5c",
-    "type": "ip-dst|port",
-    "category": "Network activity",
-    "value": "64.188.70.194|30001",
-    "to_ids": true,
-    "deleted": false,
-    "distribution": "5",
-    "timestamp": "1792217250",
-    "first_seen": "2026-09-30T03:07:08+00:00",
-    "last_seen": "2026-10-17T05:41:06+00:00",
-    "comment": "GhostSocks c2; confidence 85; last verified live 2026-10-17T05:41:06Z; expires 2026-10-31T05:41:06Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
-     }
-    ]
-   },
-   {
     "uuid": "5dc74377-bb63-502c-ae0f-8f96217c6522",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -384,6 +366,24 @@
     "first_seen": "2026-09-30T02:07:13+00:00",
     "last_seen": "2026-10-17T04:37:35+00:00",
     "comment": "GhostSocks c2; confidence 85; last verified live 2026-10-17T00:54:27Z; expires 2026-10-31T04:37:35Z; no longer observed since 2026-10-19T11:07:30Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "288a4b79-72e8-56c2-b22d-438315e13e5c",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "64.188.70.194|30001",
+    "to_ids": false,
+    "deleted": true,
+    "distribution": "5",
+    "timestamp": "1792429663",
+    "first_seen": "2026-09-30T03:07:08+00:00",
+    "last_seen": "2026-10-17T05:41:06+00:00",
+    "comment": "GhostSocks c2; confidence 85; last verified live 2026-10-17T05:41:06Z; expires 2026-10-31T05:41:06Z; no longer observed since 2026-10-19T17:07:43Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
