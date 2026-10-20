@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1792465657",
-  "publish_timestamp": "1792465657",
+  "timestamp": "1792472853",
+  "publish_timestamp": "1792472853",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -82,24 +82,6 @@
     ]
    },
    {
-    "uuid": "f4590366-6096-575c-9e8e-a49e05261a30",
-    "type": "ip-dst",
-    "category": "Network activity",
-    "value": "5.230.75.234",
-    "to_ids": true,
-    "deleted": false,
-    "distribution": "5",
-    "timestamp": "1792310850",
-    "first_seen": "2026-10-03T05:10:05+00:00",
-    "last_seen": "2026-10-17T18:40:03+00:00",
-    "comment": "DeimosC2 c2; confidence 90; last verified live 2026-10-17T15:42:14Z; expires 2026-10-31T18:40:03Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
-     }
-    ]
-   },
-   {
     "uuid": "c2acf70e-0af8-5eeb-a571-a484e0924b77",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -154,17 +136,35 @@
     ]
    },
    {
+    "uuid": "f4590366-6096-575c-9e8e-a49e05261a30",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "5.230.75.234",
+    "to_ids": false,
+    "deleted": true,
+    "distribution": "5",
+    "timestamp": "1792472853",
+    "first_seen": "2026-10-03T05:10:05+00:00",
+    "last_seen": "2026-10-17T18:40:03+00:00",
+    "comment": "DeimosC2 c2; confidence 90; last verified live 2026-10-17T15:42:14Z; expires 2026-10-31T18:40:03Z; no longer observed since 2026-10-20T05:07:33Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "2ca78c40-4105-53e5-8dcb-6fac82b86623",
     "type": "ip-dst|port",
     "category": "Network activity",
     "value": "5.230.75.234|8443",
-    "to_ids": true,
-    "deleted": false,
+    "to_ids": false,
+    "deleted": true,
     "distribution": "5",
-    "timestamp": "1792310850",
+    "timestamp": "1792472853",
     "first_seen": "2026-10-03T05:10:05+00:00",
     "last_seen": "2026-10-17T18:40:03+00:00",
-    "comment": "DeimosC2 c2; confidence 90; last verified live 2026-10-17T15:42:14Z; expires 2026-10-31T18:40:03Z",
+    "comment": "DeimosC2 c2; confidence 90; last verified live 2026-10-17T15:42:14Z; expires 2026-10-31T18:40:03Z; no longer observed since 2026-10-20T05:07:33Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
