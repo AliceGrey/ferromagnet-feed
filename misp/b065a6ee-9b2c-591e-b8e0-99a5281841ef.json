@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1792458457",
-  "publish_timestamp": "1792458457",
+  "timestamp": "1792465657",
+  "publish_timestamp": "1792465657",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -27,6 +27,24 @@
    }
   ],
   "Attribute": [
+   {
+    "uuid": "69834c68-8620-52ee-95a5-ff84aa985f28",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "104.225.238.193",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792465657",
+    "first_seen": "2026-10-19T08:10:52+00:00",
+    "last_seen": "2026-10-20T02:11:51+00:00",
+    "comment": "Oktos ost; confidence 80; last verified live 2026-10-20T02:11:51Z; expires 2026-11-03T02:11:51Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
    {
     "uuid": "e7637028-07c4-5f03-b67c-36f00a48d5e2",
     "type": "ip-dst",
@@ -161,10 +179,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792436860",
+    "timestamp": "1792465657",
     "first_seen": "2026-09-29T20:33:59+00:00",
-    "last_seen": "2026-10-19T18:54:40+00:00",
-    "comment": "Oktos ost; confidence 80; last verified live 2026-10-19T18:54:40Z; expires 2026-11-02T18:54:40Z",
+    "last_seen": "2026-10-20T02:11:19+00:00",
+    "comment": "Oktos ost; confidence 80; last verified live 2026-10-20T02:11:19Z; expires 2026-11-03T02:11:19Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -201,6 +219,24 @@
     "first_seen": "2026-09-29T14:48:18+00:00",
     "last_seen": "2026-10-19T21:33:30+00:00",
     "comment": "Oktos ost; confidence 80; last verified live 2026-10-19T21:33:30Z; expires 2026-11-02T21:33:30Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "475c3d9d-8e5c-5161-b0cf-070e909db5fa",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "104.225.238.193|8888",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792465657",
+    "first_seen": "2026-10-19T08:10:52+00:00",
+    "last_seen": "2026-10-20T02:11:51+00:00",
+    "comment": "Oktos ost; confidence 80; last verified live 2026-10-20T02:11:51Z; expires 2026-11-03T02:11:51Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -341,10 +377,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792436860",
+    "timestamp": "1792465657",
     "first_seen": "2026-09-29T20:33:59+00:00",
-    "last_seen": "2026-10-19T18:54:40+00:00",
-    "comment": "Oktos ost; confidence 80; last verified live 2026-10-19T18:54:40Z; expires 2026-11-02T18:54:40Z",
+    "last_seen": "2026-10-20T02:11:19+00:00",
+    "comment": "Oktos ost; confidence 80; last verified live 2026-10-20T02:11:19Z; expires 2026-11-03T02:11:19Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
