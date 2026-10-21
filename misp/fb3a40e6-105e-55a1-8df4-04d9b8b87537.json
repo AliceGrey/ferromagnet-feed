@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1792577253",
-  "publish_timestamp": "1792577253",
+  "timestamp": "1792580853",
+  "publish_timestamp": "1792580853",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -64,24 +64,6 @@
     ]
    },
    {
-    "uuid": "86e5743b-eab1-555f-838b-1b151c3c13fb",
-    "type": "ip-dst",
-    "category": "Network activity",
-    "value": "20.212.240.137",
-    "to_ids": true,
-    "deleted": false,
-    "distribution": "5",
-    "timestamp": "1792375651",
-    "first_seen": "2026-10-03T05:10:05+00:00",
-    "last_seen": "2026-10-19T01:43:20+00:00",
-    "comment": "DeimosC2 c2; confidence 90; last verified live 2026-10-19T01:43:20Z; expires 2026-11-02T01:43:20Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
-     }
-    ]
-   },
-   {
     "uuid": "c2acf70e-0af8-5eeb-a571-a484e0924b77",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -118,17 +100,17 @@
     ]
    },
    {
-    "uuid": "df98d86d-7e76-5b11-9727-aed9f6853739",
-    "type": "ip-dst|port",
+    "uuid": "86e5743b-eab1-555f-838b-1b151c3c13fb",
+    "type": "ip-dst",
     "category": "Network activity",
-    "value": "20.212.240.137|54055",
-    "to_ids": true,
-    "deleted": false,
+    "value": "20.212.240.137",
+    "to_ids": false,
+    "deleted": true,
     "distribution": "5",
-    "timestamp": "1792375651",
+    "timestamp": "1792580853",
     "first_seen": "2026-10-03T05:10:05+00:00",
     "last_seen": "2026-10-19T01:43:20+00:00",
-    "comment": "DeimosC2 c2; confidence 90; last verified live 2026-10-19T01:43:20Z; expires 2026-11-02T01:43:20Z",
+    "comment": "DeimosC2 c2; confidence 90; last verified live 2026-10-19T01:43:20Z; expires 2026-11-02T01:43:20Z; no longer observed since 2026-10-21T11:07:33Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -147,6 +129,24 @@
     "first_seen": "2026-10-03T05:10:05+00:00",
     "last_seen": "2026-10-17T18:40:03+00:00",
     "comment": "DeimosC2 c2; confidence 90; last verified live 2026-10-17T15:42:14Z; expires 2026-10-31T18:40:03Z; no longer observed since 2026-10-20T05:07:33Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "df98d86d-7e76-5b11-9727-aed9f6853739",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "20.212.240.137|54055",
+    "to_ids": false,
+    "deleted": true,
+    "distribution": "5",
+    "timestamp": "1792580853",
+    "first_seen": "2026-10-03T05:10:05+00:00",
+    "last_seen": "2026-10-19T01:43:20+00:00",
+    "comment": "DeimosC2 c2; confidence 90; last verified live 2026-10-19T01:43:20Z; expires 2026-11-02T01:43:20Z; no longer observed since 2026-10-21T11:07:33Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
