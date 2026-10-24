@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1792670856",
-  "publish_timestamp": "1792670856",
+  "timestamp": "1792883252",
+  "publish_timestamp": "1792883252",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -32,31 +32,13 @@
     "type": "ip-dst",
     "category": "Network activity",
     "value": "46.101.18.134",
-    "to_ids": true,
-    "deleted": false,
+    "to_ids": false,
+    "deleted": true,
     "distribution": "5",
-    "timestamp": "1792670856",
+    "timestamp": "1792883252",
     "first_seen": "2026-10-09T22:09:39+00:00",
     "last_seen": "2026-10-22T11:58:41+00:00",
-    "comment": "Covenant c2; confidence 95; last verified live 2026-10-22T11:58:41Z; expires 2026-11-05T11:58:41Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"almost-certain\""
-     }
-    ]
-   },
-   {
-    "uuid": "efa30892-8d66-5dd9-8e7b-7f0bf85cd76b",
-    "type": "ip-dst|port",
-    "category": "Network activity",
-    "value": "46.101.18.134|7443",
-    "to_ids": true,
-    "deleted": false,
-    "distribution": "5",
-    "timestamp": "1792670856",
-    "first_seen": "2026-10-09T22:09:39+00:00",
-    "last_seen": "2026-10-22T11:58:41+00:00",
-    "comment": "Covenant c2; confidence 95; last verified live 2026-10-22T11:58:41Z; expires 2026-11-05T11:58:41Z",
+    "comment": "Covenant c2; confidence 95; last verified live 2026-10-22T11:58:41Z; expires 2026-11-05T11:58:41Z; no longer observed since 2026-10-24T23:07:32Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -93,6 +75,24 @@
     "first_seen": "2026-10-03T05:09:48+00:00",
     "last_seen": "2026-10-24T01:52:01+00:00",
     "comment": "Covenant c2; confidence 95; last verified live 2026-10-19T04:32:25Z; expires 2026-11-07T01:52:01Z; no longer observed since 2026-10-21T17:07:40Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
+     }
+    ]
+   },
+   {
+    "uuid": "efa30892-8d66-5dd9-8e7b-7f0bf85cd76b",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "46.101.18.134|7443",
+    "to_ids": false,
+    "deleted": true,
+    "distribution": "5",
+    "timestamp": "1792883252",
+    "first_seen": "2026-10-09T22:09:39+00:00",
+    "last_seen": "2026-10-22T11:58:41+00:00",
+    "comment": "Covenant c2; confidence 95; last verified live 2026-10-22T11:58:41Z; expires 2026-11-05T11:58:41Z; no longer observed since 2026-10-24T23:07:32Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
