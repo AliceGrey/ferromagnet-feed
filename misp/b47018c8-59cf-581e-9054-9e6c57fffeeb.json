@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1792904855",
-  "publish_timestamp": "1792904855",
+  "timestamp": "1792908449",
+  "publish_timestamp": "1792908449",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -581,10 +581,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792753654",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-13T00:12:20+00:00",
     "last_seen": "2026-10-23T10:53:29+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-23T10:53:29Z; expires 2026-11-06T10:53:29Z; cluster FM-C-0604",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-23T10:53:29Z; expires 2026-11-06T10:53:29Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -1553,10 +1553,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792883252",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-05T08:46:52+00:00",
-    "last_seen": "2026-10-24T22:31:21+00:00",
-    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-24T22:31:21Z; expires 2026-11-07T22:31:21Z",
+    "last_seen": "2026-10-25T05:31:22+00:00",
+    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-25T05:31:22Z; expires 2026-11-08T05:31:22Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -1715,10 +1715,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792904855",
+    "timestamp": "1792908449",
     "first_seen": "2026-09-30T19:07:08+00:00",
     "last_seen": "2026-10-25T04:58:34+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:58:34Z; expires 2026-11-08T04:58:34Z; cluster FM-C-0123",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:58:34Z; expires 2026-11-08T04:58:34Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -1877,10 +1877,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792904855",
+    "timestamp": "1792908449",
     "first_seen": "2026-09-30T19:07:08+00:00",
-    "last_seen": "2026-10-25T04:48:23+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:48:23Z; expires 2026-11-08T04:48:23Z; cluster FM-C-0023",
+    "last_seen": "2026-10-25T05:43:26+00:00",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T05:43:26Z; expires 2026-11-08T05:43:26Z; cluster FM-C-0023",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -2759,10 +2759,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792883252",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-17T02:18:21+00:00",
-    "last_seen": "2026-10-24T22:40:12+00:00",
-    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-24T22:40:12Z; expires 2026-11-07T22:40:12Z",
+    "last_seen": "2026-10-25T05:46:44+00:00",
+    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-25T05:46:44Z; expires 2026-11-08T05:46:44Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -2975,10 +2975,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792904855",
+    "timestamp": "1792908449",
     "first_seen": "2026-09-30T19:07:15+00:00",
-    "last_seen": "2026-10-25T04:48:45+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:48:45Z; expires 2026-11-08T04:48:45Z",
+    "last_seen": "2026-10-25T05:37:43+00:00",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T05:37:43Z; expires 2026-11-08T05:37:43Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -3400,6 +3400,24 @@
     ]
    },
    {
+    "uuid": "0e1c7dc0-78c3-5239-b1a9-aba51f543c6c",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "192.162.199.165",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792908449",
+    "first_seen": "2026-10-13T10:50:31+00:00",
+    "last_seen": "2026-10-25T05:55:00+00:00",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T05:55:00Z; expires 2026-11-08T05:55:00Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "d9a9a4a6-0c95-577d-bbc4-2b8ff7dfff50",
     "type": "ip-dst",
     "category": "Network activity",
@@ -3515,10 +3533,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792868855",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-22T18:14:31+00:00",
-    "last_seen": "2026-10-24T19:01:16+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-24T19:01:16Z; expires 2026-11-07T19:01:16Z; cluster FM-C-0611",
+    "last_seen": "2026-10-25T05:42:55+00:00",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T05:42:55Z; expires 2026-11-08T05:42:55Z; cluster FM-C-0611",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -3641,10 +3659,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792778856",
+    "timestamp": "1792908449",
     "first_seen": "2026-09-15T10:11:12+00:00",
     "last_seen": "2026-10-23T18:01:50+00:00",
-    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-23T18:01:50Z; expires 2026-11-06T18:01:50Z; cluster FM-C-0322",
+    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-23T18:01:50Z; expires 2026-11-06T18:01:50Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -3929,10 +3947,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792904855",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-22T03:56:01+00:00",
     "last_seen": "2026-10-25T04:52:29+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:52:29Z; expires 2026-11-08T04:52:29Z; cluster FM-C-0613",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:52:29Z; expires 2026-11-08T04:52:29Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -4001,10 +4019,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792904855",
+    "timestamp": "1792908449",
     "first_seen": "2026-09-25T07:54:37+00:00",
     "last_seen": "2026-10-25T04:52:42+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:52:42Z; expires 2026-11-08T04:52:42Z; cluster FM-C-0623",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:52:42Z; expires 2026-11-08T04:52:42Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -4091,10 +4109,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792868855",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-21T07:21:30+00:00",
-    "last_seen": "2026-10-24T19:01:16+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-24T19:01:16Z; expires 2026-11-07T19:01:16Z; cluster FM-C-0611",
+    "last_seen": "2026-10-25T05:42:55+00:00",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T05:42:55Z; expires 2026-11-08T05:42:55Z; cluster FM-C-0611",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -4577,10 +4595,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792883252",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-01T07:46:13+00:00",
-    "last_seen": "2026-10-24T22:46:42+00:00",
-    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-24T22:46:42Z; expires 2026-11-07T22:46:42Z",
+    "last_seen": "2026-10-25T05:46:44+00:00",
+    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-25T05:46:44Z; expires 2026-11-08T05:46:44Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -4703,10 +4721,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792732066",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-22T17:42:04+00:00",
     "last_seen": "2026-10-23T04:52:30+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-23T04:52:30Z; expires 2026-11-06T04:52:30Z; cluster FM-C-0616",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-23T04:52:30Z; expires 2026-11-06T04:52:30Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -4991,10 +5009,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792883252",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-15T22:31:33+00:00",
-    "last_seen": "2026-10-24T22:40:12+00:00",
-    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-24T22:40:12Z; expires 2026-11-07T22:40:12Z",
+    "last_seen": "2026-10-25T05:46:44+00:00",
+    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-25T05:46:44Z; expires 2026-11-08T05:46:44Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -5423,10 +5441,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792728504",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-22T20:39:07+00:00",
     "last_seen": "2026-10-23T03:17:50+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-23T03:17:50Z; expires 2026-11-06T03:17:50Z; cluster FM-C-0620",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-23T03:17:50Z; expires 2026-11-06T03:17:50Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -5783,10 +5801,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792904855",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-22T18:25:14+00:00",
     "last_seen": "2026-10-25T04:52:00+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:52:00Z; expires 2026-11-08T04:52:00Z; cluster FM-C-0608",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:52:00Z; expires 2026-11-08T04:52:00Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -7169,10 +7187,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792894054",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-15T11:46:26+00:00",
-    "last_seen": "2026-10-25T01:56:17+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T01:56:17Z; expires 2026-11-08T01:56:17Z",
+    "last_seen": "2026-10-25T05:43:26+00:00",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T05:43:26Z; expires 2026-11-08T05:43:26Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -8753,10 +8771,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792753654",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-13T00:12:20+00:00",
     "last_seen": "2026-10-23T10:52:58+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-23T10:52:58Z; expires 2026-11-06T10:52:58Z; cluster FM-C-0604",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-23T10:52:58Z; expires 2026-11-06T10:52:58Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -8771,10 +8789,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792753654",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-15T21:22:56+00:00",
     "last_seen": "2026-10-23T10:53:29+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-23T10:53:29Z; expires 2026-11-06T10:53:29Z; cluster FM-C-0604",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-23T10:53:29Z; expires 2026-11-06T10:53:29Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -8789,10 +8807,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792753654",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-20T13:02:30+00:00",
     "last_seen": "2026-10-23T10:50:53+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-23T10:50:53Z; expires 2026-11-06T10:50:53Z; cluster FM-C-0604",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-23T10:50:53Z; expires 2026-11-06T10:50:53Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -11417,10 +11435,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792883252",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-05T08:46:52+00:00",
-    "last_seen": "2026-10-24T22:31:21+00:00",
-    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-24T22:31:21Z; expires 2026-11-07T22:31:21Z",
+    "last_seen": "2026-10-25T05:31:22+00:00",
+    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-25T05:31:22Z; expires 2026-11-08T05:31:22Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -11831,10 +11849,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792904855",
+    "timestamp": "1792908449",
     "first_seen": "2026-09-30T19:07:08+00:00",
     "last_seen": "2026-10-25T04:57:16+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:57:16Z; expires 2026-11-08T04:57:16Z; cluster FM-C-0123",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:57:16Z; expires 2026-11-08T04:57:16Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -11849,10 +11867,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792904855",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-01T07:46:06+00:00",
     "last_seen": "2026-10-25T04:58:11+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:58:11Z; expires 2026-11-08T04:58:11Z; cluster FM-C-0123",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:58:11Z; expires 2026-11-08T04:58:11Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -11867,10 +11885,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792904855",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-01T07:46:10+00:00",
     "last_seen": "2026-10-25T04:58:34+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:58:34Z; expires 2026-11-08T04:58:34Z; cluster FM-C-0123",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:58:34Z; expires 2026-11-08T04:58:34Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -12209,10 +12227,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792883252",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-01T07:46:06+00:00",
-    "last_seen": "2026-10-24T22:40:34+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-24T22:40:34Z; expires 2026-11-07T22:40:34Z; cluster FM-C-0023",
+    "last_seen": "2026-10-25T05:43:26+00:00",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T05:43:26Z; expires 2026-11-08T05:43:26Z; cluster FM-C-0023",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -14513,10 +14531,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792883252",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-19T22:03:55+00:00",
-    "last_seen": "2026-10-24T22:40:12+00:00",
-    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-24T22:40:12Z; expires 2026-11-07T22:40:12Z",
+    "last_seen": "2026-10-25T05:46:44+00:00",
+    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-25T05:46:44Z; expires 2026-11-08T05:46:44Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -15125,10 +15143,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792883252",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-01T07:46:23+00:00",
-    "last_seen": "2026-10-24T22:41:29+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-24T22:41:29Z; expires 2026-11-07T22:41:29Z",
+    "last_seen": "2026-10-25T05:37:43+00:00",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T05:37:43Z; expires 2026-11-08T05:37:43Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -16216,6 +16234,60 @@
     ]
    },
    {
+    "uuid": "ac36b99d-4566-5e67-a82d-5616711a4fb8",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "192.162.199.165|56001",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792908449",
+    "first_seen": "2026-10-13T10:50:31+00:00",
+    "last_seen": "2026-10-25T05:37:43+00:00",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T05:37:43Z; expires 2026-11-08T05:37:43Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "90f0fff1-a393-5a72-af29-d18a86e0e06d",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "192.162.199.165|56002",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792908449",
+    "first_seen": "2026-10-13T12:00:25+00:00",
+    "last_seen": "2026-10-25T05:55:00+00:00",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T05:55:00Z; expires 2026-11-08T05:55:00Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "f4ca2d3a-d86d-5666-9b39-7cc7c4a48fb4",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "192.162.199.165|56003",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792908449",
+    "first_seen": "2026-10-13T15:42:36+00:00",
+    "last_seen": "2026-10-25T05:55:00+00:00",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T05:55:00Z; expires 2026-11-08T05:55:00Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "eda2b22a-f7bd-5b4d-adc8-2f45496667eb",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -16439,10 +16511,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792868855",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-22T18:14:31+00:00",
-    "last_seen": "2026-10-24T19:01:16+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-24T19:01:16Z; expires 2026-11-07T19:01:16Z; cluster FM-C-0611",
+    "last_seen": "2026-10-25T05:42:55+00:00",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T05:42:55Z; expires 2026-11-08T05:42:55Z; cluster FM-C-0611",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -16745,10 +16817,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792778856",
+    "timestamp": "1792908449",
     "first_seen": "2026-09-15T10:11:12+00:00",
     "last_seen": "2026-10-23T18:01:19+00:00",
-    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-23T18:01:19Z; expires 2026-11-06T18:01:19Z; cluster FM-C-0322",
+    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-23T18:01:19Z; expires 2026-11-06T18:01:19Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -16763,10 +16835,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792778856",
+    "timestamp": "1792908449",
     "first_seen": "2026-09-24T14:55:33+00:00",
     "last_seen": "2026-10-23T18:01:50+00:00",
-    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-23T18:01:50Z; expires 2026-11-06T18:01:50Z; cluster FM-C-0322",
+    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-23T18:01:50Z; expires 2026-11-06T18:01:50Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -17555,10 +17627,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792904855",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-22T03:56:01+00:00",
     "last_seen": "2026-10-25T04:52:29+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:52:29Z; expires 2026-11-08T04:52:29Z; cluster FM-C-0613",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:52:29Z; expires 2026-11-08T04:52:29Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -17735,10 +17807,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792904855",
+    "timestamp": "1792908449",
     "first_seen": "2026-09-25T07:54:37+00:00",
     "last_seen": "2026-10-25T04:52:39+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:52:39Z; expires 2026-11-08T04:52:39Z; cluster FM-C-0623",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:52:39Z; expires 2026-11-08T04:52:39Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -17753,10 +17825,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792904855",
+    "timestamp": "1792908449",
     "first_seen": "2026-09-26T08:44:01+00:00",
     "last_seen": "2026-10-25T04:52:42+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:52:42Z; expires 2026-11-08T04:52:42Z; cluster FM-C-0623",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:52:42Z; expires 2026-11-08T04:52:42Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -17987,10 +18059,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792868855",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-21T07:21:30+00:00",
-    "last_seen": "2026-10-24T19:01:16+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-24T19:01:16Z; expires 2026-11-07T19:01:16Z; cluster FM-C-0611",
+    "last_seen": "2026-10-25T05:42:55+00:00",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T05:42:55Z; expires 2026-11-08T05:42:55Z; cluster FM-C-0611",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -19175,10 +19247,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792883252",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-02T20:07:07+00:00",
-    "last_seen": "2026-10-24T22:46:42+00:00",
-    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-24T22:46:42Z; expires 2026-11-07T22:46:42Z",
+    "last_seen": "2026-10-25T05:46:44+00:00",
+    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-25T05:46:44Z; expires 2026-11-08T05:46:44Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -19445,10 +19517,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792732066",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-22T22:50:08+00:00",
     "last_seen": "2026-10-23T04:52:13+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-23T04:52:13Z; expires 2026-11-06T04:52:13Z; cluster FM-C-0616",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-23T04:52:13Z; expires 2026-11-06T04:52:13Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -19463,10 +19535,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792732066",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-22T21:46:08+00:00",
     "last_seen": "2026-10-23T04:52:14+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-23T04:52:14Z; expires 2026-11-06T04:52:14Z; cluster FM-C-0616",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-23T04:52:14Z; expires 2026-11-06T04:52:14Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -19481,10 +19553,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792732066",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-22T17:42:04+00:00",
     "last_seen": "2026-10-23T04:52:30+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-23T04:52:30Z; expires 2026-11-06T04:52:30Z; cluster FM-C-0616",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-23T04:52:30Z; expires 2026-11-06T04:52:30Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -20147,10 +20219,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792883252",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-20T16:54:17+00:00",
-    "last_seen": "2026-10-24T22:40:12+00:00",
-    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-24T22:40:12Z; expires 2026-11-07T22:40:12Z",
+    "last_seen": "2026-10-25T05:46:44+00:00",
+    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-25T05:46:44Z; expires 2026-11-08T05:46:44Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -21029,10 +21101,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792728504",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-22T20:39:07+00:00",
     "last_seen": "2026-10-23T03:17:50+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-23T03:17:50Z; expires 2026-11-06T03:17:50Z; cluster FM-C-0620",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-23T03:17:50Z; expires 2026-11-06T03:17:50Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -21875,10 +21947,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792904855",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-22T19:23:35+00:00",
     "last_seen": "2026-10-25T04:51:55+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:51:55Z; expires 2026-11-08T04:51:55Z; cluster FM-C-0608",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:51:55Z; expires 2026-11-08T04:51:55Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -21893,10 +21965,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792904855",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-22T19:25:25+00:00",
     "last_seen": "2026-10-25T04:51:52+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:51:52Z; expires 2026-11-08T04:51:52Z; cluster FM-C-0608",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:51:52Z; expires 2026-11-08T04:51:52Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -21911,10 +21983,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792904855",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-22T18:25:14+00:00",
     "last_seen": "2026-10-25T04:52:00+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:52:00Z; expires 2026-11-08T04:52:00Z; cluster FM-C-0608",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T04:52:00Z; expires 2026-11-08T04:52:00Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -25403,10 +25475,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792872452",
+    "timestamp": "1792908449",
     "first_seen": "2026-10-20T23:04:34+00:00",
-    "last_seen": "2026-10-24T19:52:54+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-24T19:52:54Z; expires 2026-11-07T19:52:54Z",
+    "last_seen": "2026-10-25T05:43:26+00:00",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-25T05:43:26Z; expires 2026-11-08T05:43:26Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -27404,7 +27476,7 @@
     "timestamp": "1792904855",
     "first_seen": "2026-09-30T19:07:09+00:00",
     "last_seen": "2026-10-20T11:47:50+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-20T11:47:50Z; expires 2026-11-03T11:47:50Z; cluster FM-C-0076; no longer observed since 2026-10-25T05:07:35Z",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-20T11:47:50Z; expires 2026-11-03T11:47:50Z; no longer observed since 2026-10-25T05:07:35Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -27926,7 +27998,7 @@
     "timestamp": "1792904855",
     "first_seen": "2026-10-19T09:06:01+00:00",
     "last_seen": "2026-10-22T19:37:08+00:00",
-    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-22T19:37:08Z; expires 2026-11-05T19:37:08Z; cluster FM-C-0628; no longer observed since 2026-10-25T05:07:35Z",
+    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-22T19:37:08Z; expires 2026-11-05T19:37:08Z; no longer observed since 2026-10-25T05:07:35Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -28664,7 +28736,7 @@
     "timestamp": "1792904855",
     "first_seen": "2026-09-26T16:10:21+00:00",
     "last_seen": "2026-10-22T11:41:52+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-22T11:41:52Z; expires 2026-11-05T11:41:52Z; cluster FM-C-0354; no longer observed since 2026-10-25T05:07:35Z",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-22T11:41:52Z; expires 2026-11-05T11:41:52Z; no longer observed since 2026-10-25T05:07:35Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -29024,7 +29096,7 @@
     "timestamp": "1792904855",
     "first_seen": "2026-10-12T11:22:29+00:00",
     "last_seen": "2026-10-22T12:07:39+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-22T12:07:39Z; expires 2026-11-05T12:07:39Z; cluster FM-C-0616; no longer observed since 2026-10-25T05:07:35Z",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-22T12:07:39Z; expires 2026-11-05T12:07:39Z; no longer observed since 2026-10-25T05:07:35Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -31472,7 +31544,7 @@
     "timestamp": "1792904855",
     "first_seen": "2026-09-04T09:45:35+00:00",
     "last_seen": "2026-10-20T02:33:59+00:00",
-    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-20T02:33:59Z; expires 2026-11-03T02:33:59Z; cluster FM-C-0052; no longer observed since 2026-10-25T05:07:35Z",
+    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-20T02:33:59Z; expires 2026-11-03T02:33:59Z; no longer observed since 2026-10-25T05:07:35Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -35180,7 +35252,7 @@
     "timestamp": "1792732066",
     "first_seen": "2026-09-30T19:07:09+00:00",
     "last_seen": "2026-10-20T11:47:18+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-20T11:47:18Z; expires 2026-11-03T11:47:18Z; cluster FM-C-0076; no longer observed since 2026-10-23T05:07:46Z",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-20T11:47:18Z; expires 2026-11-03T11:47:18Z; no longer observed since 2026-10-23T05:07:46Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -35198,7 +35270,7 @@
     "timestamp": "1792732066",
     "first_seen": "2026-10-12T02:24:45+00:00",
     "last_seen": "2026-10-20T11:47:50+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-20T11:47:50Z; expires 2026-11-03T11:47:50Z; cluster FM-C-0076; no longer observed since 2026-10-23T05:07:46Z",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-20T11:47:50Z; expires 2026-11-03T11:47:50Z; no longer observed since 2026-10-23T05:07:46Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -36656,7 +36728,7 @@
     "timestamp": "1792904855",
     "first_seen": "2026-10-19T09:06:01+00:00",
     "last_seen": "2026-10-22T19:37:08+00:00",
-    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-22T19:37:08Z; expires 2026-11-05T19:37:08Z; cluster FM-C-0628; no longer observed since 2026-10-25T05:07:35Z",
+    "comment": "PureRAT c2; confidence 90; last verified live 2026-10-22T19:37:08Z; expires 2026-11-05T19:37:08Z; no longer observed since 2026-10-25T05:07:35Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -38456,7 +38528,7 @@
     "timestamp": "1792904855",
     "first_seen": "2026-09-30T19:07:12+00:00",
     "last_seen": "2026-10-22T11:41:52+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-22T11:41:52Z; expires 2026-11-05T11:41:52Z; cluster FM-C-0354; no longer observed since 2026-10-25T05:07:35Z",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-22T11:41:52Z; expires 2026-11-05T11:41:52Z; no longer observed since 2026-10-25T05:07:35Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -38474,7 +38546,7 @@
     "timestamp": "1791349644",
     "first_seen": "2026-10-01T07:46:14+00:00",
     "last_seen": "2026-10-04T06:43:40+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-04T06:43:40Z; expires 2026-10-18T06:43:40Z; cluster FM-C-0354; no longer observed since 2026-10-07T05:07:24Z",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-04T06:43:40Z; expires 2026-10-18T06:43:40Z; no longer observed since 2026-10-07T05:07:24Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -39374,7 +39446,7 @@
     "timestamp": "1792904855",
     "first_seen": "2026-10-12T11:22:29+00:00",
     "last_seen": "2026-10-22T11:47:49+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-22T11:47:49Z; expires 2026-11-05T11:47:49Z; cluster FM-C-0616; no longer observed since 2026-10-25T05:07:35Z",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-22T11:47:49Z; expires 2026-11-05T11:47:49Z; no longer observed since 2026-10-25T05:07:35Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -39392,7 +39464,7 @@
     "timestamp": "1792904855",
     "first_seen": "2026-10-12T12:34:55+00:00",
     "last_seen": "2026-10-22T11:36:03+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-22T11:36:03Z; expires 2026-11-05T11:36:03Z; cluster FM-C-0616; no longer observed since 2026-10-25T05:07:35Z",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-22T11:36:03Z; expires 2026-11-05T11:36:03Z; no longer observed since 2026-10-25T05:07:35Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -39410,7 +39482,7 @@
     "timestamp": "1792904855",
     "first_seen": "2026-10-12T16:55:28+00:00",
     "last_seen": "2026-10-22T12:07:39+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-22T12:07:39Z; expires 2026-11-05T12:07:39Z; cluster FM-C-0616; no longer observed since 2026-10-25T05:07:35Z",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-22T12:07:39Z; expires 2026-11-05T12:07:39Z; no longer observed since 2026-10-25T05:07:35Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -45386,7 +45458,7 @@
     "timestamp": "1792732066",
     "first_seen": "2026-09-04T09:45:45+00:00",
     "last_seen": "2026-10-20T02:33:59+00:00",
-    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-20T02:33:59Z; expires 2026-11-03T02:33:59Z; cluster FM-C-0052; no longer observed since 2026-10-23T05:07:46Z",
+    "comment": "PureRAT c2; confidence 85; last verified live 2026-10-20T02:33:59Z; expires 2026-11-03T02:33:59Z; no longer observed since 2026-10-23T05:07:46Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
