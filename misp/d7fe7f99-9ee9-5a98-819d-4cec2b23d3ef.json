@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1792991374",
-  "publish_timestamp": "1792991374",
+  "timestamp": "1792994856",
+  "publish_timestamp": "1792994856",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -434,10 +434,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792969655",
+    "timestamp": "1792994856",
     "first_seen": "2026-09-28T20:17:19+00:00",
-    "last_seen": "2026-10-25T22:32:23+00:00",
-    "comment": "AdaptixC2 c2; confidence 90; last verified live 2026-10-25T22:32:23Z; expires 2026-11-08T22:32:23Z",
+    "last_seen": "2026-10-26T05:27:27+00:00",
+    "comment": "AdaptixC2 c2; confidence 90; last verified live 2026-10-26T05:27:27Z; expires 2026-11-09T05:27:27Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -1496,10 +1496,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792969655",
+    "timestamp": "1792994856",
     "first_seen": "2026-09-29T17:44:02+00:00",
-    "last_seen": "2026-10-25T22:31:18+00:00",
-    "comment": "AdaptixC2 c2; confidence 90; last verified live 2026-10-25T22:31:18Z; expires 2026-11-08T22:31:18Z",
+    "last_seen": "2026-10-26T05:26:23+00:00",
+    "comment": "AdaptixC2 c2; confidence 90; last verified live 2026-10-26T05:26:23Z; expires 2026-11-09T05:26:23Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -3757,6 +3757,24 @@
     ]
    },
    {
+    "uuid": "37af56fd-be90-5ca0-887b-8b2f4cdd0b08",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "69.8.133.45",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792994856",
+    "first_seen": "2026-09-28T10:07:47+00:00",
+    "last_seen": "2026-10-26T05:26:23+00:00",
+    "comment": "AdaptixC2 c2; confidence 90; last verified live 2026-10-26T05:26:23Z; expires 2026-11-09T05:26:23Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "63e9169d-e77b-5ff1-8539-293790247796",
     "type": "ip-dst",
     "category": "Network activity",
@@ -4664,10 +4682,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792969655",
+    "timestamp": "1792994856",
     "first_seen": "2026-09-28T20:17:19+00:00",
-    "last_seen": "2026-10-25T22:32:23+00:00",
-    "comment": "AdaptixC2 c2; confidence 90; last verified live 2026-10-25T22:32:23Z; expires 2026-11-08T22:32:23Z",
+    "last_seen": "2026-10-26T05:27:27+00:00",
+    "comment": "AdaptixC2 c2; confidence 90; last verified live 2026-10-26T05:27:27Z; expires 2026-11-09T05:27:27Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -6014,10 +6032,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1792969655",
+    "timestamp": "1792994856",
     "first_seen": "2026-09-29T17:44:02+00:00",
-    "last_seen": "2026-10-25T22:31:18+00:00",
-    "comment": "AdaptixC2 c2; confidence 90; last verified live 2026-10-25T22:31:18Z; expires 2026-11-08T22:31:18Z",
+    "last_seen": "2026-10-26T05:26:23+00:00",
+    "comment": "AdaptixC2 c2; confidence 90; last verified live 2026-10-26T05:26:23Z; expires 2026-11-09T05:26:23Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -9265,6 +9283,24 @@
     ]
    },
    {
+    "uuid": "d3835742-1734-51d7-9b7a-eff4c9c7f1a1",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "69.8.133.45|80",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1792994856",
+    "first_seen": "2026-09-28T10:07:47+00:00",
+    "last_seen": "2026-10-26T05:26:23+00:00",
+    "comment": "AdaptixC2 c2; confidence 90; last verified live 2026-10-26T05:26:23Z; expires 2026-11-09T05:26:23Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "8e116c47-d204-507d-b25c-62ae9fe34de6",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -11742,24 +11778,6 @@
     "first_seen": "2026-09-28T23:26:36+00:00",
     "last_seen": "2026-10-17T15:47:16+00:00",
     "comment": "AdaptixC2 c2; confidence 90; last verified live 2026-10-17T15:47:16Z; expires 2026-10-31T15:47:16Z; no longer observed since 2026-10-20T05:07:33Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
-     }
-    ]
-   },
-   {
-    "uuid": "37af56fd-be90-5ca0-887b-8b2f4cdd0b08",
-    "type": "ip-dst",
-    "category": "Network activity",
-    "value": "69.8.133.45",
-    "to_ids": false,
-    "deleted": true,
-    "distribution": "5",
-    "timestamp": "1792386453",
-    "first_seen": "2026-09-28T10:07:47+00:00",
-    "last_seen": "2026-10-23T17:29:12+00:00",
-    "comment": "AdaptixC2 c2; confidence 90; last verified live 2026-10-16T20:31:52Z; expires 2026-11-06T17:29:12Z; no longer observed since 2026-10-19T05:07:33Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -14712,24 +14730,6 @@
     "first_seen": "2026-09-29T09:26:34+00:00",
     "last_seen": "2026-10-17T14:46:44+00:00",
     "comment": "AdaptixC2 c2; confidence 90; last verified live 2026-10-17T14:46:44Z; expires 2026-10-31T14:46:44Z; no longer observed since 2026-10-19T23:07:36Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
-     }
-    ]
-   },
-   {
-    "uuid": "d3835742-1734-51d7-9b7a-eff4c9c7f1a1",
-    "type": "ip-dst|port",
-    "category": "Network activity",
-    "value": "69.8.133.45|80",
-    "to_ids": false,
-    "deleted": true,
-    "distribution": "5",
-    "timestamp": "1792386453",
-    "first_seen": "2026-09-28T10:07:47+00:00",
-    "last_seen": "2026-10-23T17:29:12+00:00",
-    "comment": "AdaptixC2 c2; confidence 90; last verified live 2026-10-16T20:31:52Z; expires 2026-11-06T17:29:12Z; no longer observed since 2026-10-19T05:07:33Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
