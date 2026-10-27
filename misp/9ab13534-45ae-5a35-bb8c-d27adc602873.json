@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1793138856",
-  "publish_timestamp": "1793138856",
+  "timestamp": "1793142452",
+  "publish_timestamp": "1793142452",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -201,24 +201,6 @@
     "first_seen": "2026-09-30T01:24:55+00:00",
     "last_seen": "2026-10-27T17:23:03+00:00",
     "comment": "Viper c2; confidence 95; last verified live 2026-10-27T17:23:03Z; expires 2026-11-10T17:23:03Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"almost-certain\""
-     }
-    ]
-   },
-   {
-    "uuid": "bfd9cc14-c4ad-57c1-bebf-5e44e6771a05",
-    "type": "ip-dst",
-    "category": "Network activity",
-    "value": "117.72.32.75",
-    "to_ids": true,
-    "deleted": false,
-    "distribution": "5",
-    "timestamp": "1792922880",
-    "first_seen": "2026-09-30T01:24:55+00:00",
-    "last_seen": "2026-10-25T09:42:48+00:00",
-    "comment": "Viper c2; confidence 95; last verified live 2026-10-25T09:42:48Z; expires 2026-11-08T09:42:48Z; cluster FM-C-0484",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -521,10 +503,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1793131656",
+    "timestamp": "1793142452",
     "first_seen": "2026-10-18T02:01:47+00:00",
-    "last_seen": "2026-10-27T17:16:22+00:00",
-    "comment": "Viper c2; confidence 95; last verified live 2026-10-27T15:40:52Z; expires 2026-11-10T17:16:22Z",
+    "last_seen": "2026-10-27T22:37:40+00:00",
+    "comment": "Viper c2; confidence 95; last verified live 2026-10-27T22:37:40Z; expires 2026-11-10T22:37:40Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -777,24 +759,6 @@
     "first_seen": "2026-09-30T01:24:55+00:00",
     "last_seen": "2026-10-27T17:23:03+00:00",
     "comment": "Viper c2; confidence 95; last verified live 2026-10-27T17:23:03Z; expires 2026-11-10T17:23:03Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"almost-certain\""
-     }
-    ]
-   },
-   {
-    "uuid": "16c21c57-563d-59a9-a4c0-1708db3a13cd",
-    "type": "ip-dst|port",
-    "category": "Network activity",
-    "value": "117.72.32.75|60000",
-    "to_ids": true,
-    "deleted": false,
-    "distribution": "5",
-    "timestamp": "1792922880",
-    "first_seen": "2026-09-30T01:24:55+00:00",
-    "last_seen": "2026-10-25T09:42:48+00:00",
-    "comment": "Viper c2; confidence 95; last verified live 2026-10-25T09:42:48Z; expires 2026-11-08T09:42:48Z; cluster FM-C-0484",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -1097,10 +1061,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1793131656",
+    "timestamp": "1793142452",
     "first_seen": "2026-10-18T02:01:47+00:00",
-    "last_seen": "2026-10-27T17:16:22+00:00",
-    "comment": "Viper c2; confidence 95; last verified live 2026-10-27T15:40:52Z; expires 2026-11-10T17:16:22Z",
+    "last_seen": "2026-10-27T22:37:40+00:00",
+    "comment": "Viper c2; confidence 95; last verified live 2026-10-27T22:37:40Z; expires 2026-11-10T22:37:40Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -1230,6 +1194,24 @@
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "bfd9cc14-c4ad-57c1-bebf-5e44e6771a05",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "117.72.32.75",
+    "to_ids": false,
+    "deleted": true,
+    "distribution": "5",
+    "timestamp": "1793142452",
+    "first_seen": "2026-09-30T01:24:55+00:00",
+    "last_seen": "2026-10-25T09:42:48+00:00",
+    "comment": "Viper c2; confidence 95; last verified live 2026-10-25T09:42:48Z; expires 2026-11-08T09:42:48Z; cluster FM-C-0484; no longer observed since 2026-10-27T23:07:32Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
      }
     ]
    },
@@ -1428,6 +1410,24 @@
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "16c21c57-563d-59a9-a4c0-1708db3a13cd",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "117.72.32.75|60000",
+    "to_ids": false,
+    "deleted": true,
+    "distribution": "5",
+    "timestamp": "1793142452",
+    "first_seen": "2026-09-30T01:24:55+00:00",
+    "last_seen": "2026-10-25T09:42:48+00:00",
+    "comment": "Viper c2; confidence 95; last verified live 2026-10-25T09:42:48Z; expires 2026-11-08T09:42:48Z; cluster FM-C-0484; no longer observed since 2026-10-27T23:07:32Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"almost-certain\""
      }
     ]
    },
