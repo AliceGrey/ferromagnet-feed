@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1793066855",
-  "publish_timestamp": "1793066855",
+  "timestamp": "1793070456",
+  "publish_timestamp": "1793070456",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -186,6 +186,24 @@
     "first_seen": "2026-10-01T07:47:35+00:00",
     "last_seen": "2026-10-27T01:52:00+00:00",
     "comment": "VenomRAT c2; confidence 90; last verified live 2026-10-27T01:52:00Z; expires 2026-11-10T01:52:00Z; cluster FM-C-0459",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "60862dc3-1779-5f62-8f11-3c77cc35d62c",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "74.0.32.35",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1793070456",
+    "first_seen": "2026-09-17T22:54:31+00:00",
+    "last_seen": "2026-10-27T02:34:25+00:00",
+    "comment": "VenomRAT c2; confidence 85; last verified live 2026-10-27T02:34:25Z; expires 2026-11-10T02:34:25Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -384,6 +402,24 @@
     "first_seen": "2026-10-01T07:47:35+00:00",
     "last_seen": "2026-10-27T01:52:00+00:00",
     "comment": "VenomRAT c2; confidence 90; last verified live 2026-10-27T01:52:00Z; expires 2026-11-10T01:52:00Z; cluster FM-C-0459",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "fd70c9fe-ce19-5015-a394-8ca973af815c",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "74.0.32.35|7811",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1793070456",
+    "first_seen": "2026-09-17T22:54:31+00:00",
+    "last_seen": "2026-10-27T02:34:25+00:00",
+    "comment": "VenomRAT c2; confidence 85; last verified live 2026-10-27T02:34:25Z; expires 2026-11-10T02:34:25Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
