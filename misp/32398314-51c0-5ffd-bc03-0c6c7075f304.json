@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1793473660",
-  "publish_timestamp": "1793473660",
+  "timestamp": "1793488048",
+  "publish_timestamp": "1793488048",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -186,24 +186,6 @@
     "first_seen": "2026-10-29T09:37:52+00:00",
     "last_seen": "2026-10-30T04:59:25+00:00",
     "comment": "DcRat c2; confidence 90; last verified live 2026-10-30T04:59:25Z; expires 2026-11-13T04:59:25Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
-     }
-    ]
-   },
-   {
-    "uuid": "4e1f33e6-567d-53b0-94dc-9175b3a324dd",
-    "type": "ip-dst",
-    "category": "Network activity",
-    "value": "177.3.217.138",
-    "to_ids": true,
-    "deleted": false,
-    "distribution": "5",
-    "timestamp": "1793214463",
-    "first_seen": "2026-10-24T16:51:35+00:00",
-    "last_seen": "2026-10-28T18:16:12+00:00",
-    "comment": "DcRat c2; confidence 85; last verified live 2026-10-28T18:16:12Z; expires 2026-11-11T18:16:12Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -852,24 +834,6 @@
     "first_seen": "2026-10-29T09:37:52+00:00",
     "last_seen": "2026-10-30T04:59:25+00:00",
     "comment": "DcRat c2; confidence 90; last verified live 2026-10-30T04:59:25Z; expires 2026-11-13T04:59:25Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
-     }
-    ]
-   },
-   {
-    "uuid": "ee090437-dba5-5562-879b-2655099cbb4e",
-    "type": "ip-dst|port",
-    "category": "Network activity",
-    "value": "177.3.217.138|12524",
-    "to_ids": true,
-    "deleted": false,
-    "distribution": "5",
-    "timestamp": "1793214463",
-    "first_seen": "2026-10-24T16:51:35+00:00",
-    "last_seen": "2026-10-28T18:16:12+00:00",
-    "comment": "DcRat c2; confidence 85; last verified live 2026-10-28T18:16:12Z; expires 2026-11-11T18:16:12Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -1932,6 +1896,24 @@
     "first_seen": "2026-10-01T21:07:09+00:00",
     "last_seen": "2026-10-09T10:47:54+00:00",
     "comment": "DcRat c2; confidence 90; last verified live 2026-10-09T10:47:54Z; expires 2026-10-23T10:47:54Z; no longer observed since 2026-10-12T11:07:33Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "4e1f33e6-567d-53b0-94dc-9175b3a324dd",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "177.3.217.138",
+    "to_ids": false,
+    "deleted": true,
+    "distribution": "5",
+    "timestamp": "1793488048",
+    "first_seen": "2026-10-24T16:51:35+00:00",
+    "last_seen": "2026-10-28T18:16:12+00:00",
+    "comment": "DcRat c2; confidence 85; last verified live 2026-10-28T18:16:12Z; expires 2026-11-11T18:16:12Z; no longer observed since 2026-10-31T23:07:28Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -3138,6 +3120,24 @@
     "first_seen": "2026-10-01T21:07:09+00:00",
     "last_seen": "2026-10-07T10:58:31+00:00",
     "comment": "DcRat c2; confidence 85; last verified live 2026-10-07T10:58:31Z; expires 2026-10-21T10:58:31Z; no longer observed since 2026-10-09T23:07:36Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "ee090437-dba5-5562-879b-2655099cbb4e",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "177.3.217.138|12524",
+    "to_ids": false,
+    "deleted": true,
+    "distribution": "5",
+    "timestamp": "1793488048",
+    "first_seen": "2026-10-24T16:51:35+00:00",
+    "last_seen": "2026-10-28T18:16:12+00:00",
+    "comment": "DcRat c2; confidence 85; last verified live 2026-10-28T18:16:12Z; expires 2026-11-11T18:16:12Z; no longer observed since 2026-10-31T23:07:28Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
