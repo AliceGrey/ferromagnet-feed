@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1793722059",
-  "publish_timestamp": "1793722059",
+  "timestamp": "1793725654",
+  "publish_timestamp": "1793725654",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -103,6 +103,24 @@
     ]
    },
    {
+    "uuid": "2865ab3b-ef95-54b2-b963-b595202ed41b",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "112.213.123.24",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1793725654",
+    "first_seen": "2026-11-03T14:20:46+00:00",
+    "last_seen": "2026-11-03T16:46:47+00:00",
+    "comment": "VenomRAT c2; confidence 90; last verified live 2026-11-03T16:46:47Z; expires 2026-11-17T16:46:47Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "63906a7c-7c27-5539-a9de-17a24cc7a7b3",
     "type": "ip-dst",
     "category": "Network activity",
@@ -110,10 +128,28 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1793718447",
+    "timestamp": "1793725654",
     "first_seen": "2026-10-30T16:20:30+00:00",
-    "last_seen": "2026-11-03T14:56:35+00:00",
-    "comment": "VenomRAT c2; confidence 90; last verified live 2026-11-03T14:56:35Z; expires 2026-11-17T14:56:35Z",
+    "last_seen": "2026-11-03T16:47:26+00:00",
+    "comment": "VenomRAT c2; confidence 90; last verified live 2026-11-03T16:47:26Z; expires 2026-11-17T16:47:26Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "1449b767-11a2-59de-8bd0-6ca37c6d04d0",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "177.102.205.208",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1793725654",
+    "first_seen": "2026-11-03T06:44:42+00:00",
+    "last_seen": "2026-11-03T16:46:48+00:00",
+    "comment": "VenomRAT c2; confidence 90; last verified live 2026-11-03T16:46:48Z; expires 2026-11-17T16:46:48Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -337,6 +373,24 @@
     ]
    },
    {
+    "uuid": "40ae9cef-061c-5e15-8ea1-0d3c4f2908ec",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "112.213.123.24|4449",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1793725654",
+    "first_seen": "2026-11-03T14:20:46+00:00",
+    "last_seen": "2026-11-03T16:46:47+00:00",
+    "comment": "VenomRAT c2; confidence 90; last verified live 2026-11-03T16:46:47Z; expires 2026-11-17T16:46:47Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "51925072-20e3-5128-a527-7dabee9ed0a4",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -344,10 +398,28 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1793718447",
+    "timestamp": "1793725654",
     "first_seen": "2026-10-30T16:20:30+00:00",
-    "last_seen": "2026-11-03T14:56:35+00:00",
-    "comment": "VenomRAT c2; confidence 90; last verified live 2026-11-03T14:56:35Z; expires 2026-11-17T14:56:35Z",
+    "last_seen": "2026-11-03T16:47:26+00:00",
+    "comment": "VenomRAT c2; confidence 90; last verified live 2026-11-03T16:47:26Z; expires 2026-11-17T16:47:26Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "d0f2e1aa-d7bc-5739-924f-d1c4b4d69bee",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "177.102.205.208|7000",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1793725654",
+    "first_seen": "2026-11-03T06:44:42+00:00",
+    "last_seen": "2026-11-03T16:46:48+00:00",
+    "comment": "VenomRAT c2; confidence 90; last verified live 2026-11-03T16:46:48Z; expires 2026-11-17T16:46:48Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
