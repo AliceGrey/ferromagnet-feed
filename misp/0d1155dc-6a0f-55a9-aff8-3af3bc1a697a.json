@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1793729266",
-  "publish_timestamp": "1793729266",
+  "timestamp": "1793732863",
+  "publish_timestamp": "1793732863",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -77,10 +77,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1793707662",
+    "timestamp": "1793732863",
     "first_seen": "2026-10-03T05:09:49+00:00",
-    "last_seen": "2026-11-03T11:57:17+00:00",
-    "comment": "Empire c2; confidence 90; last verified live 2026-11-03T11:57:17Z; expires 2026-11-17T11:57:17Z",
+    "last_seen": "2026-11-03T18:57:13+00:00",
+    "comment": "Empire c2; confidence 90; last verified live 2026-11-03T18:57:13Z; expires 2026-11-17T18:57:13Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -135,6 +135,24 @@
     "first_seen": "2026-10-03T05:09:49+00:00",
     "last_seen": "2026-11-03T16:37:16+00:00",
     "comment": "Empire c2; confidence 90; last verified live 2026-11-03T16:37:16Z; expires 2026-11-17T16:37:16Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "27ff4f69-df5a-58d6-b988-7ebf42f073c6",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "185.233.166.127",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1793732863",
+    "first_seen": "2026-11-03T12:24:05+00:00",
+    "last_seen": "2026-11-03T18:16:11+00:00",
+    "comment": "Empire c2; confidence 90; last verified live 2026-11-03T18:16:11Z; expires 2026-11-17T18:16:11Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -383,10 +401,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1793707662",
+    "timestamp": "1793732863",
     "first_seen": "2026-10-03T05:09:49+00:00",
-    "last_seen": "2026-11-03T11:57:17+00:00",
-    "comment": "Empire c2; confidence 90; last verified live 2026-11-03T11:57:17Z; expires 2026-11-17T11:57:17Z",
+    "last_seen": "2026-11-03T18:57:13+00:00",
+    "comment": "Empire c2; confidence 90; last verified live 2026-11-03T18:57:13Z; expires 2026-11-17T18:57:13Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -441,6 +459,24 @@
     "first_seen": "2026-10-03T05:09:49+00:00",
     "last_seen": "2026-11-03T16:37:16+00:00",
     "comment": "Empire c2; confidence 90; last verified live 2026-11-03T16:37:16Z; expires 2026-11-17T16:37:16Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "e4bb89e3-45c8-5843-87d2-51689fb3cb84",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "185.233.166.127|1337",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1793732863",
+    "first_seen": "2026-11-03T12:24:05+00:00",
+    "last_seen": "2026-11-03T18:16:11+00:00",
+    "comment": "Empire c2; confidence 90; last verified live 2026-11-03T18:16:11Z; expires 2026-11-17T18:16:11Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
