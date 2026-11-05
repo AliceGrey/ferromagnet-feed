@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1793887696",
-  "publish_timestamp": "1793887696",
+  "timestamp": "1793898463",
+  "publish_timestamp": "1793898463",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -654,6 +654,24 @@
     "first_seen": "2026-11-04T21:48:54+00:00",
     "last_seen": "2026-11-05T11:42:15+00:00",
     "comment": "DcRat c2; confidence 85; last verified live 2026-11-05T11:42:15Z; expires 2026-11-19T11:42:15Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "bd1e90d3-eb57-5227-8f60-5e98134f1dc6",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "46.246.6.6",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1793898463",
+    "first_seen": "2026-11-04T13:13:18+00:00",
+    "last_seen": "2026-11-05T16:48:50+00:00",
+    "comment": "DcRat c2; confidence 85; last verified live 2026-11-05T16:48:50Z; expires 2026-11-19T16:48:50Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -1554,6 +1572,24 @@
     "first_seen": "2026-11-04T21:48:54+00:00",
     "last_seen": "2026-11-05T11:42:15+00:00",
     "comment": "DcRat c2; confidence 85; last verified live 2026-11-05T11:42:15Z; expires 2026-11-19T11:42:15Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "fc38e223-d3e3-5edd-b8f2-de408c7810e3",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "46.246.6.6|2512",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1793898463",
+    "first_seen": "2026-11-04T13:13:18+00:00",
+    "last_seen": "2026-11-05T16:48:50+00:00",
+    "comment": "DcRat c2; confidence 85; last verified live 2026-11-05T16:48:50Z; expires 2026-11-19T16:48:50Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
