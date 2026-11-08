@@ -2,7 +2,7 @@
  "Event": {
   "uuid": "b158b9fa-137f-59a5-930e-2981c3b6240c",
   "info": "FerroMagnet: Mythic C2 infrastructure",
-  "date": "2026-09-28",
+  "date": "2026-09-30",
   "analysis": "1",
   "threat_level_id": "2",
   "distribution": "3",
@@ -3019,24 +3019,6 @@
     ]
    },
    {
-    "uuid": "3d5fb4be-837e-53c0-8364-372f5a968c0b",
-    "type": "ip-dst",
-    "category": "Network activity",
-    "value": "192.169.176.54",
-    "to_ids": false,
-    "deleted": true,
-    "distribution": "5",
-    "timestamp": "1791522464",
-    "first_seen": "2026-09-28T05:52:15+00:00",
-    "last_seen": "2026-10-06T04:45:54+00:00",
-    "comment": "Mythic c2; confidence 85; last verified live 2026-10-06T04:45:54Z; expires 2026-10-20T04:45:54Z; no longer observed since 2026-10-09T05:07:44Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
-     }
-    ]
-   },
-   {
     "uuid": "70a4e6bf-c39d-55f9-8e90-d548a77a937c",
     "type": "ip-dst",
     "category": "Network activity",
@@ -3519,42 +3501,6 @@
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
-     }
-    ]
-   },
-   {
-    "uuid": "7ee8e6fa-1ccd-5693-a21b-fbe8a46d793d",
-    "type": "ip-dst",
-    "category": "Network activity",
-    "value": "68.178.202.150",
-    "to_ids": false,
-    "deleted": true,
-    "distribution": "5",
-    "timestamp": "1791522464",
-    "first_seen": "2026-09-28T07:39:46+00:00",
-    "last_seen": "2026-10-06T04:44:51+00:00",
-    "comment": "Mythic c2; confidence 85; last verified live 2026-10-06T04:44:51Z; expires 2026-10-20T04:44:51Z; no longer observed since 2026-10-09T05:07:44Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
-     }
-    ]
-   },
-   {
-    "uuid": "a120693d-5a7a-5631-b798-ca03cda179c2",
-    "type": "ip-dst",
-    "category": "Network activity",
-    "value": "68.178.205.17",
-    "to_ids": false,
-    "deleted": true,
-    "distribution": "5",
-    "timestamp": "1791522464",
-    "first_seen": "2026-09-28T08:21:26+00:00",
-    "last_seen": "2026-10-06T04:45:30+00:00",
-    "comment": "Mythic c2; confidence 85; last verified live 2026-10-06T04:45:30Z; expires 2026-10-20T04:45:30Z; no longer observed since 2026-10-09T05:07:44Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
      }
     ]
    },
@@ -4261,24 +4207,6 @@
     ]
    },
    {
-    "uuid": "adcb191c-66fc-57f9-a72b-1a10330c3252",
-    "type": "ip-dst|port",
-    "category": "Network activity",
-    "value": "192.169.176.54|7443",
-    "to_ids": false,
-    "deleted": true,
-    "distribution": "5",
-    "timestamp": "1791522464",
-    "first_seen": "2026-09-30T17:07:07+00:00",
-    "last_seen": "2026-10-06T04:45:54+00:00",
-    "comment": "Mythic c2; confidence 85; last verified live 2026-10-06T04:45:54Z; expires 2026-10-20T04:45:54Z; no longer observed since 2026-10-09T05:07:44Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
-     }
-    ]
-   },
-   {
     "uuid": "d707d149-e872-5cda-90a1-abdc34118e8c",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -4779,42 +4707,6 @@
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
-     }
-    ]
-   },
-   {
-    "uuid": "41a6eb73-788b-50cb-a5a3-585c2b4c1783",
-    "type": "ip-dst|port",
-    "category": "Network activity",
-    "value": "68.178.202.150|7443",
-    "to_ids": false,
-    "deleted": true,
-    "distribution": "5",
-    "timestamp": "1791522464",
-    "first_seen": "2026-09-30T17:07:07+00:00",
-    "last_seen": "2026-10-06T04:44:51+00:00",
-    "comment": "Mythic c2; confidence 85; last verified live 2026-10-06T04:44:51Z; expires 2026-10-20T04:44:51Z; no longer observed since 2026-10-09T05:07:44Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
-     }
-    ]
-   },
-   {
-    "uuid": "1fe4f924-18a7-5e8f-a288-1f605d37650e",
-    "type": "ip-dst|port",
-    "category": "Network activity",
-    "value": "68.178.205.17|7443",
-    "to_ids": false,
-    "deleted": true,
-    "distribution": "5",
-    "timestamp": "1791522464",
-    "first_seen": "2026-09-30T17:07:07+00:00",
-    "last_seen": "2026-10-06T04:45:30+00:00",
-    "comment": "Mythic c2; confidence 85; last verified live 2026-10-06T04:45:30Z; expires 2026-10-20T04:45:30Z; no longer observed since 2026-10-09T05:07:44Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
      }
     ]
    },
