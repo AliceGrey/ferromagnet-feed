@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1794172056",
-  "publish_timestamp": "1794172056",
+  "timestamp": "1794175663",
+  "publish_timestamp": "1794175663",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -39,6 +39,24 @@
     "first_seen": "2026-10-11T05:12:53+00:00",
     "last_seen": "2026-11-08T18:03:58+00:00",
     "comment": "JAR Staging ost; confidence 80; last verified live 2026-11-08T18:03:58Z; expires 2026-11-22T18:03:58Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "c43865f8-0655-5665-be0c-4a245c56afbe",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "151.244.237.33",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1794175663",
+    "first_seen": "2026-11-08T19:49:57+00:00",
+    "last_seen": "2026-11-08T21:16:12+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-11-08T21:16:12Z; expires 2026-11-22T21:16:12Z; cluster FM-C-0758",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -118,6 +136,24 @@
     ]
    },
    {
+    "uuid": "5a1633cb-0742-5093-9c22-92e892862917",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "45.77.17.164",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1794175663",
+    "first_seen": "2026-11-08T08:59:32+00:00",
+    "last_seen": "2026-11-08T21:16:12+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-11-08T21:16:12Z; expires 2026-11-22T21:16:12Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "f5ba1e2f-e82e-5eb0-8c03-70b3b9df2fa8",
     "type": "ip-dst",
     "category": "Network activity",
@@ -154,6 +190,60 @@
     ]
    },
    {
+    "uuid": "f5ffd037-5fe7-5a43-ba83-a5b9e32c1368",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "89.124.115.150",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1794175663",
+    "first_seen": "2026-11-08T08:01:29+00:00",
+    "last_seen": "2026-11-08T21:16:12+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-11-08T21:16:12Z; expires 2026-11-22T21:16:12Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "fcf0f165-b647-5b76-8c78-775b45b9d9f1",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "92.62.251.208",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1794175663",
+    "first_seen": "2026-11-08T20:34:32+00:00",
+    "last_seen": "2026-11-08T21:16:12+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-11-08T21:16:12Z; expires 2026-11-22T21:16:12Z; cluster FM-C-0758",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "45ae027c-3e18-5be3-b064-20c17dbbdafd",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "92.62.251.213",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1794175663",
+    "first_seen": "2026-11-08T20:08:43+00:00",
+    "last_seen": "2026-11-08T21:16:12+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-11-08T21:16:12Z; expires 2026-11-22T21:16:12Z; cluster FM-C-0758",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "2a81b3fe-662b-530d-b745-fbf689a9282b",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -165,6 +255,24 @@
     "first_seen": "2026-10-11T05:12:53+00:00",
     "last_seen": "2026-11-08T18:03:58+00:00",
     "comment": "JAR Staging ost; confidence 80; last verified live 2026-11-08T18:03:58Z; expires 2026-11-22T18:03:58Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "90961fc6-ffdd-57a8-aca7-7c1011460020",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "151.244.237.33|26001",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1794175663",
+    "first_seen": "2026-11-08T19:49:57+00:00",
+    "last_seen": "2026-11-08T21:16:12+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-11-08T21:16:12Z; expires 2026-11-22T21:16:12Z; cluster FM-C-0758",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -262,6 +370,24 @@
     ]
    },
    {
+    "uuid": "5bc5c44c-71e0-51b1-a63f-b479591e683f",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "45.77.17.164|80",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1794175663",
+    "first_seen": "2026-11-08T08:59:32+00:00",
+    "last_seen": "2026-11-08T21:16:12+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-11-08T21:16:12Z; expires 2026-11-22T21:16:12Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "16cbf418-f710-5810-a07d-0fe1318feeed",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -291,6 +417,60 @@
     "first_seen": "2026-10-30T05:36:00+00:00",
     "last_seen": "2026-11-08T20:21:23+00:00",
     "comment": "JAR Staging ost; confidence 80; last verified live 2026-11-08T17:23:05Z; expires 2026-11-22T20:21:23Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "6d9e77a3-bd48-5a75-99b3-ce74b9038aff",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "89.124.115.150|18082",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1794175663",
+    "first_seen": "2026-11-08T15:08:52+00:00",
+    "last_seen": "2026-11-08T21:16:12+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-11-08T21:16:12Z; expires 2026-11-22T21:16:12Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "e1bf38fa-4eb1-5391-99f9-97a7faf66b94",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "92.62.251.208|26001",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1794175663",
+    "first_seen": "2026-11-08T20:34:32+00:00",
+    "last_seen": "2026-11-08T21:16:12+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-11-08T21:16:12Z; expires 2026-11-22T21:16:12Z; cluster FM-C-0758",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "de846c47-d8a4-556a-9761-5d976bfdf734",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "92.62.251.213|26001",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1794175663",
+    "first_seen": "2026-11-08T20:08:43+00:00",
+    "last_seen": "2026-11-08T21:16:12+00:00",
+    "comment": "JAR Staging ost; confidence 80; last verified live 2026-11-08T21:16:12Z; expires 2026-11-22T21:16:12Z; cluster FM-C-0758",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
