@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1794258458",
-  "publish_timestamp": "1794258458",
+  "timestamp": "1794262056",
+  "publish_timestamp": "1794262056",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -376,6 +376,24 @@
     ]
    },
    {
+    "uuid": "44232723-0c98-5bb3-8feb-1f08891b821a",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "209.182.225.161",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1794262056",
+    "first_seen": "2026-11-09T17:58:55+00:00",
+    "last_seen": "2026-11-09T21:16:12+00:00",
+    "comment": "DinDoor c2; confidence 90; last verified live 2026-11-09T21:16:12Z; expires 2026-11-23T21:16:12Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "0229ef1a-2026-5d26-ac6b-aee6ec857be3",
     "type": "ip-dst",
     "category": "Network activity",
@@ -689,10 +707,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1794258458",
+    "timestamp": "1794262056",
     "first_seen": "2026-10-11T20:45:40+00:00",
-    "last_seen": "2026-11-09T15:28:11+00:00",
-    "comment": "DinDoor c2; confidence 90; last verified live 2026-11-09T14:31:53Z; expires 2026-11-23T15:28:11Z",
+    "last_seen": "2026-11-09T21:43:58+00:00",
+    "comment": "DinDoor c2; confidence 90; last verified live 2026-11-09T21:43:58Z; expires 2026-11-23T21:43:58Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -1078,6 +1096,24 @@
     ]
    },
    {
+    "uuid": "58b1d0df-d9f4-5104-bc8c-719bb593628e",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "209.182.225.161|80",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1794262056",
+    "first_seen": "2026-11-09T17:58:55+00:00",
+    "last_seen": "2026-11-09T21:16:12+00:00",
+    "comment": "DinDoor c2; confidence 90; last verified live 2026-11-09T21:16:12Z; expires 2026-11-23T21:16:12Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
     "uuid": "57b15d78-8aa1-5dfa-bfcf-01909be58fa0",
     "type": "ip-dst|port",
     "category": "Network activity",
@@ -1391,10 +1427,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1794258458",
+    "timestamp": "1794262056",
     "first_seen": "2026-10-11T20:45:40+00:00",
-    "last_seen": "2026-11-09T15:28:11+00:00",
-    "comment": "DinDoor c2; confidence 90; last verified live 2026-11-09T14:31:53Z; expires 2026-11-23T15:28:11Z",
+    "last_seen": "2026-11-09T21:43:58+00:00",
+    "comment": "DinDoor c2; confidence 90; last verified live 2026-11-09T21:43:58Z; expires 2026-11-23T21:43:58Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
