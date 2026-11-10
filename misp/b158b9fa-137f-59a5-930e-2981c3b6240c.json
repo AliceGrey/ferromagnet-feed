@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1794326850",
-  "publish_timestamp": "1794326850",
+  "timestamp": "1794330450",
+  "publish_timestamp": "1794330450",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -506,10 +506,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1794308853",
+    "timestamp": "1794330450",
     "first_seen": "2026-11-02T07:06:07+00:00",
-    "last_seen": "2026-11-10T10:12:33+00:00",
-    "comment": "Mythic c2; confidence 95; last verified live 2026-11-10T10:12:33Z; expires 2026-11-24T10:12:33Z",
+    "last_seen": "2026-11-10T16:46:45+00:00",
+    "comment": "Mythic c2; confidence 95; last verified live 2026-11-10T16:46:45Z; expires 2026-11-24T16:46:45Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -794,10 +794,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1794305253",
+    "timestamp": "1794330450",
     "first_seen": "2026-10-18T06:18:35+00:00",
-    "last_seen": "2026-11-10T09:56:35+00:00",
-    "comment": "Mythic c2; confidence 85; last verified live 2026-11-10T09:56:35Z; expires 2026-11-24T09:56:35Z; cluster FM-C-0171",
+    "last_seen": "2026-11-10T16:33:01+00:00",
+    "comment": "Mythic c2; confidence 85; last verified live 2026-11-10T16:33:01Z; expires 2026-11-24T16:33:01Z; cluster FM-C-0171",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -1082,10 +1082,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1794305253",
+    "timestamp": "1794330450",
     "first_seen": "2026-11-07T02:41:59+00:00",
-    "last_seen": "2026-11-10T09:25:44+00:00",
-    "comment": "Mythic c2; confidence 95; last verified live 2026-11-10T09:25:44Z; expires 2026-11-24T09:25:44Z",
+    "last_seen": "2026-11-10T16:46:45+00:00",
+    "comment": "Mythic c2; confidence 95; last verified live 2026-11-10T16:46:45Z; expires 2026-11-24T16:46:45Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -1640,10 +1640,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1794308853",
+    "timestamp": "1794330450",
     "first_seen": "2026-11-02T07:06:07+00:00",
-    "last_seen": "2026-11-10T10:12:33+00:00",
-    "comment": "Mythic c2; confidence 95; last verified live 2026-11-10T10:12:33Z; expires 2026-11-24T10:12:33Z",
+    "last_seen": "2026-11-10T16:46:45+00:00",
+    "comment": "Mythic c2; confidence 95; last verified live 2026-11-10T16:46:45Z; expires 2026-11-24T16:46:45Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -1928,10 +1928,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1794305253",
+    "timestamp": "1794330450",
     "first_seen": "2026-10-18T06:18:35+00:00",
-    "last_seen": "2026-11-10T09:56:35+00:00",
-    "comment": "Mythic c2; confidence 85; last verified live 2026-11-10T09:56:35Z; expires 2026-11-24T09:56:35Z; cluster FM-C-0171",
+    "last_seen": "2026-11-10T16:33:01+00:00",
+    "comment": "Mythic c2; confidence 85; last verified live 2026-11-10T16:33:01Z; expires 2026-11-24T16:33:01Z; cluster FM-C-0171",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -2216,10 +2216,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1794305253",
+    "timestamp": "1794330450",
     "first_seen": "2026-11-07T02:41:59+00:00",
-    "last_seen": "2026-11-10T09:25:44+00:00",
-    "comment": "Mythic c2; confidence 95; last verified live 2026-11-10T09:25:44Z; expires 2026-11-24T09:25:44Z",
+    "last_seen": "2026-11-10T16:46:45+00:00",
+    "comment": "Mythic c2; confidence 95; last verified live 2026-11-10T16:46:45Z; expires 2026-11-24T16:46:45Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -2814,24 +2814,6 @@
     "first_seen": "2026-10-18T11:20:06+00:00",
     "last_seen": "2026-10-20T02:40:48+00:00",
     "comment": "Mythic c2; confidence 95; last verified live 2026-10-20T02:40:48Z; expires 2026-11-03T02:40:48Z; no longer observed since 2026-10-22T11:07:32Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"almost-certain\""
-     }
-    ]
-   },
-   {
-    "uuid": "65c932a7-d767-592f-8288-8fc9cf0b76b0",
-    "type": "ip-dst",
-    "category": "Network activity",
-    "value": "189.141.46.66",
-    "to_ids": false,
-    "deleted": true,
-    "distribution": "5",
-    "timestamp": "1791738446",
-    "first_seen": "2026-10-03T12:07:11+00:00",
-    "last_seen": "2026-10-09T04:40:22+00:00",
-    "comment": "Mythic c2; confidence 95; last verified live 2026-10-09T04:40:22Z; expires 2026-10-23T04:40:22Z; no longer observed since 2026-10-11T17:07:26Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -3930,24 +3912,6 @@
     "first_seen": "2026-10-18T21:29:47+00:00",
     "last_seen": "2026-10-20T02:40:48+00:00",
     "comment": "Mythic c2; confidence 95; last verified live 2026-10-20T02:40:48Z; expires 2026-11-03T02:40:48Z; no longer observed since 2026-10-22T11:07:32Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"almost-certain\""
-     }
-    ]
-   },
-   {
-    "uuid": "9a3678cd-70c0-548a-a0b9-7a1aec74bb69",
-    "type": "ip-dst|port",
-    "category": "Network activity",
-    "value": "189.141.46.66|7443",
-    "to_ids": false,
-    "deleted": true,
-    "distribution": "5",
-    "timestamp": "1791738446",
-    "first_seen": "2026-10-03T12:07:11+00:00",
-    "last_seen": "2026-10-09T04:40:22+00:00",
-    "comment": "Mythic c2; confidence 95; last verified live 2026-10-09T04:40:22Z; expires 2026-10-23T04:40:22Z; no longer observed since 2026-10-11T17:07:26Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
