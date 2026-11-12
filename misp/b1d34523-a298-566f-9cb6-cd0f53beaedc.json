@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1794492455",
-  "publish_timestamp": "1794492455",
+  "timestamp": "1794496056",
+  "publish_timestamp": "1794496056",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -33,6 +33,24 @@
    }
   ],
   "Attribute": [
+   {
+    "uuid": "4897f021-4f00-58e0-998a-7385107840e4",
+    "type": "ip-dst",
+    "category": "Network activity",
+    "value": "13.158.125.171",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1794496056",
+    "first_seen": "2026-11-12T08:48:40+00:00",
+    "last_seen": "2026-11-12T14:11:30+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-11-12T14:11:30Z; expires 2026-11-26T14:11:30Z",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
    {
     "uuid": "dda19b72-9332-5744-ab41-5349675c3712",
     "type": "ip-dst",
@@ -113,10 +131,28 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1794492455",
+    "timestamp": "1794496056",
     "first_seen": "2026-10-03T05:10:04+00:00",
-    "last_seen": "2026-11-12T12:28:43+00:00",
-    "comment": "BruteRatel c2; confidence 80; last verified live 2026-11-12T07:35:04Z; expires 2026-11-26T12:28:43Z; cluster FM-C-0449",
+    "last_seen": "2026-11-12T14:35:01+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-11-12T14:35:01Z; expires 2026-11-26T14:35:01Z; cluster FM-C-0449",
+    "Tag": [
+     {
+      "name": "estimative-language:likelihood-probability=\"very-likely\""
+     }
+    ]
+   },
+   {
+    "uuid": "f7ed4fad-a70b-518b-84b7-e46e1d93bfe0",
+    "type": "ip-dst|port",
+    "category": "Network activity",
+    "value": "13.158.125.171|80",
+    "to_ids": true,
+    "deleted": false,
+    "distribution": "5",
+    "timestamp": "1794496056",
+    "first_seen": "2026-11-12T08:48:40+00:00",
+    "last_seen": "2026-11-12T14:11:30+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-11-12T14:11:30Z; expires 2026-11-26T14:11:30Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -203,10 +239,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1794492455",
+    "timestamp": "1794496056",
     "first_seen": "2026-10-03T05:10:04+00:00",
-    "last_seen": "2026-11-12T12:28:43+00:00",
-    "comment": "BruteRatel c2; confidence 80; last verified live 2026-11-12T07:35:04Z; expires 2026-11-26T12:28:43Z; cluster FM-C-0449",
+    "last_seen": "2026-11-12T14:35:01+00:00",
+    "comment": "BruteRatel c2; confidence 80; last verified live 2026-11-12T14:35:01Z; expires 2026-11-26T14:35:01Z; cluster FM-C-0449",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
