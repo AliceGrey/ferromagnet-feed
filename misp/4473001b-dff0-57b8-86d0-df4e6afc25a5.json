@@ -7,8 +7,8 @@
   "threat_level_id": "2",
   "distribution": "3",
   "published": true,
-  "timestamp": "1794564455",
-  "publish_timestamp": "1794564455",
+  "timestamp": "1794568056",
+  "publish_timestamp": "1794568056",
   "extends_uuid": "",
   "protected": null,
   "Orgc": {
@@ -89,10 +89,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1794560854",
+    "timestamp": "1794568056",
     "first_seen": "2026-10-05T05:07:15+00:00",
-    "last_seen": "2026-11-13T08:32:26+00:00",
-    "comment": "DesRedTeam c2; confidence 95; last verified live 2026-11-13T08:32:26Z; expires 2026-11-27T08:32:26Z",
+    "last_seen": "2026-11-13T10:40:25+00:00",
+    "comment": "DesRedTeam c2; confidence 95; last verified live 2026-11-13T10:40:25Z; expires 2026-11-27T10:40:25Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"almost-certain\""
@@ -269,10 +269,10 @@
     "to_ids": true,
     "deleted": false,
     "distribution": "5",
-    "timestamp": "1794542851",
+    "timestamp": "1794568056",
     "first_seen": "2026-10-10T11:24:08+00:00",
-    "last_seen": "2026-11-13T03:42:51+00:00",
-    "comment": "DesRedTeam c2; confidence 90; last verified live 2026-11-13T03:42:51Z; expires 2026-11-27T03:42:51Z",
+    "last_seen": "2026-11-13T10:40:25+00:00",
+    "comment": "DesRedTeam c2; confidence 90; last verified live 2026-11-13T10:40:25Z; expires 2026-11-27T10:40:25Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
@@ -496,24 +496,6 @@
     ]
    },
    {
-    "uuid": "9b36214e-1efe-558d-b516-d3ff61d08ca9",
-    "type": "ip-dst",
-    "category": "Network activity",
-    "value": "128.1.132.243",
-    "to_ids": false,
-    "deleted": true,
-    "distribution": "5",
-    "timestamp": "1791976051",
-    "first_seen": "2026-10-05T05:07:15+00:00",
-    "last_seen": "2026-10-11T22:40:09+00:00",
-    "comment": "DesRedTeam c2; confidence 80; last verified live 2026-10-11T22:40:09Z; expires 2026-10-25T22:40:09Z; no longer observed since 2026-10-14T11:07:31Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
-     }
-    ]
-   },
-   {
     "uuid": "06a994ed-d8c5-53e2-9ba6-3b42812371e2",
     "type": "ip-dst",
     "category": "Network activity",
@@ -712,24 +694,6 @@
     ]
    },
    {
-    "uuid": "8004b4e3-3c5d-55b6-8ca8-26c3242a214f",
-    "type": "ip-dst",
-    "category": "Network activity",
-    "value": "8.146.199.246",
-    "to_ids": false,
-    "deleted": true,
-    "distribution": "5",
-    "timestamp": "1791976051",
-    "first_seen": "2026-10-03T02:08:35+00:00",
-    "last_seen": "2026-10-08T23:28:09+00:00",
-    "comment": "DesRedTeam c2; confidence 80; last verified live 2026-10-08T23:28:09Z; expires 2026-10-22T23:28:09Z; no longer observed since 2026-10-14T11:07:31Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
-     }
-    ]
-   },
-   {
     "uuid": "ecfe731b-e06b-55ab-ac7c-ab8c9a53910e",
     "type": "ip-dst",
     "category": "Network activity",
@@ -795,24 +759,6 @@
     "first_seen": "2026-10-14T19:11:34+00:00",
     "last_seen": "2026-10-17T09:41:11+00:00",
     "comment": "DesRedTeam c2; confidence 80; last verified live 2026-10-17T09:41:11Z; expires 2026-10-31T09:41:11Z; no longer observed since 2026-10-19T17:07:43Z",
-    "Tag": [
-     {
-      "name": "estimative-language:likelihood-probability=\"very-likely\""
-     }
-    ]
-   },
-   {
-    "uuid": "8ea1f5d7-c252-5f8f-b4e9-c0ed023dde05",
-    "type": "ip-dst|port",
-    "category": "Network activity",
-    "value": "128.1.132.243|8080",
-    "to_ids": false,
-    "deleted": true,
-    "distribution": "5",
-    "timestamp": "1791976051",
-    "first_seen": "2026-10-05T05:07:15+00:00",
-    "last_seen": "2026-10-11T22:40:09+00:00",
-    "comment": "DesRedTeam c2; confidence 80; last verified live 2026-10-11T22:40:09Z; expires 2026-10-25T22:40:09Z; no longer observed since 2026-10-14T11:07:31Z",
     "Tag": [
      {
       "name": "estimative-language:likelihood-probability=\"very-likely\""
